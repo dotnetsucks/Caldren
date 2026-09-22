@@ -1,0 +1,3018 @@
+BODY {
+	TEXT-DECORATION: none; BACKGROUND: url(../../Sky/Sky.png) #f8fcff fixed no-repeat center top; TEXT-TRANSFORM: none; FONT: 8pt 'Comic Sans MS',Verdana,sans-serif; MARGIN: 0px; background-size: cover
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: blue
+}
+A:visited {
+	COLOR: blue
+}
+A:active {
+	COLOR: blue
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+ABBR {
+	CURSOR: help; BORDER-BOTTOM: #000 1px dotted
+}
+ACRONYM {
+	CURSOR: help; BORDER-BOTTOM: #000 1px dotted
+}
+H2 {
+	LETTER-SPACING: 1px
+}
+H3 {
+	FONT-SIZE: 12pt; FONT-WEIGHT: bold; MARGIN: 10px 0px; LETTER-SPACING: 2px
+}
+H5 {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT: 11px Verdana,sans-serif; PADDING-LEFT: 5px; LETTER-SPACING: 1px; PADDING-RIGHT: 5px
+}
+INPUT.Text {
+	BORDER-TOP-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-TOP-COLOR: #777; BORDER-BOTTOM-STYLE: dashed; BORDER-LEFT-COLOR: #777; BORDER-BOTTOM-COLOR: #777; BORDER-RIGHT-STYLE: dashed; BORDER-RIGHT-COLOR: #777
+}
+.AdminPanel {
+	BORDER-TOP-STYLE: dotted; BORDER-LEFT-STYLE: dotted; BORDER-TOP-COLOR: orange; BORDER-BOTTOM-STYLE: dotted; BORDER-LEFT-COLOR: orange; PADDING-BOTTOM: 10px; BORDER-BOTTOM-COLOR: orange; PADDING-TOP: 10px; BORDER-RIGHT-STYLE: dotted; PADDING-LEFT: 10px; BORDER-RIGHT-COLOR: orange; PADDING-RIGHT: 10px
+}
+.ImageButton {
+	BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; TEXT-DECORATION: none; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px
+}
+.Button {
+	FONT-SIZE: 0.9em; CURSOR: pointer; TEXT-DECORATION: none; BORDER-TOP: #333 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #333 1px solid; BORDER-BOTTOM: #333 1px solid; COLOR: #333; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 10px; BORDER-LEFT: #333 1px solid; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #fff
+}
+.Button:link {
+	BORDER-TOP: #777 1px solid; BORDER-RIGHT: #777 1px solid; BORDER-BOTTOM: #777 1px solid; COLOR: #777; BORDER-LEFT: #777 1px solid
+}
+.Button:visited {
+	BORDER-TOP: #777 1px solid; BORDER-RIGHT: #777 1px solid; BORDER-BOTTOM: #777 1px solid; COLOR: #777; BORDER-LEFT: #777 1px solid
+}
+.Button:hover {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; COLOR: #fff; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #6e99c9
+}
+.Button:active {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; COLOR: #fff; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #6e99c9
+}
+.Bullet {
+	MARGIN-BOTTOM: 4px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.Ads_RightSidebar {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 160px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; TEXT-ALIGN: right; BORDER-LEFT: #000 1px solid
+}
+.Legalese {
+	FONT-SIZE: 7pt
+}
+#Container {
+	WIDTH: 900px; MARGIN: 0px auto
+}
+#Header {
+	BORDER-TOP: #000 1px solid; WIDTH: 900px; COLOR: white; TEXT-ALIGN: center; FONT: bold 12px Verdana,sans-serif; MARGIN: 0px auto
+}
+#Header A {
+	TEXT-DECORATION: none; COLOR: white
+}
+#Header A:visited {
+	TEXT-DECORATION: none; COLOR: white
+}
+#Header A:active {
+	TEXT-DECORATION: none; COLOR: white
+}
+#Header A:hover {
+	TEXT-DECORATION: underline; COLOR: white
+}
+#Banner {
+	HEIGHT: 72px; BORDER-RIGHT: #000 1px solid; BACKGROUND-IMAGE: url(https://gr2008.xyz/images/graphitebanner.png); BACKGROUND-REPEAT: no-repeat; BORDER-BOTTOM: #000 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #000 1px solid
+}
+#Banner #Options {
+	HEIGHT: 72px; WIDTH: 287px; POSITION: relative; FLOAT: left
+}
+#Banner #Authentication {
+	POSITION: absolute; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; LEFT: 0px; TOP: 0px; PADDING-RIGHT: 4px
+}
+#Banner #Options #Settings {
+	POSITION: absolute; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 4px; LEFT: 0px; PADDING-RIGHT: 4px; BOTTOM: 0px
+}
+#Banner #Logo {
+	WIDTH: 293px; FLOAT: left; TEXT-ALIGN: center; MARGIN: 7px 0px
+}
+#Banner #Alerts {
+	HEIGHT: 72px; WIDTH: 210px; FLOAT: right
+}
+#Banner #Alerts #AlertSpace {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 200px; BORDER-BOTTOM: #000 1px solid; COLOR: #6e99c9; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+#Banner #Alerts #MessageAlert A {
+	COLOR: #6e99c9
+}
+#Banner #Alerts #MessageAlert A:hover {
+	COLOR: #1874cd
+}
+#Banner #Alerts #RobuxAlert A {
+	COLOR: green
+}
+#Banner #Alerts #RobuxAlert A:hover {
+	COLOR: #49b745
+}
+#Banner #Alerts #TicketsAlert A {
+	COLOR: #fbb117
+}
+#Banner #Alerts #TicketsAlert A:hover {
+	COLOR: #fdd017
+}
+.MessageAlertIcon {
+	VERTICAL-ALIGN: middle
+}
+.MessageAlertCaption {
+	VERTICAL-ALIGN: middle
+}
+.RobuxAlertIcon {
+	VERTICAL-ALIGN: middle
+}
+.RobuxAlertCaption {
+	VERTICAL-ALIGN: middle
+}
+#Header .Navigation {
+	FONT-SIZE: 12pt; TEXT-DECORATION: none; FONT-FAMILY: 'Comic Sans MS',Verdana,sans-serif; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FONT-WEIGHT: normal; COLOR: #fff; CLEAR: both; BORDER-LEFT: #000 1px solid; LINE-HEIGHT: 2em; BACKGROUND-COLOR: #6e99c9
+}
+#AdvertisingLeaderboard {
+	WIDTH: 898px; TEXT-ALIGN: center; MARGIN: 0px auto 5px
+}
+#AdvertisingSkyscraper {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 120px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; TEXT-ALIGN: right; BORDER-LEFT: #000 1px solid
+}
+#RobloxLargeRectangleAd {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#MasterContainer {
+	WIDTH: 100%; BACKGROUND: url(/web/20090604133500im_/http://www.roblox.com/images/bg_clouds.jpg) no-repeat center top
+}
+#Body {
+	WIDTH: 900px; MARGIN: 10px 0px
+}
+#Footer {
+	WIDTH: 900px; MARGIN-TOP: 10px; TEXT-ALIGN: center; FONT: 8px Verdana,sans-serif
+}
+#Footer .FooterNav {
+	FONT-SIZE: 10px
+}
+#Footer .Legalese {
+	MARGIN: 0px
+}
+.Panel {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+.Panel H4 {
+	BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+.MultilineTextBox {
+	FONT-SIZE: 1.2em; BORDER-TOP: gray 2px dashed; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: gray 2px dashed; BORDER-BOTTOM: gray 2px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: gray 2px dashed; LINE-HEIGHT: 1.5em; PADDING-RIGHT: 5px
+}
+.TextBox {
+	FONT-SIZE: 1.2em; BORDER-TOP: gray 2px dashed; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: gray 2px dashed; BORDER-BOTTOM: gray 2px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: gray 2px dashed; PADDING-RIGHT: 5px
+}
+.Label {
+	FONT-WEIGHT: bold
+}
+.BigButton {
+	FONT-SIZE: 20px; HEIGHT: 2.5em; FONT-FAMILY: Comic Sans MS; FONT-WEIGHT: bold; COLOR: #000; BACKGROUND-COLOR: #f5cd2f
+}
+.MediumButton {
+	FONT-SIZE: 15px; HEIGHT: 2.5em; FONT-FAMILY: Comic Sans MS; FONT-WEIGHT: bold; COLOR: #000; BACKGROUND-COLOR: #f5cd2f
+}
+.ErrorReporting {
+	WIDTH: 500px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; MARGIN: 16px auto; PADDING-RIGHT: 10px
+}
+.ErrorReportingThanks {
+	WIDTH: 500px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; MARGIN: 16px auto; PADDING-RIGHT: 10px
+}
+.YesNoButtons {
+	TEXT-ALIGN: right
+}
+.YesButton {
+	COLOR: #000; MARGIN-LEFT: 10px; BACKGROUND-COLOR: #f5cd2f
+}
+.NoButton {
+	COLOR: #000; MARGIN-LEFT: 10px; BACKGROUND-COLOR: #f5cd2f
+}
+.popupControl {
+	BORDER-TOP: #fff 1px outset; BORDER-RIGHT: #fff 1px outset; BORDER-BOTTOM: #fff 1px outset; POSITION: absolute; BORDER-LEFT: #fff 1px outset; VISIBILITY: hidden; BACKGROUND-COLOR: #fff
+}
+.ColorPickerItem {
+	BORDER-TOP: #fff 2px solid; BORDER-RIGHT: #fff 2px solid; BORDER-BOTTOM: #fff 2px solid; BORDER-LEFT: #fff 2px solid
+}
+.ColorPickerItem:hover {
+	BORDER-TOP: blue 2px solid; BORDER-RIGHT: blue 2px solid; BORDER-BOTTOM: blue 2px solid; BORDER-LEFT: blue 2px solid
+}
+.modalBackground {
+	FILTER: alpha(opacity=30); BACKGROUND-COLOR: gray; opacity: .3
+}
+.modalPopup {
+	BORDER-TOP: gray 3px solid; BORDER-RIGHT: gray 3px solid; BORDER-BOTTOM: gray 3px solid; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 3px; BORDER-LEFT: gray 3px solid; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #ffd
+}
+.PopupMenu {
+	BORDER-TOP: #666 1px solid; BORDER-RIGHT: #666 1px solid; BORDER-BOTTOM: #666 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #666 1px solid; Z-INDEX: 1; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #fff
+}
+.PopupMenu .Button {
+	LINE-HEIGHT: 2.5em
+}
+.PopupMenu .Button:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+.Attention {
+	COLOR: red
+}
+.OKCancelButton {
+	WIDTH: 80px
+}
+.MenuItem {
+	FONT-SIZE: 18px; COLOR: white; LINE-HEIGHT: 2em
+}
+A.MenuItem:link {
+	TEXT-DECORATION: none; COLOR: white
+}
+A.MenuItem:visited {
+	TEXT-DECORATION: none; COLOR: white
+}
+A.MenuItem:active {
+	TEXT-DECORATION: none; COLOR: white
+}
+A.MenuItem:hover {
+	TEXT-DECORATION: underline
+}
+.Toolbox {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND-COLOR: buttonface
+}
+.ToolboxItem {
+	BORDER-TOP: window 2px solid; HEIGHT: 52px; BORDER-RIGHT: window 2px solid; WIDTH: 52px; BORDER-BOTTOM: window 2px solid; BORDER-LEFT: window 2px solid
+}
+.Grid {
+	BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; WIDTH: 800px; BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND-COLOR: white
+}
+.GridHeader {
+	COLOR: white; BACKGROUND-COLOR: #b0c4de
+}
+.GridItem {
+	COLOR: #006
+}
+.GridItem:hover {
+	BACKGROUND-COLOR: #ddd
+}
+.GridFooter {
+	COLOR: white; BACKGROUND-COLOR: #b0c4de
+}
+.GridPager {
+	FONT-WEIGHT: bold; COLOR: white; TEXT-ALIGN: center; BACKGROUND-COLOR: #b0c4de
+}
+.Title {
+	FONT-SIZE: 18px
+}
+A.Title:link {
+	TEXT-DECORATION: none
+}
+A.Title:visited {
+	TEXT-DECORATION: none
+}
+A.Title:active {
+	TEXT-DECORATION: none
+}
+A.Title:hover {
+	TEXT-DECORATION: underline
+}
+.Header {
+	FONT-SIZE: 14px
+}
+.Banner {
+	PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+.BannerText {
+	FONT-WEIGHT: bold; COLOR: white
+}
+A.BannerText:link {
+	TEXT-DECORATION: none; COLOR: white
+}
+A.BannerText:visited {
+	TEXT-DECORATION: none; COLOR: white
+}
+A.BannerText:active {
+	TEXT-DECORATION: none; COLOR: white
+}
+A.BannerText:hover {
+	TEXT-DECORATION: underline; COLOR: white
+}
+.PageSelector {
+	FONT-FAMILY: Verdana,Sans-Serif; MARGIN: 0px 0px 0px 10px
+}
+.PageSelector LABEL {
+	FONT-WEIGHT: bold
+}
+.DisplayFilters {
+	MIN-WIDTH: 0px; POSITION: relative; FLOAT: left; MARGIN-RIGHT: 3px
+}
+.SearchBar {
+	BORDER-TOP: #bbb 1px solid; HEIGHT: 30px; BORDER-RIGHT: #bbb 1px solid; BORDER-BOTTOM: #bbb 1px solid; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #bbb 1px solid; MARGIN: -5px 0px 5px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #eee
+}
+.SearchBar .SearchBox {
+	HEIGHT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.SearchBar .SearchButton {
+	HEIGHT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.SearchBar .TextBox {
+	BORDER-TOP: #000 1px solid; HEIGHT: 19px; BORDER-RIGHT: #000 1px solid; WIDTH: 250px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 2px; PADDING-LEFT: 3px; BORDER-LEFT: #000 1px solid; MARGIN: 2px 0px 0px; PADDING-RIGHT: 3px
+}
+.SearchLinks {
+	FONT-FAMILY: Verdana,Sans-Serif; Z-INDEX: 9; DISPLAY: inline
+}
+.SearchLinks A SPAN {
+	DISPLAY: none
+}
+.SearchLinks A:hover {
+	BORDER-TOP-STYLE: none; TEXT-DECORATION: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+.SearchLinks A:hover SPAN {
+	TEXT-DECORATION: none; BORDER-TOP: gray 1px ridge; BORDER-RIGHT: gray 1px ridge; WIDTH: 60%; BORDER-BOTTOM: gray 1px ridge; POSITION: absolute; COLOR: white; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; FONT: 11px/1.4em Verdana,sans-serif; PADDING-LEFT: 5px; LEFT: 15%; BORDER-LEFT: gray 1px ridge; MARGIN: 5px; Z-INDEX: 10; DISPLAY: block; TOP: 20px; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #6e99c9
+}
+.SearchError {
+	FLOAT: none; COLOR: red; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 2px; CLEAR: both; MARGIN: 2px; PADDING-RIGHT: 2px
+}
+#MyAccountBalanceContainer {
+	FONT-FAMILY: Verdana,Sans-Serif
+}
+#MyAccountBalanceContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px 0px 0px -2px; LETTER-SPACING: 0.4em; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#MyAccountBalanceContainer H3 {
+	FONT-SIZE: 1.7em; FONT-FAMILY: Comic Sans MS,Arial,Sans-Serif; BORDER-BOTTOM: #000 1px solid; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; MARGIN: 0px; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1em; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #ccc
+}
+#MyAccountBalanceContainer H4 {
+	FONT-SIZE: 1.2em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 15px; MARGIN: 5px 0px; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1em; PADDING-RIGHT: 5px
+}
+#MyAccountBalanceContainer #AboutRobux {
+	BORDER-RIGHT: #000 1px solid; WIDTH: 275px; MARGIN-TOP: 20px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; BORDER-LEFT: #000 1px solid
+}
+#MyAccountBalanceContainer #AboutRobux H3 {
+	BORDER-TOP: #000 1px solid
+}
+#MyAccountBalanceContainer #AboutRobux P {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 15px; MARGIN: 0px; PADDING-RIGHT: 15px
+}
+#MyAccountBalanceContainer #Earnings {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 600px; MARGIN-TOP: 20px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 10px; BORDER-LEFT: #000 1px solid
+}
+#MyAccountBalanceContainer .Earnings_Period {
+	MARGIN-BOTTOM: 20px
+}
+#MyAccountBalanceContainer .Earnings_LoginAward {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px
+}
+#MyAccountBalanceContainer .Earnings_PlaceTrafficAward {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px
+}
+#MyAccountBalanceContainer .Earnings_SaleOfGoods {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px
+}
+#MyAccountBalanceContainer .Earnings_Ambassador {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px
+}
+#MyAccountBalanceContainer .Earnings_PeriodTotal {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 80px; PADDING-RIGHT: 0px
+}
+#MyAccountBalanceContainer .Earnings_LoginAward .Label {
+	WIDTH: 400px; FLOAT: left
+}
+#MyAccountBalanceContainer .Earnings_PlaceTrafficAward .Label {
+	WIDTH: 400px; FLOAT: left
+}
+#MyAccountBalanceContainer .Earnings_SaleOfGoods .Label {
+	WIDTH: 400px; FLOAT: left
+}
+#MyAccountBalanceContainer .Earnings_PeriodTotal .Label {
+	WIDTH: 390px; FLOAT: left; TEXT-ALIGN: right; PADDING-RIGHT: 10px
+}
+#MyAccountBalanceContainer .Field {
+	WIDTH: 55px; FLOAT: right
+}
+TABLE.stats {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; FONT-FAMILY: Verdana,Geneva,Arial,Helvetica,sans-serif; BORDER-RIGHT-WIDTH: 0px; WIDTH: 280px; BORDER-BOTTOM-WIDTH: 0px; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; COLOR: #fff; TEXT-ALIGN: center; BORDER-SPACING: 0; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: #666
+}
+TABLE.stats TD {
+	BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid; COLOR: #000; PADDING-BOTTOM: 4px; TEXT-ALIGN: left; PADDING-TOP: 4px; PADDING-LEFT: 4px; BORDER-LEFT: #fff 1px solid; PADDING-RIGHT: 4px; BACKGROUND-COLOR: #ccc
+}
+TABLE.stats TD.hed {
+	FONT-SIZE: 12px; BORDER-BOTTOM: #fff 2px solid; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 4px; TEXT-ALIGN: left; PADDING-TOP: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND-COLOR: #666
+}
+#AssetContainer {
+	WIDTH: 620px; MARGIN: 0px auto
+}
+#AssetContainer H2 {
+	FONT-SIZE: x-large; MARGIN-BOTTOM: 5px; COLOR: #333
+}
+#AssetContainer #Asset {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; COLOR: #555; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #eee
+}
+#BadgesContainer {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#BadgesContainer .Legend .BadgesList {
+	LIST-STYLE-TYPE: none; FLOAT: left; COLOR: #666; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#BadgesContainer .Legend .BadgesList LI {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 5px; PADDING-BOTTOM: 7px; PADDING-TOP: 0px; PADDING-LEFT: 80px; MARGIN: 10px 0px 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+#CommunityBadges .Legend {
+	WIDTH: 500px; FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 15px
+}
+#FriendshipBadges .Legend {
+	WIDTH: 500px; FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 15px
+}
+#CombatBadges .Legend {
+	WIDTH: 500px; FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 15px
+}
+#VisitsBadges .Legend {
+	WIDTH: 500px; FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 15px
+}
+#StatisticsRankingsPane_Friendship {
+	WIDTH: 300px; FLOAT: right; MARGIN: 15px
+}
+#StatisticsRankingsPane_Combat {
+	WIDTH: 300px; FLOAT: right; MARGIN: 15px
+}
+#StatisticsRankingsPane_Visits {
+	WIDTH: 300px; FLOAT: right; MARGIN: 15px
+}
+#FeaturedBadge_Community {
+	WIDTH: 300px; FLOAT: right; MARGIN: 15px
+}
+#FeaturedBadge_Community {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 325px; MARGIN-TOP: 20px; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#FeaturedBadge_Community H4 {
+	FONT-SIZE: 1.4em; BORDER-BOTTOM: #000 1px solid; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 3px; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-LEFT: 3px; MARGIN: 0px; LETTER-SPACING: 0.2em; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #6e99c9
+}
+#FeaturedBadge_Community .FeaturedBadgeContent {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDING-LEFT: 15px; MARGIN: 0px; PADDING-RIGHT: 15px
+}
+#FeaturedBadge_Community .FeaturedBadgeContent P {
+	FONT-SIZE: 1.1em; FONT-FAMILY: Verdana,Sans-Serif; MARGIN-TOP: 10px; COLOR: #222; LINE-HEIGHT: 1.6em
+}
+#FeaturedBadge_Community .FeaturedBadgeIcon {
+	WIDTH: 125px; VERTICAL-ALIGN: text-top; FLOAT: left; MARGIN: 15px 20px 0px 0px
+}
+#StatisticsRankingsPane_Community {
+	BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+#BadgesContainer .Legend H4 {
+	FONT-SIZE: 1.4em; FONT-WEIGHT: bold; MARGIN: 5px 0px; BACKGROUND-COLOR: #fff
+}
+#BadgesContainer #CommunityBadges .Legend #Administrator {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Badges/Administrator-75x75.png)
+}
+#BadgesContainer #CommunityBadges .Legend #ForumModerator {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Badges/ForumModerator-75x75.png)
+}
+#BadgesContainer #CommunityBadges .Legend #ImageModerator {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Badges/ImageModerator-75x75.png)
+}
+#BadgesContainer #FriendshipBadges .Legend #Friendship {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Badges/Friendship-75x75.jpg)
+}
+#BadgesContainer #FriendshipBadges .Legend #Inviter {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Badges/Inviter-75x75.png)
+}
+#BadgesContainer #CombatBadges .Legend #CombatInitiation {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Badges/CombatInitiation-75x75.jpg)
+}
+#BadgesContainer #CombatBadges .Legend #Warrior {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Badges/Warrior-75x75.jpg)
+}
+#BadgesContainer #CombatBadges .Legend #Bloxxer {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Badges/Bloxxer-75x75.jpg)
+}
+#BadgesContainer #VisitsBadges .Legend #Homestead {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Badges/Homestead-70x75.jpg)
+}
+#BadgesContainer #VisitsBadges .Legend #Bricksmith {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Badges/Bricksmith-54x75.jpg)
+}
+#BadgesContainer .AccordionHeader {
+	FONT-SIZE: 1.4em; CURSOR: pointer; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; MARGIN: 0px 0px 1px; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #ccc
+}
+#BadgesContainer .TopAccordionHeader {
+	FONT-SIZE: 1.4em; CURSOR: pointer; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; MARGIN: 0px 0px 1px; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #ccc
+}
+#BadgesContainer .BottomAccordionHeader {
+	FONT-SIZE: 1.4em; CURSOR: pointer; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; MARGIN: 0px 0px 1px; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #ccc
+}
+#BadgesContainer .AccordionHeader {
+	BORDER-TOP: #000 1px solid; BORDER-BOTTOM: #000 1px solid
+}
+#BadgesContainer .BottomAccordionHeader {
+	BORDER-TOP: #000 1px solid; BORDER-BOTTOM: #000 1px solid
+}
+#BadgesContainer .TopAccordionHeader {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM: #000 1px solid
+}
+#BadgesContainer .AccordionHeader:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+#BadgesContainer .TopAccordionHeader:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+#BadgesContainer .BottomAccordionHeader:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+.StatisticsRankings {
+	BACKGROUND-COLOR: #eee
+}
+.StatisticsRankings H4 {
+	FONT-SIZE: 1.2em; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+.StatisticsRankingsHeader_Rank {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px
+}
+.StatisticsRankingsHeader_Item {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px
+}
+.StatisticsRankingsHeader_Score {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px
+}
+.StatisticsRankingsHeader_Rank {
+	WIDTH: 45px; MARGIN-RIGHT: 1px
+}
+.StatisticsRankingsHeader_Item {
+	WIDTH: 150px; MARGIN-RIGHT: 1px
+}
+.StatisticsRankingsHeader_Score {
+	WIDTH: 95px
+}
+.StatisticsRanking {
+	FONT: 0.9em Verdana,sans-serif
+}
+.StatisticsRanking_AlternatingRow {
+	FONT: 0.9em Verdana,sans-serif
+}
+.StatisticsRanking_UserCentric {
+	FONT: 0.9em Verdana,sans-serif
+}
+.StatisticsRanking_UserCentric_AlternatingRow {
+	FONT: 0.9em Verdana,sans-serif
+}
+.StatisticsRanking_UserCentric A {
+	COLOR: #fff
+}
+.StatisticsRanking_UserCentric A:link {
+	COLOR: #fff
+}
+.StatisticsRanking_UserCentric A:visited {
+	COLOR: #fff
+}
+.StatisticsRanking_UserCentric A:active {
+	COLOR: #fff
+}
+.StatisticsRanking_UserCentric_AlternatingRow A {
+	COLOR: #fff
+}
+.StatisticsRanking_UserCentric_AlternatingRow A:link {
+	COLOR: #fff
+}
+.StatisticsRanking_UserCentric_AlternatingRow A:visited {
+	COLOR: #fff
+}
+.StatisticsRanking_UserCentric_AlternatingRow A:active {
+	COLOR: #fff
+}
+.StatisticsRanking .StatisticsRanking_Rank {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px
+}
+.StatisticsRanking .StatisticsRanking_Item {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px
+}
+.StatisticsRanking .StatisticsRanking_Score {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Rank {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Item {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Score {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px
+}
+.StatisticsRanking .StatisticsRanking_Rank {
+	WIDTH: 45px; MARGIN-RIGHT: 1px
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Rank {
+	WIDTH: 45px; MARGIN-RIGHT: 1px
+}
+.StatisticsRanking .StatisticsRanking_Item {
+	WIDTH: 150px; MARGIN-RIGHT: 1px
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Item {
+	WIDTH: 150px; MARGIN-RIGHT: 1px
+}
+.StatisticsRanking .StatisticsRanking_Score {
+	WIDTH: 95px
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Score {
+	WIDTH: 95px
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Rank {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #6e99c9
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Item {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #6e99c9
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Score {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #6e99c9
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Rank {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #6e99c9
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Item {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #6e99c9
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Score {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #6e99c9
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Rank {
+	WIDTH: 45px; MARGIN-RIGHT: 1px
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Rank {
+	WIDTH: 45px; MARGIN-RIGHT: 1px
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Item {
+	WIDTH: 150px; MARGIN-RIGHT: 1px
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Item {
+	WIDTH: 150px; MARGIN-RIGHT: 1px
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Score {
+	WIDTH: 95px
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Score {
+	WIDTH: 95px
+}
+.StatisticsRankingsFooter {
+	BORDER-TOP: #000 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px
+}
+.RankingsPeriodSelector {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana,Sans-Serif; WIDTH: 100%
+}
+#CatalogContainer {
+	FONT-FAMILY: Verdana,Sans-Serif; MIN-WIDTH: 0px; POSITION: relative
+}
+#CatalogContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#CatalogContainer H4 {
+	FONT-SIZE: 1.3em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 15px 0px; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#CatalogContainer UL {
+	LIST-STYLE-TYPE: none; FONT-FAMILY: Verdana,Sans-Serif; PADDING-LEFT: 0px; MARGIN: 10px 0px 30px
+}
+#CatalogContainer UL LI {
+	MARGIN-BOTTOM: 0.5em
+}
+#CatalogContainer UL A {
+	FONT-SIZE: 1.1em
+}
+#CatalogContainer .DisplayFilters {
+	WIDTH: 185px
+}
+#CatalogContainer .Assets {
+	OVERFLOW: hidden; WIDTH: 590px; MIN-WIDTH: 0px; POSITION: relative; FLOAT: left; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#CatalogContainer .SearchBar {
+	BORDER-TOP: #bbb 1px solid; HEIGHT: 30px; BORDER-RIGHT: #bbb 1px solid; BORDER-BOTTOM: #bbb 1px solid; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #bbb 1px solid; MARGIN: -5px 0px 5px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #eee
+}
+#CatalogContainer .SearchBar .SearchBox {
+	HEIGHT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#CatalogContainer .SearchBar .SearchButton {
+	HEIGHT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#CatalogContainer .SearchBar .TextBox {
+	BORDER-TOP: #000 1px solid; HEIGHT: 19px; BORDER-RIGHT: #000 1px solid; WIDTH: 250px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 2px; PADDING-LEFT: 3px; BORDER-LEFT: #000 1px solid; MARGIN: 2px 0px 0px; PADDING-RIGHT: 3px
+}
+#CatalogContainer .SearchLinks {
+	Z-INDEX: 9; DISPLAY: inline
+}
+#CatalogContainer .SearchLinks A SPAN {
+	DISPLAY: none
+}
+#CatalogContainer .SearchLinks A:hover {
+	BORDER-TOP-STYLE: none; TEXT-DECORATION: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+#CatalogContainer .SearchLinks A:hover SPAN {
+	TEXT-DECORATION: none; BORDER-TOP: gray 1px ridge; BORDER-RIGHT: gray 1px ridge; WIDTH: 60%; BORDER-BOTTOM: gray 1px ridge; POSITION: absolute; COLOR: white; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; FONT: 11px Verdana,sans-serif; PADDING-LEFT: 5px; LEFT: 15%; BORDER-LEFT: gray 1px ridge; MARGIN: 5px; Z-INDEX: 10; DISPLAY: block; TOP: 20px; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #6e99c9
+}
+#CatalogContainer .SearchError {
+	FLOAT: none; COLOR: red; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 2px; CLEAR: both; MARGIN: 2px; PADDING-RIGHT: 2px
+}
+#CatalogContainer .Assets .HeaderPager {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: right; PADDING-TOP: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#CatalogContainer .Assets .FooterPager {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: right; PADDING-TOP: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#CatalogContainer .Assets .HeaderPager {
+	MARGIN-BOTTOM: 10px
+}
+#CatalogContainer .Assets .HeaderPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+#CatalogContainer .Assets .FooterPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+#CatalogContainer .Asset {
+	WIDTH: 122px; VERTICAL-ALIGN: top; MARGIN: -1px 0px 15px -1px
+}
+#CatalogContainer .Asset .AssetThumbnail {
+	BORDER-TOP: #000 1px solid; HEIGHT: 110px; BORDER-RIGHT: #000 1px solid; WIDTH: 110px; BORDER-BOTTOM: #000 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: white
+}
+#CatalogContainer .Asset .AssetDetails {
+	OVERFLOW: hidden; FONT-FAMILY: Verdana,Sans-Serif; WIDTH: 110px; PADDING-BOTTOM: 6px; PADDING-TOP: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#CatalogContainer .AssetName A {
+	FONT-SIZE: 0.9em; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; LINE-HEIGHT: 1.5em
+}
+.AssetsBullet {
+	PADDING-RIGHT: 3px
+}
+#CatalogContainer .Label {
+	FONT-SIZE: 0.8em
+}
+#CatalogContainer .Detail {
+	FONT-SIZE: 0.8em
+}
+#CatalogContainer .DetailHighlighted {
+	FONT-SIZE: 0.8em
+}
+#CatalogContainer .PriceInRobux {
+	FONT-SIZE: 0.8em
+}
+#CatalogContainer .PriceInTickets {
+	FONT-SIZE: 0.8em
+}
+#CatalogContainer .PriceInRobux {
+	FONT-WEIGHT: bold; COLOR: green
+}
+#CatalogContainer .PriceInTickets {
+	FONT-WEIGHT: bold; COLOR: #fbb117
+}
+#CatalogContainer .AssetsDisplaySet {
+	FONT-SIZE: 1.5em; FONT-FAMILY: Comic Sans MS,Arial,Sans-Serif; FLOAT: left
+}
+#CustomizeCharacterContainer {
+	FONT-FAMILY: Verdana,Sans-Serif; MARGIN: 0px
+}
+#CustomizeCharacterContainer H4 {
+	FONT-FAMILY: Comic Sans MS,Verdana,Sans-Serif; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#CustomizeCharacterContainer .NoResults {
+	PADDING-BOTTOM: 15px; TEXT-ALIGN: center; PADDING-TOP: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px
+}
+#CustomizeCharacterContainer .TileGroup {
+	TEXT-ALIGN: center; CLEAR: left
+}
+#CustomizeCharacterContainer .Asset {
+	WIDTH: 112px; VERTICAL-ALIGN: top; FLOAT: left; TEXT-ALIGN: left; MARGIN: 5px 8px
+}
+#CustomizeCharacterContainer .Asset .AssetThumbnail {
+	BORDER-TOP: #000 1px solid; HEIGHT: 110px; BORDER-RIGHT: #000 1px solid; WIDTH: 110px; BORDER-BOTTOM: #000 1px solid; POSITION: relative; TEXT-ALIGN: center; BORDER-LEFT: #000 1px solid
+}
+#CustomizeCharacterContainer .Asset .AssetDetails {
+	OVERFLOW: hidden; WIDTH: 110px; PADDING-BOTTOM: 6px; TEXT-ALIGN: left; PADDING-TOP: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#CustomizeCharacterContainer .AssetName A {
+	FONT-SIZE: 0.9em; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; LINE-HEIGHT: 1.5em
+}
+#CustomizeCharacterContainer .Label {
+	FONT-SIZE: 0.8em
+}
+#CustomizeCharacterContainer .Detail {
+	FONT-SIZE: 0.8em
+}
+#CustomizeCharacterContainer .DetailHighlighted {
+	FONT-SIZE: 0.8em
+}
+#CustomizeCharacterContainer .FooterPager {
+	BORDER-TOP: #000 1px solid; PADDING-BOTTOM: 3px; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-LEFT: 0px; CLEAR: left; MARGIN: 10px 0px 0px; PADDING-RIGHT: 0px
+}
+.AttireChooser {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 530px; MIN-WIDTH: 0px; BORDER-BOTTOM: #000 1px solid; POSITION: relative; FLOAT: left; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.Accoutrements {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 530px; MARGIN-TOP: 10px; MIN-WIDTH: 0px; BORDER-BOTTOM: #000 1px solid; POSITION: relative; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; CLEAR: left; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px
+}
+.AttireChooser .AttireCategory {
+	BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 3px; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 0px
+}
+.AttireChooser .AttireOptions {
+	MARGIN: 5px
+}
+.AttireCategory .AttireCategorySelector_Selected {
+	FONT-WEIGHT: bold
+}
+.AttireChooser .HeaderPager {
+	MARGIN-BOTTOM: 10px
+}
+.AttireChooser .HeaderPager {
+	MARGIN-BOTTOM: 10px
+}
+.AttireChooser .HeaderPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+.AttireChooser .FooterPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+.CharacterViewer {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 354px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; BORDER-LEFT: #000 1px solid
+}
+.CharacterViewer .ReDrawAvatar {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: bottom; TEXT-ALIGN: center
+}
+.Mannequin {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 354px; MARGIN-TOP: 10px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; TEXT-ALIGN: center; CLEAR: right; BORDER-LEFT: #000 1px solid
+}
+.Mannequin .ColorChooserFrame {
+	MARGIN: 0px auto
+}
+.TeeShirtBuilder {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; MARGIN-TOP: 10px; BORDER-BOTTOM: #000 1px solid; CLEAR: both; BORDER-LEFT: #000 1px solid
+}
+DIV.AspNet-DetailsView-Data UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DIV.AspNet-DetailsView-Data LI {
+	LIST-STYLE-TYPE: none; POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+UL.AspNet-Menu {
+	POSITION: relative
+}
+UL.AspNet-Menu {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; DISPLAY: block; PADDING-RIGHT: 0px
+}
+UL.AspNet-Menu UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; DISPLAY: block; PADDING-RIGHT: 0px
+}
+UL.AspNet-Menu LI {
+	LIST-STYLE-TYPE: none; POSITION: relative
+}
+UL.AspNet-Menu LI A {
+	TEXT-DECORATION: none; DISPLAY: block
+}
+UL.AspNet-Menu LI SPAN {
+	TEXT-DECORATION: none; DISPLAY: block
+}
+UL.AspNet-Menu UL {
+	POSITION: absolute; DISPLAY: none
+}
+UL.AspNet-Menu LI:hover UL UL {
+	DISPLAY: none
+}
+UL.AspNet-Menu LI:hover UL UL UL {
+	DISPLAY: none
+}
+UL.AspNet-Menu LI.AspNet-Menu-Hover UL UL {
+	DISPLAY: none
+}
+UL.AspNet-Menu LI.AspNet-Menu-Hover UL UL UL {
+	DISPLAY: none
+}
+UL.AspNet-Menu LI:hover UL {
+	DISPLAY: block
+}
+UL.AspNet-Menu LI LI:hover UL {
+	DISPLAY: block
+}
+UL.AspNet-Menu LI LI LI:hover UL {
+	DISPLAY: block
+}
+UL.AspNet-Menu LI.AspNet-Menu-Hover UL {
+	DISPLAY: block
+}
+UL.AspNet-Menu LI LI.AspNet-Menu-Hover UL {
+	DISPLAY: block
+}
+UL.AspNet-Menu LI LI LI.AspNet-Menu-Hover UL {
+	DISPLAY: block
+}
+.AspNet-Menu-Horizontal UL.AspNet-Menu LI {
+	FLOAT: left
+}
+.AspNet-Menu-Horizontal UL.AspNet-Menu LI LI {
+	FLOAT: none
+}
+DIV.AspNet-TreeView {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+DIV.AspNet-TreeView UL {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.AspNet-TreeView-Hide {
+	DISPLAY: none
+}
+#ContentBuilderContainer {
+	FONT-FAMILY: Verdana,Sans-Serif; WIDTH: 725px; COLOR: #333; MARGIN: 0px auto
+}
+#ContentBuilderContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#ContentBuilderContainer H3 {
+	FONT-SIZE: 1.5em; BORDER-BOTTOM: #333 1px solid; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px -10px; LETTER-SPACING: 0.15em; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #ccc
+}
+#ContentBuilderContainer BLOCKQUOTE {
+	MARGIN: 0px auto
+}
+#ContentBuilderContainer .InstructionsPanel {
+	BORDER-TOP: #333 1px solid; BORDER-RIGHT: #333 1px solid; MARGIN-TOP: 10px; BORDER-BOTTOM: #333 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; BORDER-LEFT: #333 1px solid; PADDING-RIGHT: 10px
+}
+#ContentBuilderContainer .UploaderPanel {
+	BORDER-TOP: #333 1px solid; BORDER-RIGHT: #333 1px solid; MARGIN-TOP: 10px; BORDER-BOTTOM: #333 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; BORDER-LEFT: #333 1px solid; PADDING-RIGHT: 10px
+}
+#ContentBuilderContainer .UpsellPanel {
+	BORDER-TOP: #333 1px solid; BORDER-RIGHT: #333 1px solid; MARGIN-TOP: 10px; BORDER-BOTTOM: #333 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; BORDER-LEFT: #333 1px solid; PADDING-RIGHT: 10px
+}
+#ContentBuilderContainer .UploaderPanel {
+	TEXT-ALIGN: center
+}
+#ContentBuilderContainer .UpsellPanel {
+	TEXT-ALIGN: center
+}
+#ContentBuilderContainer .SelectorArea {
+	TEXT-ALIGN: center; MARGIN: 20px auto
+}
+#ContentBuilderContainer .DisclaimerLink {
+	FONT-SIZE: 1.2em; Z-INDEX: 9; DISPLAY: inline
+}
+#ContentBuilderContainer .DisclaimerLink A SPAN {
+	DISPLAY: none
+}
+#ContentBuilderContainer .DisclaimerLink A:hover {
+	BORDER-TOP-STYLE: none; TEXT-DECORATION: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+#ContentBuilderContainer .DisclaimerLink A:hover SPAN {
+	TEXT-DECORATION: none; BORDER-TOP: gray 1px ridge; BORDER-RIGHT: gray 1px ridge; WIDTH: 75%; BORDER-BOTTOM: gray 1px ridge; POSITION: absolute; COLOR: white; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; FONT: 12px Verdana,sans-serif; PADDING-LEFT: 5px; LEFT: 12%; BORDER-LEFT: gray 1px ridge; MARGIN: 5px; Z-INDEX: 10; DISPLAY: block; TOP: 50%; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #6e99c9
+}
+#TradeCurrencyContainer {
+	FONT-FAMILY: Verdana,Sans-Serif; PADDING-BOTTOM: 10px
+}
+#TradeCurrencyContainer .TradeBox {
+	WIDTH: 100px
+}
+#TradeCurrencyContainer H2 {
+	FONT-SIZE: 2.5em; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 15px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#TradeCurrencyContainer .LeftColumn {
+	WIDTH: 245px; FLOAT: left
+}
+#TradeCurrencyContainer .CenterColumn {
+	WIDTH: 410px; FLOAT: left
+}
+#TradeCurrencyContainer .RightColumn {
+	WIDTH: 245px; FLOAT: left
+}
+#TradeCurrencyContainer H4 {
+	FONT-SIZE: 1em; BORDER-BOTTOM: #000 1px solid; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; MARGIN: 0px; PADDING-RIGHT: 5px
+}
+#TradeCurrencyContainer .AccordionHeader {
+	FONT-SIZE: 1em; CURSOR: pointer; BORDER-TOP: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FONT-WEIGHT: bold; PADDING-BOTTOM: 1px; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 1em; MARGIN: 1px 0px; LETTER-SPACING: 0.1em; PADDING-RIGHT: 1em; BACKGROUND-COLOR: #ccc
+}
+#TradeCurrencyContainer .AccordionHeader:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+#CurrencyOffersPane {
+	FLOAT: right
+}
+.TradingDashboard {
+	MARGIN-BOTTOM: 10px
+}
+.CurrencyQuote {
+	WIDTH: 350px
+}
+.CurrencyTrade {
+	WIDTH: 350px
+}
+.CurrencyOffers {
+	WIDTH: 350px
+}
+.CurrencyBids {
+	WIDTH: 350px
+}
+.TradingDashboard {
+	WIDTH: 350px
+}
+.CurrencyQuote {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+.CurrencyTrade {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+.CurrencyOffers {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+.CurrencyBids {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+.OpenBids {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+.OpenOffers {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+.TradeHistory {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+.CurrencyQuote {
+	MARGIN: 0px auto
+}
+.CurrencyTrade {
+	MARGIN: 0px auto
+}
+.TradingDashboard {
+	MARGIN: 0px auto
+}
+.OpenBids {
+	MARGIN: 0px auto
+}
+.OpenOffers {
+	MARGIN: 0px auto
+}
+.TradeHistory {
+	MARGIN: 0px auto
+}
+.TradingDashboard .FooterPager {
+	MARGIN: 0px auto
+}
+.CurrencyTrade {
+	MARGIN-TOP: 20px
+}
+.TradingDashboard {
+	MARGIN-TOP: 20px
+}
+.CurrencyTradeDetails {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.CurrencyTradeDetail {
+	TEXT-ALIGN: center; PADDING-TOP: 5px
+}
+.TradingDashboard .FooterPager {
+	TEXT-ALIGN: center; PADDING-TOP: 5px
+}
+.CurrencyOffers {
+	WIDTH: 200px
+}
+.CurrencyBids {
+	WIDTH: 200px
+}
+.CurrencyOffer {
+	PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.AlternatingCurrencyOffer {
+	PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.CurrencyBid {
+	PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.AlternatingCurrencyBid {
+	PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.CurrencyQuote .TableHeader {
+	FONT-WEIGHT: bold
+}
+.CurrencyOffers .TableHeader {
+	FONT-WEIGHT: bold
+}
+.CurrencyBids .TableHeader {
+	FONT-WEIGHT: bold
+}
+.CurrencyQuote .TableRow {
+	BORDER-TOP: #000 1px solid
+}
+.CurrencyOffers .TableRow {
+	BORDER-TOP: #000 1px solid
+}
+.CurrencyBids .TableRow {
+	BORDER-TOP: #000 1px solid
+}
+.CurrencyQuote .Pair {
+	WIDTH: 77px; FLOAT: left; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.CurrencyQuote .Rate {
+	WIDTH: 77px; FLOAT: left; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.CurrencyQuote .Spread {
+	WIDTH: 77px; FLOAT: left; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.CurrencyQuote .HighLow {
+	WIDTH: 77px; FLOAT: left; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#FriendliestFolkPane {
+	OVERFLOW: auto; BORDER-TOP: #000 1px solid; HEIGHT: 184px; BORDER-RIGHT: #000 1px solid; WIDTH: 770px; MARGIN-TOP: 10px; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#FriendliestFolk H4 {
+	FONT-SIZE: 10pt; MARGIN-BOTTOM: 5px; MARGIN-TOP: 5px; FONT-WEIGHT: bold; LINE-HEIGHT: 1em
+}
+#GamesContainer {
+	FONT-FAMILY: Verdana,Sans-Serif
+}
+#GamesContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#GamesContainer H4 {
+	FONT-SIZE: 1.3em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 15px 0px; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#GamesContainer UL {
+	LIST-STYLE-TYPE: none; FONT-FAMILY: Verdana,Sans-Serif; PADDING-LEFT: 0px; MARGIN: 10px 0px 30px
+}
+#GamesContainer UL LI {
+	MARGIN-BOTTOM: 0.5em; FONT-FAMILY: Verdana,Sans-Serif
+}
+#GamesContainer UL A {
+	FONT-SIZE: 1.1em
+}
+#GamesContainer .DisplayFilters {
+	WIDTH: 170px
+}
+#GamesContainer #Games {
+	OVERFLOW: visible; WIDTH: 720px; FLOAT: left; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.GameList {
+	OVERFLOW: visible
+}
+#GamesContainer .Ads_WideSkyscraper {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 160px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; TEXT-ALIGN: right; BORDER-LEFT: #000 1px solid
+}
+#GamesContainer #Games .HeaderPager {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: right; PADDING-TOP: 2px; PADDING-LEFT: 0px; MARGIN: 0px 24px 0px 0px; PADDING-RIGHT: 0px
+}
+#GamesContainer #Games .FooterPager {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: right; PADDING-TOP: 2px; PADDING-LEFT: 0px; MARGIN: 0px 24px 0px 0px; PADDING-RIGHT: 0px
+}
+#GamesContainer #Games .HeaderPager {
+	MARGIN-BOTTOM: 10px
+}
+#GamesContainer #Games .HeaderPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+#GamesContainer #Games .FooterPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+#GamesContainer .Game {
+	WIDTH: 162px; VERTICAL-ALIGN: top; MARGIN: 0px 10px 15px
+}
+#GamesContainer .Game .GameThumbnail {
+	BORDER-TOP: #000 1px solid; HEIGHT: 100px; BORDER-RIGHT: #000 1px solid; WIDTH: 160px; BORDER-BOTTOM: #000 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #000 1px solid
+}
+#GamesContainer .Game .GameDetails {
+	OVERFLOW: hidden; FONT-FAMILY: Verdana,Sans-Serif; WIDTH: 152px; PADDING-BOTTOM: 6px; PADDING-TOP: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#GamesContainer .GameName A {
+	FONT-SIZE: 0.9em; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; LINE-HEIGHT: 1.5em
+}
+.GamesBullet {
+	PADDING-RIGHT: 3px
+}
+#GamesContainer .Label {
+	FONT-SIZE: 0.8em
+}
+#GamesContainer .Detail {
+	FONT-SIZE: 0.8em
+}
+#GamesContainer .DetailHighlighted {
+	FONT-SIZE: 0.8em
+}
+#GamesContainer .DetailHighlighted {
+	FONT-WEIGHT: bold; COLOR: red
+}
+#GamesContainer .GamesDisplaySet {
+	FONT-SIZE: 1.5em; FONT-FAMILY: Comic Sans MS,Arial,Sans-Serif; FLOAT: left
+}
+#Help {
+	BORDER-TOP: #ddd 5px ridge; HEIGHT: 600px; BORDER-RIGHT: #ddd 5px ridge; BORDER-BOTTOM: #ddd 5px ridge; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; BORDER-LEFT: #ddd 5px ridge; PADDING-RIGHT: 1px; BACKGROUND-COLOR: #eee
+}
+#Help H1 {
+	TEXT-INDENT: 10px
+}
+#Help .salesForce {
+	MARGIN-BOTTOM: 10px; HEIGHT: 500px; WIDTH: 625px; FLOAT: left; MARGIN-LEFT: 5px
+}
+#Help .salesForce IFRAME {
+	MARGIN-BOTTOM: 10px; HEIGHT: 500px; WIDTH: 625px; FLOAT: left; MARGIN-LEFT: 5px
+}
+#Help .avatar {
+	FLOAT: right; TEXT-ALIGN: center; PADDING-LEFT: 0px; MARGIN-LEFT: auto; CLEAR: right; DISPLAY: block; PADDING-RIGHT: 0px; MARGIN-RIGHT: auto
+}
+#Help .descriptionPanels {
+	HEIGHT: 235px; WIDTH: 225px; BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/Speech Bubble 225.gif); MARGIN-TOP: 40px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: transparent
+}
+#Help .descriptionPanels P {
+	FONT-SIZE: 9pt; FONT-FAMILY: Comic Sans MS; COLOR: navy; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 25px; PADDING-RIGHT: 40px
+}
+#Help .navigation {
+	BORDER-TOP-STYLE: none; FONT-SIZE: 10pt; TEXT-DECORATION: none; BORDER-LEFT-STYLE: none; FONT-FAMILY: 'Comic Sans MS',Verdana,sans-serif; BORDER-BOTTOM-STYLE: none; FONT-WEIGHT: normal; COLOR: #6e99c9; TEXT-ALIGN: center; BORDER-RIGHT-STYLE: none; CLEAR: left; BACKGROUND-COLOR: transparent
+}
+#Help .navigation .MenuItem {
+	FONT-SIZE: 16px; COLOR: #6e99c9; LINE-HEIGHT: 2em
+}
+#Help .navigation A.MenuItem:link {
+	TEXT-DECORATION: none; COLOR: #6e99c9
+}
+#Help .navigation A.MenuItem:visited {
+	TEXT-DECORATION: none; COLOR: #6e99c9
+}
+#Help .navigation A.MenuItem:active {
+	TEXT-DECORATION: none; COLOR: #6e99c9
+}
+#Help .navigation A.MenuItem:hover {
+	TEXT-DECORATION: underline
+}
+#Help .forumLinks {
+	FONT-SIZE: 10pt; BORDER-TOP: #ddd 3px groove; FONT-FAMILY: Sans-Serif; BORDER-RIGHT: #ddd 3px groove; WIDTH: 150px; BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/help_gradient.png); BACKGROUND-REPEAT: repeat-y; BORDER-BOTTOM: #ddd 3px groove; BACKGROUND-POSITION: left top; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; FILTER: alpha(opacity=93); BORDER-LEFT: #ddd 3px groove; DISPLAY: none; LINE-HEIGHT: 2em; PADDING-RIGHT: 5px; VISIBILITY: hidden; BACKGROUND-COLOR: #eee; opacity: .93
+}
+#InboxContainer #InboxPane {
+	WIDTH: 726px; FLOAT: left
+}
+#InboxContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; LETTER-SPACING: 0.5em; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#InboxContainer .Ads_WideSkyscraper {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 160px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; TEXT-ALIGN: right; BORDER-LEFT: #000 1px solid
+}
+#InboxContainer #Inbox {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#InboxContainer .Buttons {
+	TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+#InboxContainer .InboxHeader {
+	FONT: bold 1.2em Verdana,sans-serif; LETTER-SPACING: 0.15em; BACKGROUND-COLOR: #999
+}
+#InboxContainer .InboxRow {
+	CURSOR: pointer; FONT: 1em Verdana,sans-serif
+}
+#InboxContainer .InboxRow_Unread {
+	CURSOR: pointer; FONT: bold 1em Verdana,sans-serif
+}
+#InboxContainer .InboxRow:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+#InboxContainer .InboxRow_Unread:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+#InboxContainer .InboxHeader A {
+	COLOR: #fff
+}
+#InboxContainer .InboxPager A {
+	COLOR: #fff
+}
+#InboxContainer .InboxRow:hover A {
+	COLOR: #fff
+}
+#InboxContainer .InboxRow_Unread:hover A {
+	COLOR: #fff
+}
+#InboxContainer .InboxPager {
+	TEXT-ALIGN: center; FONT: bold 1.2em Verdana,sans-serif; LETTER-SPACING: 0.15em; BACKGROUND-COLOR: #999
+}
+#InfoContainer {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 620px; BORDER-BOTTOM: #000 1px solid; COLOR: #555; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; BACKGROUND-COLOR: #eee
+}
+#InfoContainer H2 {
+	FONT-SIZE: x-large; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#InfoContainer #Content {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; FONT: 1em/1.5em Verdana,sans-serif; PADDING-LEFT: 20px; PADDING-RIGHT: 20px
+}
+#AlreadyInstalled {
+	FONT-SIZE: large; MARGIN: 44px
+}
+#AlreadyInstalled A {
+	TEXT-DECORATION: underline
+}
+#ItemContainer H2 {
+	FONT-SIZE: x-large; FONT-FAMILY: Comic Sans MS,Sans-Serif; BORDER-BOTTOM: #555 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#ItemContainer H3 {
+	FONT-SIZE: 1.5em; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 0.5em; LETTER-SPACING: 0.15em; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#ItemContainer #Item {
+	BORDER-TOP: #555 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #555 1px solid; WIDTH: 725px; BORDER-BOTTOM: #555 1px solid; FLOAT: left; COLOR: #555; BORDER-LEFT: #555 1px solid; BACKGROUND-COLOR: #eee
+}
+#ItemContainer #Details {
+	MARGIN: 10px
+}
+#ItemContainer #Thumbnail {
+	BORDER-TOP: #555 1px solid; BORDER-RIGHT: #555 1px solid; MIN-WIDTH: 0px; BORDER-BOTTOM: #555 1px solid; POSITION: relative; FLOAT: left; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #555 1px solid; PADDING-RIGHT: 0px
+}
+#ItemContainer #Thumbnail_Place {
+	BORDER-TOP: #555 1px solid; BORDER-RIGHT: #555 1px solid; MIN-WIDTH: 0px; BORDER-BOTTOM: #555 1px solid; POSITION: relative; FLOAT: left; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #555 1px solid; PADDING-RIGHT: 0px
+}
+#ItemContainer #Thumbnail {
+	HEIGHT: 250px; WIDTH: 250px
+}
+#ItemContainer #Thumbnail_Place {
+	HEIGHT: 230px; WIDTH: 420px
+}
+#ItemContainer #Actions {
+	WIDTH: 240px
+}
+#ItemContainer #Actions_Place {
+	WIDTH: 410px
+}
+#ItemContainer #Actions {
+	BORDER-RIGHT: #555 1px dashed; MIN-WIDTH: 0px; BORDER-BOTTOM: #555 1px dashed; POSITION: relative; FLOAT: left; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; CLEAR: left; BORDER-LEFT: #555 1px dashed; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #fff
+}
+#ItemContainer #Actions_Place {
+	BORDER-RIGHT: #555 1px dashed; MIN-WIDTH: 0px; BORDER-BOTTOM: #555 1px dashed; POSITION: relative; FLOAT: left; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; CLEAR: left; BORDER-LEFT: #555 1px dashed; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #fff
+}
+#ItemContainer #Summary {
+	BORDER-TOP: #555 1px dashed; BORDER-RIGHT: #555 1px dashed; WIDTH: 255px; BORDER-BOTTOM: #555 1px dashed; FLOAT: right; PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 7px; BORDER-LEFT: #555 1px dashed; DISPLAY: inline; PADDING-RIGHT: 7px; BACKGROUND-COLOR: #fff
+}
+#ItemContainer #Summary #Creator {
+	CLEAR: left
+}
+#ItemContainer #Summary #DescriptionLabel {
+	MARGIN-BOTTOM: 0.4em; MARGIN-TOP: 0.7em
+}
+#ItemContainer #Summary #Description {
+	OVERFLOW: auto; BORDER-TOP: #555 1px solid; BORDER-RIGHT: #555 1px solid; WIDTH: 249px; BORDER-BOTTOM: #555 1px solid; PADDING-BOTTOM: 4px; TEXT-ALIGN: left; PADDING-TOP: 4px; FONT: 1em/1.7em Verdana,sans-serif; PADDING-LEFT: 4px; BORDER-LEFT: #555 1px solid; PADDING-RIGHT: 4px; MAX-HEIGHT: 136px
+}
+#ItemContainer #Summary #ReportAbuse {
+	PADDING-BOTTOM: 4px; TEXT-ALIGN: center; PADDING-TOP: 4px; PADDING-LEFT: 4px; MARGIN: 0px auto; PADDING-RIGHT: 4px
+}
+#ItemContainer #Summary #PublicDomainPurchase #PricePublicDomain {
+	WIDTH: 100px; FLOAT: left; FONT-WEIGHT: bold; COLOR: blue; LINE-HEIGHT: 2em
+}
+#ItemContainer #Summary #PublicDomainPurchase #BuyForFree {
+	WIDTH: 100px; FLOAT: left; LINE-HEIGHT: 2em
+}
+#ItemContainer #Summary #PublicDomainPurchase #BuyForFree .Button:hover {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #6e99c9
+}
+#ItemContainer #Summary #PublicDomainPurchase #BuyForFree A:hover {
+	COLOR: #fff
+}
+#ItemContainer #Summary #RobuxPurchase #PriceInRobux {
+	WIDTH: 100px; FLOAT: left; FONT-WEIGHT: bold; COLOR: green; LINE-HEIGHT: 2em
+}
+#ItemContainer #Summary #RobuxPurchase #BuyWithRobux {
+	WIDTH: 100px; FLOAT: left; LINE-HEIGHT: 2em
+}
+#ItemContainer #Summary #RobuxPurchase #BuyWithRobux .Button:hover {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #49b745
+}
+#ItemContainer #Summary #RobuxPurchase #BuyWithRobux A:hover {
+	COLOR: #fff
+}
+#ItemContainer #Summary #TicketsPurchase {
+	CLEAR: left
+}
+#ItemContainer #Summary #TicketsPurchase #PriceInTickets {
+	WIDTH: 100px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fbb117; LINE-HEIGHT: 2em
+}
+#ItemContainer #Summary #TicketsPurchase #BuyWithTickets {
+	WIDTH: 100px; FLOAT: left; LINE-HEIGHT: 2em
+}
+#ItemContainer #Summary #TicketsPurchase #BuyWithTickets .Button:hover {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #fdd017
+}
+#ItemContainer #Summary #TicketsPurchase #BuyWithTickets A:hover {
+	COLOR: #fff
+}
+#ItemContainer #Configuration {
+	BORDER-RIGHT: #555 1px dashed; WIDTH: 249px; MARGIN-TOP: -10px; BORDER-BOTTOM: #555 1px dashed; FLOAT: right; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 10px; MARGIN-LEFT: 10px; CLEAR: right; BORDER-LEFT: #555 1px dashed; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #fff
+}
+#ItemContainer #Advertise {
+	BORDER-RIGHT: #555 1px dashed; WIDTH: 249px; MARGIN-TOP: 0px; BORDER-BOTTOM: #555 1px dashed; FLOAT: right; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 10px; MARGIN-LEFT: 10px; CLEAR: right; BORDER-LEFT: #555 1px dashed; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #fff
+}
+#ItemContainer #Ownership {
+	BORDER-TOP: #f00 1px dashed; BORDER-RIGHT: #f00 1px dashed; WIDTH: 249px; MARGIN-TOP: 0px; BORDER-BOTTOM: #f00 1px dashed; FLOAT: right; COLOR: #f00; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 10px; MARGIN-LEFT: 10px; CLEAR: right; BORDER-LEFT: #f00 1px dashed; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #ccc
+}
+#ItemContainer .PlayGames {
+	BORDER-TOP: green 1px dashed; BORDER-RIGHT: green 1px dashed; WIDTH: 410px; MARGIN-TOP: 10px; BORDER-BOTTOM: green 1px dashed; FLOAT: left; COLOR: green; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 5px; CLEAR: left; BORDER-LEFT: green 1px dashed; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #ccc
+}
+#ItemContainer .RunningGames {
+	BORDER-TOP: #555 1px dashed; BORDER-RIGHT: #555 1px dashed; WIDTH: 410px; MARGIN-TOP: 10px; BORDER-BOTTOM: #555 1px dashed; FLOAT: left; COLOR: #555; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 5px; CLEAR: left; BORDER-LEFT: #555 1px dashed; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #ccc
+}
+#ItemContainer .GameInstances {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 408px; BORDER-BOTTOM: #000 1px solid; COLOR: #555; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #fff
+}
+#ItemContainer .RefreshRunningGames {
+	TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+#ItemContainer #Ownership .Button {
+	BACKGROUND-COLOR: #fff
+}
+#ItemContainer .PlayGames .Button {
+	BACKGROUND-COLOR: #fff
+}
+#ItemContainer #Ownership .Button:hover {
+	BORDER-TOP: #f00 1px solid; BORDER-RIGHT: #f00 1px solid; BORDER-BOTTOM: #f00 1px solid; COLOR: #f00; BORDER-LEFT: #f00 1px solid; BACKGROUND-COLOR: #fff
+}
+#ItemContainer .PlayGames .Button:hover {
+	BORDER-TOP: green 1px solid; BORDER-RIGHT: green 1px solid; BORDER-BOTTOM: green 1px solid; COLOR: green; BORDER-LEFT: green 1px solid; BACKGROUND-COLOR: #fff
+}
+#ItemContainer .CommentsContainer {
+	WIDTH: 665px; MARGIN: 0px 10px 10px
+}
+#ItemContainer .TabbedInfoContainer {
+	WIDTH: 665px; MARGIN: 0px 10px 10px
+}
+#ItemContainer .TabbedInfoContainer H3 {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#ItemContainer .CommentsContainer .HeaderPager {
+	PADDING-BOTTOM: 5px; TEXT-ALIGN: right; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#ItemContainer .CommentsContainer .FooterPager {
+	PADDING-BOTTOM: 5px; TEXT-ALIGN: right; PADDING-TOP: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#ItemContainer .CommentsContainer .Comments {
+	OVERFLOW: hidden; BORDER-TOP: #555 1px dashed; BORDER-RIGHT: #555 1px dashed; WIDTH: 663px; BORDER-BOTTOM: #555 1px dashed; BORDER-LEFT: #555 1px dashed
+}
+#ItemContainer .CommentsContainer .Comment {
+	PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+#ItemContainer .CommentsContainer .AlternateComment {
+	PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+#ItemContainer .CommentsContainer .Comment {
+	BACKGROUND-COLOR: #fff
+}
+#ItemContainer .CommentsContainer .AlternateComment {
+	BACKGROUND-COLOR: #eee
+}
+#ItemContainer .CommentsContainer .Commenter {
+	WIDTH: 110px; FLOAT: left
+}
+#ItemContainer .CommentsContainer .Avatar {
+	BORDER-TOP: #555 1px solid; HEIGHT: 100px; BORDER-RIGHT: #555 1px solid; WIDTH: 100px; BORDER-BOTTOM: #555 1px solid; BORDER-LEFT: #555 1px solid
+}
+#ItemContainer .CommentsContainer .Post {
+	FLOAT: left
+}
+#ItemContainer .CommentsContainer .Content {
+	OVERFLOW: hidden; MARGIN: 10px 0px
+}
+#ItemContainer .CommentsContainer .PostAComment {
+	MARGIN: 10px 0px 0px
+}
+#ItemContainer .CommentsContainer .PostAComment .Buttons {
+	MARGIN: 10px 0px 0px
+}
+#ItemContainer .CommentsContainer .MultilineTextBox {
+	WIDTH: 400px; MIN-HEIGHT: 0px
+}
+#ItemContainer .CommentsContainer TEXTAREA {
+	WIDTH: 400px; MIN-HEIGHT: 0px
+}
+#EditItem {
+	BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #000 1px solid; WIDTH: 725px; BORDER-BOTTOM: #000 1px solid; FLOAT: left; COLOR: #555; BORDER-LEFT: #000 1px solid; MARGIN: 0px; BACKGROUND-COLOR: #eee
+}
+#EditItemContainer H2 {
+	FONT-SIZE: x-large; FONT-FAMILY: Comic Sans MS,Sans-Serif; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#EditItemContainer FIELDSET {
+	FONT-SIZE: 1.2em; MARGIN: 0px
+}
+#EditItemContainer #Confirmation {
+	BORDER-TOP: #f00 1px dashed; BORDER-RIGHT: #f00 1px dashed; WIDTH: 410px; BORDER-BOTTOM: #f00 1px dashed; COLOR: #f00; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 5px; BORDER-LEFT: #f00 1px dashed; MARGIN: 10px auto 0px; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #ccc
+}
+#EditItemContainer #ItemName {
+	WIDTH: 420px; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto 0px; PADDING-RIGHT: 0px
+}
+#EditItemContainer #ItemThumbnail {
+	BORDER-TOP: #555 1px solid; HEIGHT: 230px; BORDER-RIGHT: #555 1px solid; WIDTH: 420px; BORDER-BOTTOM: #555 1px solid; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #555 1px solid; MARGIN: 10px auto 0px; PADDING-RIGHT: 0px
+}
+#EditItemContainer #ItemDescription {
+	WIDTH: 420px; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto 0px; PADDING-RIGHT: 0px
+}
+#EditItemContainer #Comments {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#EditItemContainer #PlaceAccess {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#EditItemContainer #PlaceCopyProtection {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#EditItemContainer #AllowGear {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#EditItemContainer #VersionHistory {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#EditItemContainer #PublicDomain {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#EditItemContainer #SellThisItem {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#EditItemContainer #PlaceReset {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+.MyItemOptions {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#EditItemContainer #SellThisItem #Pricing {
+	BORDER-TOP: #000 1px dashed; BORDER-RIGHT: #000 1px dashed; BORDER-BOTTOM: #000 1px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #000 1px dashed; MARGIN: 15px 5px 5px; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #fff
+}
+#EditItemContainer #SellThisItem #Price {
+	MARGIN-TOP: 10px
+}
+#EditItemContainer #SellThisItem #Price .TextBox {
+	WIDTH: 75px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px
+}
+#EditItemContainer .CopyProtectionRow {
+	FONT-SIZE: 0.9em; TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+#EditItemContainer .EnableCommentsRow {
+	FONT-SIZE: 0.9em; TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+#EditItemContainer .PlaceAccessRow {
+	FONT-SIZE: 0.9em; TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+#EditItemContainer .PublicDomainRow {
+	FONT-SIZE: 0.9em; TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+#EditItemContainer .SellThisItemRow {
+	FONT-SIZE: 0.9em; TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+#EditItemContainer .ResetPlaceRow {
+	FONT-SIZE: 0.9em; TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+#EditItemContainer .PlaceAccessRow {
+	TEXT-ALIGN: left; MARGIN: 10px 0px 10px 100px
+}
+#ConfigurePlaceContainer .ResetPlaceRow .Button {
+	MARGIN: 0px auto
+}
+#EditItemContainer .PricingLabel {
+	WIDTH: 155px; FLOAT: left; FONT-WEIGHT: bold; TEXT-ALIGN: right; MARGIN-RIGHT: 5px
+}
+#EditItemContainer .PricingField_Robux {
+	WIDTH: 110px; FLOAT: left; TEXT-ALIGN: left; MARGIN-LEFT: 5px
+}
+#EditItemContainer .PricingField_Tickets {
+	WIDTH: 110px; FLOAT: left; TEXT-ALIGN: left; MARGIN-LEFT: 5px
+}
+#EditItemContainer .Buttons {
+	TEXT-ALIGN: center; MARGIN: 10px auto
+}
+#EditItemContainer .Button {
+	CURSOR: pointer; BORDER-TOP-COLOR: #555; BORDER-LEFT-COLOR: #555; COLOR: #555; BORDER-BOTTOM-COLOR: #555; BORDER-RIGHT-COLOR: #555
+}
+#EditItemContainer .Button:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+#EditItemContainer .Label {
+	FONT-SIZE: 1.2em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#EditItemContainer .TextBox {
+	BORDER-TOP: #555 1px dashed; BORDER-RIGHT: #555 1px dashed; WIDTH: 400px; BORDER-BOTTOM: #555 1px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 10px; BORDER-LEFT: #555 1px dashed; MARGIN: 0px; PADDING-RIGHT: 10px
+}
+#EditItemContainer .MultilineTextBox {
+	BORDER-TOP: #555 1px dashed; BORDER-RIGHT: #555 1px dashed; WIDTH: 400px; BORDER-BOTTOM: #555 1px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 10px; BORDER-LEFT: #555 1px dashed; MARGIN: 0px; PADDING-RIGHT: 10px
+}
+#EditItemContainer .Suggestion {
+	FONT: 0.8em Verdana,sans-serif; PADDING-LEFT: 9px
+}
+#ItemContainer .Ads_WideSkyscraper {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 160px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; TEXT-ALIGN: right; BORDER-LEFT: #000 1px solid
+}
+#EditItemContainer .Ads_WideSkyscraper {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 160px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; TEXT-ALIGN: right; BORDER-LEFT: #000 1px solid
+}
+.LinkCountContainer {
+	WIDTH: 200px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; MARGIN: 0px; PADDING-RIGHT: 5px
+}
+.LinkStatusImage {
+	FLOAT: left
+}
+.AspNet-Login INPUT {
+	FONT-SIZE: 1em
+}
+.AspNet-Login LABEL EM {
+	TEXT-DECORATION: underline; FONT-STYLE: normal
+}
+.AspNet-Login .AspNet-Login-FailurePanel {
+	HEIGHT: 4em
+}
+.AspNet-Login .AspNet-Login-UserPanel {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0.25em; PADDING-LEFT: 0px; PADDING-RIGHT: 0.1em
+}
+.AspNet-Login .AspNet-Login-PasswordPanel {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0.25em; PADDING-LEFT: 0px; PADDING-RIGHT: 0.1em
+}
+.AspNet-Login .AspNet-Login-RememberMePanel {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0.25em; PADDING-LEFT: 0px; PADDING-RIGHT: 0.1em
+}
+.AspNet-Login .AspNet-Login-SubmitPanel {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0.25em; PADDING-LEFT: 0px; PADDING-RIGHT: 0.1em
+}
+.AspNet-Login .AspNet-Login-UserPanel {
+	TEXT-ALIGN: right
+}
+.AspNet-Login .AspNet-Login-PasswordPanel {
+	TEXT-ALIGN: right
+}
+.AspNet-Login .AspNet-Login-SubmitPanel {
+	TEXT-ALIGN: right
+}
+.AspNet-Login .AspNet-Login-UserPanel LABEL {
+	WHITE-SPACE: nowrap
+}
+.AspNet-Login .AspNet-Login-PasswordPanel LABEL {
+	WHITE-SPACE: nowrap
+}
+#PaneLogin .TextboxLabel {
+	WHITE-SPACE: nowrap
+}
+.AspNet-Login .AspNet-Login-UserPanel INPUT {
+	WIDTH: 9em
+}
+.AspNet-Login .AspNet-Login-PasswordPanel INPUT {
+	WIDTH: 9em
+}
+.AspNet-Login .AspNet-Login-SubmitPanel INPUT {
+	HEIGHT: 1.7em
+}
+#PaneNewUser {
+	WIDTH: 170px; FLOAT: right; PADDING-BOTTOM: 22px; PADDING-TOP: 0px; PADDING-LEFT: 22px; PADDING-RIGHT: 22px; BACKGROUND-COLOR: #dcdcdc
+}
+#PaneLogin {
+	WIDTH: 18em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#PaneLogin .AspNet-Login DIV {
+	MARGIN: 10px
+}
+#LoginView {
+	BORDER-TOP: black 1px solid; HEIGHT: 250px; BORDER-RIGHT: black 1px solid; WIDTH: 150px; BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid
+}
+#LoginView H5 {
+	BORDER-BOTTOM: #000 1px solid; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#LoginView #AlreadySignedIn {
+	BACKGROUND-COLOR: #eee
+}
+#LoginView .Label {
+	FONT-WEIGHT: bold
+}
+#LoginView .Text {
+	WIDTH: 133px
+}
+#LoginView .AspNet-Login {
+	HEIGHT: 225px; BACKGROUND-COLOR: #eee
+}
+#LoginView .AspNet-Login .AspNet-Login-InstructionPanel {
+	PADDING-BOTTOM: 3px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#LoginView .AspNet-Login .AspNet-Login-HelpPanel {
+	PADDING-BOTTOM: 3px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#LoginView .AspNet-Login .AspNet-Login-UserPanel {
+	PADDING-BOTTOM: 3px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#LoginView .AspNet-Login .AspNet-Login-PasswordPanel {
+	PADDING-BOTTOM: 3px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#LoginView .AspNet-Login .AspNet-Login-RememberMePanel {
+	PADDING-BOTTOM: 3px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#LoginView .AspNet-Login .AspNet-Login-SubmitPanel {
+	PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 5px
+}
+#LoginView .AspNet-Login .AspNet-Create-Account {
+	PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 5px
+}
+#LoginView .AspNet-Login .AspNet-Login-PasswordRecoveryPanel {
+	PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#LoginView .AspNet-Login .AspNet-Login-PasswordRecoveryPanel A {
+	COLOR: #999; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; FONT: 9px Verdana,sans-serif; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#LoginView .AspNet-Login .AspNet-Login-PasswordRecoveryPanel A:hover {
+	COLOR: blue
+}
+#Sidebars {
+	WIDTH: 250px; FLOAT: right
+}
+#AlreadyRegistered {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; MARGIN-TOP: 10px; BORDER-BOTTOM: #000 1px solid; COLOR: #555; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; FONT: 12px Verdana,sans-serif; PADDING-LEFT: 20px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 20px; BACKGROUND-COLOR: #eee
+}
+#TermsAndConditions {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; MARGIN-TOP: 10px; BORDER-BOTTOM: #000 1px solid; COLOR: #555; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; FONT: 12px Verdana,sans-serif; PADDING-LEFT: 20px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 20px; BACKGROUND-COLOR: #eee
+}
+#AlreadyRegistered H3 {
+	BORDER-BOTTOM: #000 1px solid; COLOR: #333; PADDING-BOTTOM: 4px; TEXT-ALIGN: center; PADDING-TOP: 4px; FONT: bold 12pt 'Comic Sans MS',Verdana,sans-serif; PADDING-LEFT: 4px; MARGIN: 0px -20px; PADDING-RIGHT: 4px; BACKGROUND-COLOR: #ccc
+}
+#TermsAndConditions H3 {
+	BORDER-BOTTOM: #000 1px solid; COLOR: #333; PADDING-BOTTOM: 4px; TEXT-ALIGN: center; PADDING-TOP: 4px; FONT: bold 12pt 'Comic Sans MS',Verdana,sans-serif; PADDING-LEFT: 4px; MARGIN: 0px -20px; PADDING-RIGHT: 4px; BACKGROUND-COLOR: #ccc
+}
+#TermsAndConditions {
+	MARGIN-TOP: 20px
+}
+.Registration {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 620px; MARGIN-TOP: 10px; BORDER-BOTTOM: #000 1px solid; FLOAT: left; COLOR: #555; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #eee
+}
+.Registration H2 {
+	FONT-SIZE: x-large; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+.Registration H3 {
+	TEXT-ALIGN: center; MARGIN: 10px 0px 0px
+}
+.Registration FIELDSET {
+	FONT-SIZE: 1.2em; MARGIN: 15px 0px 0px
+}
+.Registration .TextBox {
+	WIDTH: 150px; VERTICAL-ALIGN: middle
+}
+.Registration .Label {
+	VERTICAL-ALIGN: middle
+}
+.Registration #EnterUsername {
+	WIDTH: 60%; MARGIN: 0px auto
+}
+.Registration #EnterPassword {
+	WIDTH: 60%; MARGIN: 0px auto
+}
+.Registration #EnterEmail {
+	WIDTH: 60%; MARGIN: 0px auto
+}
+.Registration #EnterAgeGroup {
+	WIDTH: 60%; MARGIN: 0px auto
+}
+.Registration #EnterChatMode {
+	WIDTH: 60%; MARGIN: 0px auto
+}
+.Registration .UsernameRow {
+	HEIGHT: 5em; PADDING-BOTTOM: 3px; TEXT-ALIGN: right; PADDING-TOP: 3px; PADDING-LEFT: 3px; LINE-HEIGHT: 5em; PADDING-RIGHT: 3px
+}
+.Registration .PasswordRow {
+	HEIGHT: 5em; PADDING-BOTTOM: 3px; TEXT-ALIGN: right; PADDING-TOP: 3px; PADDING-LEFT: 3px; LINE-HEIGHT: 5em; PADDING-RIGHT: 3px
+}
+.Registration .ConfirmPasswordRow {
+	HEIGHT: 5em; PADDING-BOTTOM: 3px; TEXT-ALIGN: right; PADDING-TOP: 3px; PADDING-LEFT: 3px; LINE-HEIGHT: 5em; PADDING-RIGHT: 3px
+}
+.Registration .EmailRow {
+	HEIGHT: 5em; PADDING-BOTTOM: 3px; TEXT-ALIGN: right; PADDING-TOP: 3px; PADDING-LEFT: 3px; LINE-HEIGHT: 5em; PADDING-RIGHT: 3px
+}
+.Registration .PasswordRow {
+	HEIGHT: 3em; LINE-HEIGHT: 3em
+}
+.Registration .ConfirmPasswordRow {
+	HEIGHT: 3em; LINE-HEIGHT: 3em
+}
+.Registration .AgeGroupRow {
+	FONT-SIZE: 0.9em; MARGIN: 10px 0px 10px 100px
+}
+.Registration .ChatModeRow {
+	FONT-SIZE: 0.9em; MARGIN: 10px 0px 10px 100px
+}
+.Registration .Confirm {
+	TEXT-ALIGN: center; MARGIN: 20px 0px
+}
+.Registration .Validators {
+	MARGIN-LEFT: 9px
+}
+.Registration .Legend {
+	COLOR: blue; MARGIN-LEFT: 9px
+}
+.Registration .Suggestion {
+	FONT: 0.8em Verdana,sans-serif; PADDING-LEFT: 9px
+}
+.Registration LABEL {
+	MARGIN-RIGHT: 5px
+}
+.Registration INPUT {
+	WIDTH: 9em
+}
+.AgeOptions {
+	WIDTH: 490px; MARGIN: 20px auto 0px
+}
+.AgeOptions #Under13 {
+	WIDTH: 200px; FLOAT: left; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: 0px; PADDING-RIGHT: 20px
+}
+.AgeOptions #Over12 {
+	WIDTH: 200px; FLOAT: left; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: 0px; PADDING-RIGHT: 20px
+}
+.AgeOptions #ParentAccount {
+	WIDTH: 400px; FLOAT: left; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 40px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#AgeOptions .Label {
+	TEXT-ALIGN: center
+}
+.MessageContainer .MultilineTextBox {
+	HEIGHT: 250px; MIN-HEIGHT: 250px
+}
+.MessageContainer #AdsPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 160px; BORDER-BOTTOM: #000 1px solid; FLOAT: left; BORDER-LEFT: #000 1px solid
+}
+.MessageContainer #MessagePane {
+	WIDTH: 650px; FLOAT: left; MARGIN: 0px 0px 0px 60px
+}
+.MessageContainer H3 {
+	WIDTH: 622px; TEXT-ALIGN: left
+}
+.MessageContainer #MessagePane .Buttons {
+	WIDTH: 622px
+}
+.MessageContainer #MessagePane .Buttons .Button {
+	FLOAT: right; MARGIN: 10px 0px 0px 10px
+}
+.MessageContainer .Label {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; PADDING-TOP: 6px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.MessageContainer .MessageReaderContainer {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 600px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 10px
+}
+.MessageReaderContainer #Message {
+	TEXT-ALIGN: left
+}
+#Message #DateSent {
+	TEXT-ALIGN: left
+}
+#Message #Author {
+	TEXT-ALIGN: left; MARGIN: 5px 0px 0px
+}
+#Message #Subject {
+	FONT-WEIGHT: bold; TEXT-ALIGN: left; MARGIN: 5px 0px 0px
+}
+#Message .Body {
+	VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+#MessageEditorContainer {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 600px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 10px
+}
+.MessageEditor {
+	TEXT-ALIGN: left
+}
+.MessageEditor #From {
+	WIDTH: 39%; TEXT-ALIGN: left
+}
+.MessageEditor #To {
+	WIDTH: 39%; TEXT-ALIGN: left; MARGIN: 5px 0px 0px
+}
+.MessageEditor .CannedResponsesPanel {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 200px; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; MARGIN: 30px 0px; BACKGROUND-COLOR: #eee
+}
+.MessageEditor .CannedResponsesPanel H4 {
+	FONT-SIZE: 1.3em; BORDER-BOTTOM: #000 1px solid; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+.MessageEditor #CannedResponses {
+	WIDTH: 200px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.MessageEditor .CannedResponse {
+	WIDTH: 190px; PADDING-BOTTOM: 7px; TEXT-ALIGN: center; PADDING-TOP: 7px; PADDING-LEFT: 5px; MARGIN: 0px; PADDING-RIGHT: 5px
+}
+.MessageEditor #CannedResponses .Button {
+	PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.MessageEditor .Body {
+	VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+.MessageContainer #Confirmation H3 {
+	WIDTH: 422px; TEXT-ALIGN: left
+}
+.MessageContainer #Confirmation .Buttons {
+	WIDTH: 422px
+}
+.MessageContainer #Confirmation #Message {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 400px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 10px
+}
+#InvitationContainer #AdsPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 160px; BORDER-BOTTOM: #000 1px solid; FLOAT: left; BORDER-LEFT: #000 1px solid
+}
+#InvitationContainer #InvitationPane {
+	WIDTH: 650px; FLOAT: left; MARGIN: 0px 0px 0px 60px
+}
+#InvitationContainer H3 {
+	WIDTH: 622px; TEXT-ALIGN: left
+}
+#InvitationContainer .Buttons {
+	WIDTH: 622px
+}
+#InvitationContainer .Button {
+	TEXT-DECORATION: none; FONT-FAMILY: Verdana,Sans-Serif; FLOAT: right; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 10px; MARGIN: 10px 0px 0px 10px; PADDING-RIGHT: 10px
+}
+#InvitationContainer .TextBox {
+	BORDER-TOP-STYLE: dashed; BORDER-LEFT-STYLE: dashed; BORDER-TOP-COLOR: gray; WIDTH: 98%; BORDER-BOTTOM-STYLE: dashed; BORDER-LEFT-COLOR: gray; PADDING-BOTTOM: 5px; BORDER-BOTTOM-COLOR: gray; PADDING-TOP: 5px; BORDER-RIGHT-STYLE: dashed; PADDING-LEFT: 5px; BORDER-RIGHT-COLOR: gray; PADDING-RIGHT: 5px
+}
+#InvitationContainer .Label {
+	FONT-WEIGHT: bold
+}
+#InvitationContainer .MessageReaderContainer {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 600px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 10px
+}
+.MessageReaderContainer #Message {
+	FLOAT: left; TEXT-ALIGN: left
+}
+#InvitationContainer #MessageEditorContainer {
+	MARGIN: 10px
+}
+#InvitationContainer #MessageEditorContainer .MessageEditor .CannedResponsesPanel {
+	DISPLAY: none
+}
+#InvitationContainer #Confirmation H3 {
+	WIDTH: 422px; TEXT-ALIGN: left
+}
+#InvitationContainer #Confirmation .Buttons {
+	WIDTH: 422px
+}
+#InvitationContainer #Confirmation #Message {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 400px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #000 1px solid; MARGIN: 10px; PADDING-RIGHT: 10px
+}
+.ParentsContainer {
+	FONT-SIZE: 1.1em; BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 30px; BORDER-LEFT: #000 1px solid; PADDING-RIGHT: 30px; BACKGROUND-COLOR: #eee
+}
+.ParentsContainer #BreadcrumbsContainer {
+	MARGIN-BOTTOM: 20px
+}
+.ParentsContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; MARGIN: 0px 0px 20px; LINE-HEIGHT: 1em
+}
+.ParentsContainer #LeftColumn {
+	WIDTH: 400px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 15px
+}
+.ParentsContainer #RightColumn {
+	WIDTH: 400px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px
+}
+.ParentsContainer .ParentsSection {
+	MARGIN-BOTTOM: 20px; BORDER-TOP: #ccc 1px solid; HEIGHT: 120px; BORDER-RIGHT: #ccc 1px solid; WIDTH: 370px; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LEFT: 15px; BORDER-LEFT: #ccc 1px solid; PADDING-RIGHT: 15px; BACKGROUND-COLOR: #fff
+}
+.ParentsContainer H3 {
+	FONT-SIZE: 1.3em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; COLOR: blue; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1em
+}
+DT {
+	FONT-SIZE: 1.3em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; COLOR: blue; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1em
+}
+.ParentsContainer .SectionIcon {
+	FLOAT: left; MARGIN-RIGHT: 20px
+}
+.ParentsContainer .PageImage {
+	FLOAT: right
+}
+#ConfigurePlaceContainer {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 620px; BORDER-BOTTOM: #000 1px solid; COLOR: #555; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; BACKGROUND-COLOR: #eee
+}
+#ConfigurePlaceContainer H2 {
+	FONT-SIZE: x-large; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#ConfigurePlaceContainer FIELDSET {
+	FONT-SIZE: 1.2em; MARGIN: 0px
+}
+#ConfigurePlaceContainer #PlaceName {
+	WIDTH: 420px; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto 0px; PADDING-RIGHT: 0px
+}
+#ConfigurePlaceContainer #PlaceThumbnail {
+	BORDER-TOP: #555 1px solid; HEIGHT: 230px; BORDER-RIGHT: #555 1px solid; WIDTH: 420px; BORDER-BOTTOM: #555 1px solid; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #555 1px solid; MARGIN: 10px auto 0px; PADDING-RIGHT: 0px
+}
+#ConfigurePlaceContainer #PlaceDescription {
+	WIDTH: 420px; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto 0px; PADDING-RIGHT: 0px
+}
+#ConfigurePlaceContainer #PlaceAccess {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#ConfigurePlaceContainer #PlaceCopyProtection {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#ConfigurePlaceContainer #Comments {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#ConfigurePlaceContainer #PlaceIsDefault {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#ConfigurePlaceContainer #PlaceReset {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#ConfigurePlaceContainer #AllowGear {
+	WIDTH: 420px; MARGIN: 10px auto 0px
+}
+#ConfigurePlaceContainer .PlaceAccessRow {
+	FONT-SIZE: 0.9em; MARGIN: 10px 0px 10px 100px
+}
+#ConfigurePlaceContainer .CopyProtectionRow {
+	FONT-SIZE: 0.9em; MARGIN: 10px 0px 10px 100px
+}
+#ConfigurePlaceContainer .EnableCommentsRow {
+	FONT-SIZE: 0.9em; MARGIN: 10px 0px 10px 100px
+}
+#ConfigurePlaceContainer .PlaceIsDefaultRow {
+	FONT-SIZE: 0.9em; MARGIN: 10px 0px 10px 100px
+}
+.MyItemIndentedOption {
+	FONT-SIZE: 0.9em; MARGIN: 10px 0px 10px 100px
+}
+#ConfigurePlaceContainer .ResetPlaceRow {
+	FONT-SIZE: 0.9em; TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+#ConfigurePlaceContainer .ResetPlaceRow .Button {
+	MARGIN: 0px auto
+}
+#ConfigurePlaceContainer .Buttons {
+	TEXT-ALIGN: center; MARGIN: 10px auto
+}
+#ConfigurePlaceContainer .Button {
+	CURSOR: pointer; BORDER-TOP-COLOR: #555; BORDER-LEFT-COLOR: #555; COLOR: #555; BORDER-BOTTOM-COLOR: #555; BORDER-RIGHT-COLOR: #555
+}
+#ConfigurePlaceContainer .Button:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+#ConfigurePlaceContainer .Label {
+	FONT-SIZE: 1.2em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#ConfigurePlaceContainer .TextBox {
+	BORDER-TOP: #555 1px dashed; BORDER-RIGHT: #555 1px dashed; WIDTH: 400px; BORDER-BOTTOM: #555 1px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 10px; BORDER-LEFT: #555 1px dashed; MARGIN: 0px; PADDING-RIGHT: 10px
+}
+#ConfigurePlaceContainer .MultilineTextBox {
+	BORDER-TOP: #555 1px dashed; BORDER-RIGHT: #555 1px dashed; WIDTH: 400px; BORDER-BOTTOM: #555 1px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 10px; BORDER-LEFT: #555 1px dashed; MARGIN: 0px; PADDING-RIGHT: 10px
+}
+#ConfigurePlaceContainer .Suggestion {
+	FONT: 0.8em Verdana,sans-serif; PADDING-LEFT: 9px
+}
+#ConfigurePlaceContainer .popupControl {
+	BORDER-TOP-COLOR: #000; BORDER-LEFT-COLOR: #000; BORDER-BOTTOM-COLOR: #000; BORDER-RIGHT-COLOR: #000
+}
+#ConfigurePlaceContainer .PopUpOption {
+	PADDING-BOTTOM: 4px; PADDING-TOP: 4px; FONT: 0.8em Verdana,sans-serif; PADDING-LEFT: 4px; PADDING-RIGHT: 4px
+}
+#ConfigurePlaceContainer .PopUpInstruction {
+	PADDING-BOTTOM: 4px; TEXT-ALIGN: center; PADDING-TOP: 4px; FONT: 1.1em Verdana,sans-serif; PADDING-LEFT: 4px; PADDING-RIGHT: 4px
+}
+#Place_PlacePanel {
+	WIDTH: 490px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+#Place_AuthorPanel {
+	WIDTH: 200px; FLOAT: left
+}
+#Place_GamesPanel {
+	WIDTH: 700px; MARGIN-TOP: 10px; CLEAR: left
+}
+#ConfigureShowcase {
+	FONT-FAMILY: Verdana,sans-serif
+}
+#ConfigureShowcase H2 {
+	FONT-SIZE: 2.5em; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#ConfigureShowcase .CallbackStyle {
+	BORDER-TOP: blue thin inset; BORDER-RIGHT: blue thin inset; BORDER-BOTTOM: blue thin inset; BORDER-LEFT: blue thin inset
+}
+#ConfigureShowcase .DragHandle {
+	CURSOR: move; BORDER-TOP: white 1px outset; HEIGHT: 101px; BORDER-RIGHT: white 1px outset; WIDTH: 161px; BORDER-BOTTOM: white 1px outset; BORDER-LEFT: white 1px outset
+}
+#ConfigureShowcase .ItemArea {
+	FONT-SIZE: 1.2em; HEIGHT: 82px; WIDTH: 500px; FLOAT: left; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+#ConfigureShowcase .ActionsArea {
+	HEIGHT: 82px; WIDTH: 155px; FLOAT: left; FONT-WEIGHT: bold; PADDING-BOTTOM: 10px; TEXT-ALIGN: right; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+#ConfigureShowcase .ReorderCue {
+	BORDER-TOP: black thin dashed; HEIGHT: 101px; BORDER-RIGHT: black thin dashed; WIDTH: 100%; BORDER-BOTTOM: black thin dashed; BORDER-LEFT: black thin dashed
+}
+#ConfigureShowcase UL {
+	MARGIN: 0px
+}
+#ConfigureShowcase OL {
+	MARGIN: 0px
+}
+#ConfigureShowcase LI {
+	LIST-STYLE-TYPE: none; BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 100%; BORDER-BOTTOM: #000 1px solid; COLOR: #000; BORDER-LEFT: #000 1px solid; MARGIN: 3px 0px
+}
+#ConfigureShowcase BLOCKQUOTE LI {
+	BORDER-TOP-STYLE: none; LIST-STYLE-TYPE: circle; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN-LEFT: 20px
+}
+#EditProfileContainer {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 620px; BORDER-BOTTOM: #000 1px solid; COLOR: #555; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; BACKGROUND-COLOR: #eee
+}
+#EditProfileContainer H2 {
+	FONT-SIZE: x-large; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#EditProfileContainer H3 {
+	TEXT-ALIGN: center
+}
+#EditProfileContainer FIELDSET {
+	FONT-SIZE: 1.2em; MARGIN: 15px 0px 0px
+}
+#EditProfileContainer .MultilineTextBox {
+	WIDTH: 250px
+}
+#EditProfileContainer .TextBox {
+	WIDTH: 150px; VERTICAL-ALIGN: middle
+}
+#EditProfileContainer .Label {
+	VERTICAL-ALIGN: middle
+}
+#EditProfileContainer #Confirmation {
+	BORDER-TOP: #f00 1px dashed; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #f00 1px dashed; WIDTH: 410px; BORDER-BOTTOM: #f00 1px dashed; COLOR: #f00; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 5px; BORDER-LEFT: #f00 1px dashed; MARGIN: 10px auto 0px; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #ccc
+}
+#EditProfileContainer #AgeGroup {
+	WIDTH: 60%; MARGIN: 0px auto
+}
+#EditProfileContainer #ChatMode {
+	WIDTH: 60%; MARGIN: 0px auto
+}
+#EditProfileContainer #PrivacyMode {
+	WIDTH: 60%; MARGIN: 0px auto
+}
+#EditProfileContainer #ResetPassword {
+	WIDTH: 60%; MARGIN: 0px auto
+}
+#EditProfileContainer #Blurb {
+	WIDTH: 60%; MARGIN: 0px auto
+}
+#EditProfileContainer #EnterEmail {
+	WIDTH: 60%; TEXT-ALIGN: left; MARGIN: 0px auto
+}
+#EditProfileContainer .Buttons {
+	TEXT-ALIGN: center; MARGIN: 20px 0px
+}
+#EditProfileContainer .AgeGroupRow {
+	FONT-SIZE: 0.9em; MARGIN: 10px 0px 10px 100px
+}
+#EditProfileContainer .ChatModeRow {
+	FONT-SIZE: 0.9em; MARGIN: 10px 0px 10px 100px
+}
+#EditProfileContainer .ResetPasswordRow {
+	TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+#EditProfileContainer .BlurbRow {
+	PADDING-BOTTOM: 10px; TEXT-ALIGN: right; PADDING-TOP: 10px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px
+}
+#EditProfileContainer .Legend {
+	COLOR: blue; MARGIN-LEFT: 9px
+}
+#EditProfileContainer .Suggestion {
+	FONT: 0.8em Verdana,sans-serif; PADDING-LEFT: 9px
+}
+#EditProfileContainer .Validators {
+	MARGIN-LEFT: 9px
+}
+.FrontPagePanel {
+	BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; FLOAT: left; BORDER-LEFT: black 1px solid; MARGIN: 5px; BACKGROUND-COLOR: white
+}
+#SignInPane {
+	BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 250px; WIDTH: 152px; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; MARGIN-LEFT: 0px
+}
+#Movie {
+	HEIGHT: 250px; WIDTH: 424px
+}
+#FrontPageRectangleAd {
+	HEIGHT: 250px; WIDTH: 300px; MARGIN: 5px 0px 5px 5px; BACKGROUND-COLOR: transparent
+}
+#SalesPitch {
+	HEIGHT: 90px; WIDTH: 586px; MARGIN-LEFT: 0px
+}
+#WhatsNew {
+	HEIGHT: 280px; WIDTH: 586px; MARGIN-LEFT: 0px
+}
+#RandomFacts {
+	HEIGHT: 150px; WIDTH: 300px; FLOAT: right; MARGIN-RIGHT: 0px
+}
+.RandomFactoid {
+	OVERFLOW: hidden; HEIGHT: 32px; WIDTH: 290px; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px
+}
+#marqueecontainer {
+	OVERFLOW: hidden; HEIGHT: 100px; WIDTH: 300px; POSITION: relative; BACKGROUND-COLOR: white
+}
+.RandomFactoid IMG {
+	FLOAT: left
+}
+#ParentsCorner {
+	HEIGHT: 220px; WIDTH: 300px; MARGIN-RIGHT: 0px; _height: 240px
+}
+#ParentsCorner #Inside {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.ShieldImage {
+	FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.TrusteeSeal {
+	WIDTH: 140px; FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#NewsFeeder {
+	HEIGHT: 90px; WIDTH: 158px; MARGIN-RIGHT: 0px
+}
+#FrontPageBannerAd {
+	HEIGHT: 90px; WIDTH: 728px; MARGIN-LEFT: 0px; BACKGROUND-COLOR: transparent
+}
+.BadAdButton {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 0.8em; HEIGHT: 8px; FONT-FAMILY: Verdana; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; RIGHT: 0px; POSITION: relative; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; TOP: -2px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: transparent
+}
+.BadAdButton:hover {
+	TEXT-DECORATION: none; BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #fff
+}
+#InviteAFriendContainer {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+#InviteAFriendContainer H3 {
+	WIDTH: 700px; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px auto; PADDING-RIGHT: 0px
+}
+#InviteAFriendContainer #Exposition {
+	WIDTH: 700px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px auto; PADDING-RIGHT: 0px
+}
+#InviteAFriendContainer .Buttons {
+	WIDTH: 700px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 0px; MARGIN: 0px auto; PADDING-RIGHT: 0px
+}
+#InviteAFriendContainer .Button {
+	TEXT-DECORATION: none; BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; FLOAT: right; COLOR: #000; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 10px; BORDER-LEFT: #000 1px solid; MARGIN: 0px 0px 0px 10px; PADDING-RIGHT: 10px
+}
+#InviteAFriendContainer .MultilineTextBox {
+	BORDER-TOP-STYLE: dashed; BORDER-LEFT-STYLE: dashed; FONT-FAMILY: Arial,Sans-Serif; BORDER-TOP-COLOR: gray; WIDTH: 92%; BORDER-BOTTOM-STYLE: dashed; BORDER-LEFT-COLOR: gray; PADDING-BOTTOM: 5px; BORDER-BOTTOM-COLOR: gray; PADDING-TOP: 5px; BORDER-RIGHT-STYLE: dashed; PADDING-LEFT: 5px; BORDER-RIGHT-COLOR: gray; LINE-HEIGHT: 1.5em; PADDING-RIGHT: 5px
+}
+#InviteAFriendContainer .TextBox {
+	BORDER-TOP-STYLE: dashed; BORDER-LEFT-STYLE: dashed; FONT-FAMILY: Arial,Sans-Serif; BORDER-TOP-COLOR: gray; WIDTH: 92%; BORDER-BOTTOM-STYLE: dashed; BORDER-LEFT-COLOR: gray; PADDING-BOTTOM: 5px; BORDER-BOTTOM-COLOR: gray; PADDING-TOP: 5px; BORDER-RIGHT-STYLE: dashed; PADDING-LEFT: 5px; BORDER-RIGHT-COLOR: gray; PADDING-RIGHT: 5px
+}
+#InviteAFriendContainer .Label {
+	FONT-WEIGHT: bold
+}
+#InviteAFriendContainer #InvitationElements {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 688px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; PADDING-RIGHT: 5px
+}
+#InviteAFriendContainer #Name {
+	MARGIN: 15px 0px 0px
+}
+#InviteAFriendContainer #Recipients {
+	MARGIN: 15px 0px 0px
+}
+#InviteAFriendContainer #Message {
+	MARGIN: 15px 0px 0px
+}
+#InviteAFriendContainer .FormLabel {
+	WIDTH: 94px; FLOAT: left
+}
+#InviteAFriendContainer .FormField {
+	WIDTH: 317px; FLOAT: left
+}
+#InviteAFriendContainer .FormNotes {
+	FONT-SIZE: xx-small; FONT-FAMILY: Verdana; WIDTH: 277px; FLOAT: right
+}
+#InviteAFriendContainer #Confirmation H3 {
+	WIDTH: 400px; TEXT-ALIGN: left; MARGIN: 0px auto
+}
+#InviteAFriendContainer #Confirmation #Message {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 380px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; PADDING-RIGHT: 10px
+}
+#InviteAFriendContainer #Confirmation .Buttons {
+	WIDTH: 400px; MARGIN: 0px auto
+}
+#SplashContainer H2 {
+	FONT-SIZE: x-large; COLOR: #333; MARGIN: 0px 0px 5px
+}
+#SplashContainer H3 {
+	COLOR: #333; MARGIN: 0px 0px 15px; LETTER-SPACING: normal
+}
+#SplashContainer #SignInPane {
+	WIDTH: 150px; FLOAT: left
+}
+#RobloxNews {
+	OVERFLOW: hidden; HEIGHT: 90px; WIDTH: 158px; FLOAT: left; BACKGROUND-COLOR: #eee
+}
+#SplashContainer #Figure {
+	MARGIN-TOP: 60px
+}
+#SplashContainer #RobloxAtAGlance {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 715px; BORDER-BOTTOM: #000 1px solid; POSITION: relative; FLOAT: right; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #000 1px solid; MARGIN: 0px 0px 10px; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #eee
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo {
+	LIST-STYLE-TYPE: none; WIDTH: 292px; FLOAT: left; COLOR: #666; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo LI {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 56px; MARGIN: 0px 0px 25px; PADDING-RIGHT: 0px
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo H3 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 5px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo #Point1 {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/BuildIcon.png)
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo #Point2 {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/FriendsIcon.png)
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo #Point3 {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/BattleIcon.png)
+}
+#SplashContainer #RobloxAtAGlance #Showcase {
+	WIDTH: 400px; FLOAT: right; MARGIN: 0px
+}
+#SplashContainer #RobloxAtAGlance #Install {
+	WIDTH: 715px; CLEAR: both; MARGIN: 5px 0px 0px
+}
+#SplashContainer #RobloxAtAGlance #ForParents {
+	BORDER-TOP: #000 1px solid; HEIGHT: 125px; BORDER-RIGHT: #000 1px solid; WIDTH: 125px; BORDER-BOTTOM: #000 1px solid; POSITION: absolute; LEFT: 10px; BORDER-LEFT: #000 1px solid; BOTTOM: 10px
+}
+#SplashContainer #RobloxAtAGlance #PrivPolicy {
+	HEIGHT: 125px; WIDTH: 140px; POSITION: absolute; LEFT: 140px; BOTTOM: 10px
+}
+#SplashContainer #ForParents_SignedIn {
+	HEIGHT: 125px; WIDTH: 125px; PADDING-TOP: 20px
+}
+#SplashContainer #RobloxAtAGlance #Install #CompatibilityNote {
+	WIDTH: 310px; FLOAT: left; COLOR: #666; TEXT-ALIGN: right; FONT: 9px Verdana,Arial,Helvetica,sans-serif
+}
+#SplashContainer #RobloxAtAGlance #Install #DownloadAndPlay {
+	WIDTH: 400px; FLOAT: right
+}
+#SplashContainer #UserPlacesPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; CLEAR: both; BORDER-LEFT: #000 1px solid; MARGIN: 0px
+}
+#SplashContainer #UserPlacesPane #UserPlaces_Header {
+	BORDER-RIGHT: #000 1px solid; WIDTH: 142px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #bbb
+}
+#SplashContainer #UserPlacesPane #UserPlaces_Header H3 {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#SplashContainer #UserPlacesPane #UserPlaces_Header P {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LETTER-SPACING: 1px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#SplashContainer #UserPlaces_Content {
+	WIDTH: 715px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px
+}
+#SplashContainer #UserPlaces_Content .UserPlace {
+	HEIGHT: 70px; WIDTH: 120px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 10px; PADDING-RIGHT: 0px
+}
+#StoreContainer {
+	FONT-FAMILY: Verdana,Sans-Serif
+}
+#StoreContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LETTER-SPACING: 0.5em; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#StoreContainer H3 {
+	FONT-SIZE: 1.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 5px 0px; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#StoreContainer UL {
+	LIST-STYLE-TYPE: none; MARGIN: 10px 0px 30px
+}
+#StoreContainer UL LI {
+	MARGIN-BOTTOM: 0.5em
+}
+#StoreContainer UL A {
+	FONT-SIZE: 1.1em
+}
+#StoreContainer .DisplayFilters {
+	WIDTH: 150px
+}
+#StoreContainer #Products {
+	WIDTH: 585px; FLOAT: left; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#StoreContainer #Products #HeaderPager {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: right; PADDING-TOP: 2px; PADDING-LEFT: 0px; MARGIN: 0px 24px 0px 10px; PADDING-RIGHT: 0px
+}
+#StoreContainer #Products #FooterPager {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: right; PADDING-TOP: 2px; PADDING-LEFT: 0px; MARGIN: 0px 24px 0px 10px; PADDING-RIGHT: 0px
+}
+#StoreContainer #Products #HeaderPager {
+	MARGIN-BOTTOM: 10px
+}
+#StoreContainer #Products #HeaderPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+#StoreContainer #Products #FooterPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+#StoreContainer #Products #AdditionalPlace {
+	WIDTH: 420px; MARGIN: 0px auto
+}
+#StoreContainer #AdsPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 160px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; TEXT-ALIGN: right; BORDER-LEFT: #000 1px solid
+}
+#StoreContainer .Label {
+	FONT-SIZE: 0.8em
+}
+#StoreContainer .Detail {
+	FONT-SIZE: 0.8em
+}
+#StoreContainer .DetailHighlighted {
+	FONT-SIZE: 0.8em
+}
+#StoreContainer .DetailHighlighted {
+	FONT-WEIGHT: bold; COLOR: red
+}
+#StoreContainer .Thumbnail {
+	BORDER-TOP: #000 1px solid; HEIGHT: 230px; BORDER-RIGHT: #000 1px solid; WIDTH: 420px; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#StoreContainer .Price {
+	FONT-WEIGHT: bold; MARGIN: 5px 0px
+}
+#StoreContainer .InsufficientFunds {
+	COLOR: red
+}
+#BuildersClubContainer {
+	BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #fff
+}
+#CancelBuildersClubContainer {
+	BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 80px; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; PADDING-RIGHT: 80px; BACKGROUND-COLOR: #fff
+}
+#PaymentMethodsContainer {
+	BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 80px; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; PADDING-RIGHT: 80px; BACKGROUND-COLOR: #fff
+}
+#PaymentContainer {
+	BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 80px; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; PADDING-RIGHT: 80px; BACKGROUND-COLOR: #fff
+}
+#PayPalContainer {
+	BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 80px; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; PADDING-RIGHT: 80px; BACKGROUND-COLOR: #fff
+}
+#CashContainer {
+	BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 80px; BORDER-LEFT: #000 1px solid; MARGIN: 0px auto; PADDING-RIGHT: 80px; BACKGROUND-COLOR: #fff
+}
+#UpgradeCompleteContainer {
+	FONT-FAMILY: Verdana,Sans-Serif; MARGIN: 0px auto; BACKGROUND-COLOR: #fff
+}
+#CancelAccountUpgradeContainer {
+	FONT-FAMILY: Verdana,Sans-Serif; MARGIN: 0px auto; BACKGROUND-COLOR: #fff
+}
+#ManageAccountUpgradesContainer {
+	FONT-FAMILY: Verdana,Sans-Serif; MARGIN: 0px auto; BACKGROUND-COLOR: #fff
+}
+#AccountUpgradesConfirmationContainer {
+	FONT-FAMILY: Verdana,Sans-Serif; MARGIN: 0px auto; BACKGROUND-COLOR: #fff
+}
+#CancelBuildersClubContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#PaymentMethodsContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#PaymentContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#PayPalContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#CashContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#UpgradeCompleteContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#ManageAccountUpgradesContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#CancelAccountUpgradeContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#AccountUpgradesConfirmationContainer H2 {
+	FONT-SIZE: 2.5em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+#UpgradeCompleteContainer H2 {
+	FONT-SIZE: 2em; WIDTH: 600px; MARGIN: 10px auto 0px; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1.5em
+}
+#CancelAccountUpgradeContainer H2 {
+	FONT-SIZE: 2em; WIDTH: 600px; MARGIN: 10px auto 0px; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1.5em
+}
+#ManageAccountUpgradesContainer H2 {
+	FONT-SIZE: 2em; WIDTH: 600px; MARGIN: 10px auto 0px; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1.5em
+}
+#AccountUpgradesConfirmationContainer H2 {
+	FONT-SIZE: 2em; WIDTH: 600px; MARGIN: 10px auto 0px; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1.5em
+}
+#UpgradeCompleteContainer P {
+	LINE-HEIGHT: 1.6em
+}
+#ManageAccountUpgradesContainer P {
+	LINE-HEIGHT: 1.6em
+}
+#AccountUpgradesConfirmationContainer P {
+	LINE-HEIGHT: 1.6em
+}
+#JoinBuildersClubNow {
+	BORDER-BOTTOM: #000 1px solid
+}
+#MembershipOptions {
+	WIDTH: 762px; MARGIN: 20px auto 0px
+}
+#MembershipOptions #OneMonth {
+	WIDTH: 214px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: 0px; PADDING-RIGHT: 20px
+}
+#MembershipOptions #SixMonths {
+	WIDTH: 214px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: 0px; PADDING-RIGHT: 20px
+}
+#MembershipOptions #TwelveMonths {
+	WIDTH: 214px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: 0px; PADDING-RIGHT: 20px
+}
+#SpecialMembershipOption #Lifetime {
+	WIDTH: 214px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: 0px; PADDING-RIGHT: 20px
+}
+#MembershipOptions .Label {
+	TEXT-ALIGN: center
+}
+#SpecialMembershipOption .Label {
+	TEXT-ALIGN: center
+}
+#WhyJoin {
+	WIDTH: 375px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 30px 10px 20px 90px; DISPLAY: inline; PADDING-RIGHT: 0px
+}
+#WhyJoin H3 {
+	FONT-SIZE: 15pt; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 15px; LETTER-SPACING: 0.2em; PADDING-RIGHT: 0px
+}
+#WhyJoin #MembershipBenefits {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#WhyJoin #MembershipBenefits LI {
+	FONT-SIZE: 11pt; FONT-FAMILY: Verdana,Sans-Serif; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 40px; MIN-HEIGHT: 32px; MARGIN: 0px 0px 10px 10px; PADDING-RIGHT: 0px
+}
+#WhyJoin .MembershipBenefits {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#WhyJoin .MembershipBenefits LI {
+	FONT-SIZE: 11pt; FONT-FAMILY: Verdana,Sans-Serif; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0px 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 40px; MIN-HEIGHT: 32px; MARGIN: 0px 0px 10px 10px; PADDING-RIGHT: 0px
+}
+#WhyJoin .MembershipBenefits .Benefit_MultiplePlaces {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/MultiplePlacesBullet.png)
+}
+#WhyJoin .MembershipBenefits .Benefit_RobuxAllowance {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/AllowanceBullet.png)
+}
+#WhyJoin .MembershipBenefits .Benefit_SellContent {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/SellBullet.png)
+}
+#WhyJoin .MembershipBenefits .Benefit_SuppressAds {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/AdSuppressionBullet.png)
+}
+#WhyJoin .MembershipBenefits .Benefit_ExclusiveHat {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/HardHatBullet.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_OwnPlace {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletHouse.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_GetTix {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletTreasure.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_BuyStuff {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletShoppingBag.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_CustomizeGuy {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletWizardHat.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Username {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletStar.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Forums {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletScript.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Stats {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletStats.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Comments {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletPencil.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Badges {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletBadges.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Friends {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletFriends.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_WeRock {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletCreative.png)
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_OhYeahItsFree {
+	BACKGROUND-IMAGE: url(/web/20090604133500im_/http://www.roblox.com/images/JoinBulletHappy.png)
+}
+#SpecialMembershipOption {
+	WIDTH: 254px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 30px 69px 0px 10px; DISPLAY: inline; PADDING-RIGHT: 0px
+}
+#Cancellation {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 270px; BORDER-BOTTOM: #000 1px solid; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; BORDER-LEFT: #000 1px solid; MARGIN: 30px 90px 30px 10px; DISPLAY: inline; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #efefef
+}
+#Cancellation H4 {
+	BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px -10px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #ccc
+}
+#Cancellation P {
+	WIDTH: 80%; PADDING-BOTTOM: 0px; PADDING-TOP: 15px; PADDING-LEFT: 0px; MARGIN: 0px auto; PADDING-RIGHT: 0px
+}
+#Cancellation .CancelButton {
+	TEXT-ALIGN: center; MARGIN: 20px auto
+}
+#PaymentMethodsContainer .PaymentMethods {
+	BORDER-TOP: #ccc 1px solid; WIDTH: 738px; BORDER-BOTTOM: #ccc 1px solid; MARGIN: 20px 0px
+}
+#PaymentMethodsContainer .PaymentMethod {
+	BORDER-TOP: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #eee
+}
+#PaymentMethodsContainer .PaymentMethodName {
+	FONT-SIZE: medium
+}
+#PaymentContainer #Account {
+	MARGIN-BOTTOM: 20px
+}
+#PaymentContainer #BillingInfo {
+	MARGIN-BOTTOM: 20px
+}
+#PaymentContainer #ProductAndPricing {
+	MARGIN-BOTTOM: 20px
+}
+#PaymentContainer #CreditCard {
+	MARGIN-BOTTOM: 20px
+}
+#PayPalContainer #ConfirmDetails {
+	MARGIN-BOTTOM: 20px
+}
+#CashContainer #ConfirmDetails {
+	MARGIN-BOTTOM: 20px
+}
+#PayPalContainer #Notes {
+	MARGIN-BOTTOM: 20px
+}
+#CashContainer #Notes {
+	MARGIN-BOTTOM: 20px
+}
+#PaymentContainer #Pay {
+	TEXT-ALIGN: center; MARGIN: 0px auto
+}
+#PayPalContainer #Continue {
+	TEXT-ALIGN: center; MARGIN: 0px auto
+}
+#PaymentContainer .TextBox {
+	FONT-SIZE: 16px; HEIGHT: 20px; PADDING-BOTTOM: 2px; PADDING-TOP: 4px; PADDING-LEFT: 5px; MARGIN: 5px 0px; PADDING-RIGHT: 5px
+}
+#PaymentContainer .CreditCardNumberTextBox {
+	FONT-SIZE: 16px; HEIGHT: 20px; PADDING-BOTTOM: 2px; PADDING-TOP: 4px; PADDING-LEFT: 5px; MARGIN: 5px 0px; PADDING-RIGHT: 5px
+}
+#PaymentContainer .TextBox {
+	WIDTH: 290px
+}
+#PaymentContainer .CreditCardNumberTextBox {
+	BORDER-TOP: gray 2px dashed; FONT-FAMILY: Verdana,Sans-Serif; BORDER-RIGHT: gray 2px dashed; WIDTH: 160px; BORDER-BOTTOM: gray 2px dashed; BORDER-LEFT: gray 2px dashed
+}
+#PaymentContainer .DropDownList {
+	FONT-SIZE: 16px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px 0px; PADDING-RIGHT: 0px
+}
+#PaymentContainer .ShortDropDownList {
+	FONT-SIZE: 16px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px 0px; PADDING-RIGHT: 0px
+}
+#PaymentContainer .DropDownList {
+	WIDTH: 305px
+}
+#PaymentContainer .Detail {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 40px; BORDER-BOTTOM: #ccc 1px solid; LINE-HEIGHT: 40px; BACKGROUND-COLOR: #eee
+}
+#PayPalContainer .Detail {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 40px; BORDER-BOTTOM: #ccc 1px solid; LINE-HEIGHT: 40px; BACKGROUND-COLOR: #eee
+}
+#CashContainer .Detail {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 40px; BORDER-BOTTOM: #ccc 1px solid; LINE-HEIGHT: 40px; BACKGROUND-COLOR: #eee
+}
+#PaymentContainer .Label {
+	FONT-SIZE: 1.25em; HEIGHT: 40px; WIDTH: 250px; VERTICAL-ALIGN: middle; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 40px; PADDING-RIGHT: 10px
+}
+#PayPalContainer .Label {
+	FONT-SIZE: 1.25em; HEIGHT: 40px; WIDTH: 250px; VERTICAL-ALIGN: middle; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 40px; PADDING-RIGHT: 10px
+}
+#CashContainer .Label {
+	FONT-SIZE: 1.25em; HEIGHT: 40px; WIDTH: 250px; VERTICAL-ALIGN: middle; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 40px; PADDING-RIGHT: 10px
+}
+#PaymentContainer .Field {
+	HEIGHT: 40px; WIDTH: 350px; VERTICAL-ALIGN: middle; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 40px; PADDING-RIGHT: 10px
+}
+#PayPalContainer .Field {
+	HEIGHT: 40px; WIDTH: 350px; VERTICAL-ALIGN: middle; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 40px; PADDING-RIGHT: 10px
+}
+#CashContainer .Field {
+	HEIGHT: 40px; WIDTH: 350px; VERTICAL-ALIGN: middle; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 40px; PADDING-RIGHT: 10px
+}
+#PaymentContainer .Button {
+	FONT-SIZE: 16px; MARGIN: 0px 3px
+}
+#PayPalContainer .Button {
+	FONT-SIZE: 16px; MARGIN: 0px 3px
+}
+#PaymentMethodsContainer .ExistingSubscription {
+	FONT-SIZE: 16px; WIDTH: 50%; COLOR: blue; TEXT-ALIGN: center
+}
+#PayPalContainer .PayPalDisallowedMessage {
+	FONT-SIZE: 16px; WIDTH: 90%; COLOR: blue; PADDING-BOTTOM: 12px
+}
+#PaymentDetails #Account .Field {
+	FONT-SIZE: 1.25em; FONT-WEIGHT: bold
+}
+#PaymentDetails #ProductAndPricing .Field {
+	FONT-SIZE: 1.25em; FONT-WEIGHT: bold
+}
+#PayPalContainer #ConfirmDetails .Field {
+	FONT-SIZE: 1.25em; FONT-WEIGHT: bold
+}
+#CashContainer #ConfirmDetails .Field {
+	FONT-SIZE: 1.25em; FONT-WEIGHT: bold
+}
+#UpgradeCompleteContainer #Message {
+	BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; WIDTH: 580px; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #ccc 1px solid; MARGIN: 15px auto 0px; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #eee
+}
+#CancelAccountUpgradeContainer #Message {
+	BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; WIDTH: 580px; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #ccc 1px solid; MARGIN: 15px auto 0px; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #eee
+}
+#ManageAccountUpgradesContainer #CurrentAccountUpgrades {
+	BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; WIDTH: 580px; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #ccc 1px solid; MARGIN: 15px auto 0px; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #eee
+}
+#AccountUpgradesConfirmationContainer #Message {
+	BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; WIDTH: 580px; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #ccc 1px solid; MARGIN: 15px auto 0px; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #eee
+}
+#ManageAccountUpgradesContainer #CurrentAccountUpgrades {
+	MARGIN-TOP: 25px
+}
+.ExtensionNote {
+	MARGIN: 10px 0px
+}
+.UpgradeStatus {
+	FONT-WEIGHT: bold; TEXT-ALIGN: center; MARGIN: 20px
+}
+#UserContainer {
+	FONT-FAMILY: Verdana,Sans-Serif
+}
+#UserContainer #LeftBank {
+	WIDTH: 444px; FLOAT: left; TEXT-ALIGN: center
+}
+#UserContainer #RightBank {
+	WIDTH: 444px; FLOAT: right; TEXT-ALIGN: center
+}
+#UserContainer #LeftBank #UserPageLargeRectangleAd {
+	BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+#ProfilePane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#UserPlacesPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#UserBadgesPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#UserStatisticsPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#FriendsPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#FavoritesPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+.FriendRequestsPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+#UserAssetsPane {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid
+}
+.FriendRequestsPane {
+	TEXT-ALIGN: center; CLEAR: both; MARGIN: 10px 0px 0px
+}
+#UserModelsContainer {
+	TEXT-ALIGN: center; CLEAR: both; MARGIN: 10px 0px 0px
+}
+#UserAssetsPane {
+	TEXT-ALIGN: center; CLEAR: both; MARGIN: 10px 0px 0px
+}
+#UserBadgesPane {
+	MARGIN: 10px 0px 0px
+}
+#UserStatisticsPane {
+	MARGIN: 10px 0px 0px
+}
+#UserStatisticsPane {
+	TEXT-ALIGN: left
+}
+#FriendsPane {
+	CLEAR: right; MARGIN: 10px 0px 0px
+}
+#FavoritesPane {
+	CLEAR: right; MARGIN: 10px 0px 0px
+}
+#UserAssetsPane {
+	MARGIN-BOTTOM: 10px
+}
+#UserBadgesPane #UserBadges {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #fff
+}
+#ProfilePane H4 {
+	FONT-SIZE: 1.3em; BORDER-TOP: #000 1px solid; FONT-FAMILY: Comic Sans MS,Verdana,Sans-Serif; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#ProfilePane P {
+	MARGIN: 0.9em 0px; LINE-HEIGHT: 1.6em
+}
+#UserAssetsPane #UserAssets H4 {
+	FONT-FAMILY: Comic Sans MS,Verdana,Sans-Serif; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#UserBadgesPane #UserBadges H4 {
+	FONT-FAMILY: Comic Sans MS,Verdana,Sans-Serif; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#UserPlacesPane #UserPlaces H4 {
+	FONT-FAMILY: Comic Sans MS,Verdana,Sans-Serif; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#UserStatisticsPane #UserStatistics H4 {
+	FONT-FAMILY: Comic Sans MS,Verdana,Sans-Serif; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#FavoritesPane #Favorites H4 {
+	FONT-FAMILY: Comic Sans MS,Verdana,Sans-Serif; BORDER-BOTTOM: #000 1px solid; COLOR: #333; TEXT-ALIGN: center; MARGIN: 0px; BACKGROUND-COLOR: #ccc
+}
+#UserPlacesPane #UserPlaces H4 {
+	FONT-SIZE: 1.4em; FONT-FAMILY: Verdana,Sans-Serif; FONT-WEIGHT: normal; COLOR: #fff; LETTER-SPACING: 0.1em; LINE-HEIGHT: 1.5em; BACKGROUND-COLOR: #6e99c9
+}
+#UserStatisticsPane #UserStatistics {
+	PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #eee
+}
+#UserStatisticsPane #UserStatistics H4 {
+	MARGIN-BOTTOM: 5px
+}
+#UserStatisticsPane #UserStatistics .Statistic {
+	WIDTH: 385px; MARGIN: 0px auto; LINE-HEIGHT: 1.8em
+}
+#UserStatisticsPane #UserStatistics .Label {
+	WIDTH: 178px; FLOAT: left; TEXT-ALIGN: right
+}
+#UserStatisticsPane #UserStatistics .Value {
+	WIDTH: 177px; FLOAT: right
+}
+#UserModelsContainer {
+	TEXT-ALIGN: left
+}
+#Friends H4 {
+	FONT-SIZE: 10pt; MARGIN-BOTTOM: 5px; MARGIN-TOP: 5px; FONT-WEIGHT: bold; LINE-HEIGHT: 1em
+}
+#FriendRequests H4 {
+	FONT-SIZE: 10pt; MARGIN-BOTTOM: 5px; MARGIN-TOP: 5px; FONT-WEIGHT: bold; LINE-HEIGHT: 1em
+}
+.NoResults {
+	PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 10px; LINE-HEIGHT: 1.3em; PADDING-RIGHT: 10px
+}
+.Badge {
+	TEXT-ALIGN: center; MARGIN: 10px
+}
+.Friend {
+	MARGIN: 10px
+}
+.Friend .Avatar {
+	TEXT-ALIGN: center
+}
+.Friend .Summary {
+	MARGIN-TOP: 5px; TEXT-ALIGN: center
+}
+.Friend .Options {
+	MARGIN-TOP: 5px; TEXT-ALIGN: center
+}
+#UserContainer .CollapsiblePanelHint {
+	COLOR: #999; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+#UserContainer #AssetsMenu {
+	WIDTH: 178px; FLOAT: left
+}
+#UserContainer #AssetSearchOption {
+	FLOAT: left
+}
+#UserContainer #AssetUploadOption {
+	FLOAT: right
+}
+#UserContainer #AssetsList {
+	CLEAR: both
+}
+#UserAssetsPane .AssetsMenuItem {
+	BORDER-TOP: #777 1px solid; BORDER-RIGHT: #777 1px solid; WIDTH: 100px; BORDER-BOTTOM: #777 1px solid; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 10px; BORDER-LEFT: #777 1px solid; MARGIN: 15px; PADDING-RIGHT: 10px
+}
+#UserAssetsPane .AssetsMenuItem:hover {
+	CURSOR: pointer; BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 100px; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; MARGIN: 15px
+}
+#UserAssetsPane .AssetsMenuItem_Selected {
+	BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; WIDTH: 100px; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 10px; BORDER-LEFT: #000 1px solid; MARGIN: 15px; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #6e99c9
+}
+#UserAssetsPane .AssetsMenuButton {
+	COLOR: #777; FONT: 14px Verdana,sans-serif
+}
+#UserAssetsPane .AssetsMenuButton:hover {
+	TEXT-DECORATION: none; COLOR: #000
+}
+#UserAssetsPane .AssetsMenuButton_Selected {
+	TEXT-DECORATION: none; COLOR: #fff; FONT: 14px Verdana,sans-serif
+}
+#UserPlaces .PanelFooter {
+	BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; COLOR: #333; PADDING-BOTTOM: 3px; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-LEFT: 3px; MARGIN: 0px; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #fff
+}
+#Favorites .PanelFooter {
+	BORDER-TOP: #000 1px solid; FONT-FAMILY: Verdana,Sans-Serif; COLOR: #333; PADDING-BOTTOM: 3px; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-LEFT: 3px; MARGIN: 0px; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #fff
+}
+#UserPlaces .AccordionHeader {
+	CURSOR: pointer; BORDER-TOP: #000 1px solid; BORDER-BOTTOM: #000 1px solid; PADDING-BOTTOM: 1px; TEXT-ALIGN: left; PADDING-TOP: 1px; FONT: bold 1em Verdana,sans-serif; PADDING-LEFT: 1em; MARGIN: 1px 0px; LETTER-SPACING: 0.1em; PADDING-RIGHT: 1em; BACKGROUND-COLOR: #ccc
+}
+#UserPlaces .AccordionHeader:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+#UserPlaces .Place {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+#UserPlaces .Place .PlayStatus {
+	MARGIN: 5px 0px 0px; DISPLAY: inline
+}
+#UserPlaces .Place .PlayOptions {
+	MARGIN: 5px 0px 0px; DISPLAY: inline
+}
+#UserPlaces .Place .PlayOptions .Button {
+	BORDER-TOP-COLOR: #333; BORDER-LEFT-COLOR: #333; COLOR: #333; BORDER-BOTTOM-COLOR: #333; MARGIN: 0px 3px; BORDER-RIGHT-COLOR: #333
+}
+#UserPlaces .Place .PlayOptions .Button:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #6e99c9
+}
+#UserPlaces .Place .Statistics {
+	BORDER-TOP: #555 1px dashed; BORDER-RIGHT: #555 1px dashed; COLOR: #555; FONT: 1em/1.7em Verdana,sans-serif; BORDER-LEFT: #555 1px dashed; MARGIN: 10px 0px 0px; LETTER-SPACING: 0.1em
+}
+#UserPlaces .Place .Thumbnail {
+	BORDER-TOP: #555 1px solid; BORDER-RIGHT: #555 1px solid; BORDER-BOTTOM: #555 1px solid; BORDER-LEFT: #555 1px solid; MARGIN: 0px
+}
+#UserPlaces .Place .Description {
+	OVERFLOW: auto; BORDER-TOP: #555 1px dashed; BORDER-RIGHT: #555 1px dashed; BORDER-BOTTOM: #555 1px dashed; COLOR: #555; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; FONT: 1em/1.7em Verdana,sans-serif; PADDING-LEFT: 10px; BORDER-LEFT: #555 1px dashed; MARGIN: 5px 0px 0px; PADDING-RIGHT: 10px; MAX-HEIGHT: 75px
+}
+#UserPlaces .Place .Configuration {
+	BORDER-RIGHT: #555 1px dashed; BORDER-BOTTOM: #555 1px dashed; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; FONT: 1em/1.7em Verdana,sans-serif; PADDING-LEFT: 10px; BORDER-LEFT: #555 1px dashed; PADDING-RIGHT: 10px
+}
+#UserContainer #AssetsContent {
+	FONT-FAMILY: Verdana,Sans-Serif; WIDTH: 662px; MIN-WIDTH: 0px; POSITION: relative; FLOAT: left; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-LEFT: 0px; MARGIN: 0px 28px; PADDING-RIGHT: 0px
+}
+#UserContainer #AssetsContent .HeaderPager {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; MARGIN: 0px 12px 0px 10px; PADDING-RIGHT: 0px
+}
+#UserContainer #FavoritesContent .HeaderPager {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; MARGIN: 0px 12px 0px 10px; PADDING-RIGHT: 0px
+}
+#UserContainer #AssetsContent .FooterPager {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; MARGIN: 0px 12px 0px 10px; PADDING-RIGHT: 0px
+}
+#UserContainer #FavoritesContent .FooterPager {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 0px; MARGIN: 0px 12px 0px 10px; PADDING-RIGHT: 0px
+}
+#UserContainer #AssetsContent .HeaderPager {
+	MARGIN-BOTTOM: 10px
+}
+#UserContainer #FavoritesContent .HeaderPager {
+	MARGIN-BOTTOM: 10px
+}
+#UserContainer #AssetsContent .HeaderPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+#UserContainer #FavoritesContent .HeaderPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+#UserContainer #AssetsContent .FooterPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+#UserContainer #FavoritesContent .FooterPager .Label {
+	FONT-SIZE: 1em; VERTICAL-ALIGN: middle
+}
+#UserContainer .Asset {
+	WIDTH: 112px; VERTICAL-ALIGN: top; MARGIN: 0px 10px 15px
+}
+#UserContainer .Asset .AssetThumbnail {
+	BORDER-TOP: #000 1px solid; HEIGHT: 110px; BORDER-RIGHT: #000 1px solid; WIDTH: 110px; BORDER-BOTTOM: #000 1px solid; POSITION: relative; TEXT-ALIGN: center; BORDER-LEFT: #000 1px solid
+}
+#UserContainer .Asset .AssetDetails {
+	OVERFLOW: hidden; WIDTH: 110px; PADDING-BOTTOM: 6px; TEXT-ALIGN: left; PADDING-TOP: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+#UserContainer .AssetName A {
+	FONT-SIZE: 0.9em; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; LINE-HEIGHT: 1.5em
+}
+.AssetsBullet {
+	PADDING-RIGHT: 3px
+}
+#UserContainer .Label {
+	FONT-SIZE: 0.8em
+}
+#UserContainer .Detail {
+	FONT-SIZE: 0.8em
+}
+#UserContainer .DetailHighlighted {
+	FONT-SIZE: 0.8em
+}
+#UserContainer .PriceInRobux {
+	FONT-SIZE: 0.8em
+}
+#UserContainer .PriceInTickets {
+	FONT-SIZE: 0.8em
+}
+#UserContainer .DetailHighlighted {
+	FONT-WEIGHT: bold; COLOR: red
+}
+#UserContainer .PriceInRobux {
+	FONT-WEIGHT: bold; COLOR: green
+}
+#UserContainer .PriceInTickets {
+	FONT-WEIGHT: bold; COLOR: #fbb117
+}
+.UserOnlineMessage {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana; COLOR: red
+}
+.UserOfflineMessage {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana; COLOR: gray
+}
+.AdPanel {
+	POSITION: relative
+}
+.BanishButtonOverlay {
+	FONT-SIZE: 0.8em; BORDER-TOP: #444 1px solid; BORDER-RIGHT: #444 1px solid; RIGHT: 0px; BORDER-BOTTOM: #444 1px solid; POSITION: absolute; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 3px; BORDER-LEFT: #444 1px solid; TOP: 0px; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #eee
+}
+.BanishButtonOverlay:hover {
+	TEXT-DECORATION: none; BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #fff
+}
+.DeleteButtonOverlay {
+	FONT-SIZE: 0.8em; BORDER-TOP: #444 1px solid; BORDER-RIGHT: #444 1px solid; RIGHT: 2px; BORDER-BOTTOM: #444 1px solid; POSITION: absolute; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 1px; PADDING-LEFT: 3px; BORDER-LEFT: #444 1px solid; TOP: 2px; PADDING-RIGHT: 3px; BACKGROUND-COLOR: #eee
+}
+.DeleteButtonOverlay:hover {
+	TEXT-DECORATION: none; BORDER-TOP: #000 1px solid; BORDER-RIGHT: #000 1px solid; BORDER-BOTTOM: #000 1px solid; BORDER-LEFT: #000 1px solid; BACKGROUND-COLOR: #fff
+}

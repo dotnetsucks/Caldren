@@ -1,0 +1,18 @@
+.subMenu {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 10px; HEIGHT: 20px; FONT-FAMILY: Arial, Helvetica, Sans-Serif; BORDER-RIGHT: #600000 1px solid; WHITE-SPACE: nowrap; BORDER-BOTTOM: #600000 1px solid; POSITION: relative; COLOR: #ffffff; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #600000 1px solid; Z-INDEX: 999; TOP: -10px
+}
+A.subMenuItem {
+	FONT-SIZE: 14px; TEXT-DECORATION: none; FONT-FAMILY: Arial, Helvetica, Sans-Serif; COLOR: #ffffff
+}
+A.subMenuItem:link {
+	FONT-SIZE: 14px; TEXT-DECORATION: none; FONT-FAMILY: Arial, Helvetica, Sans-Serif; COLOR: #ffffff
+}
+A.subMenuItem:visited {
+	FONT-SIZE: 14px; TEXT-DECORATION: none; FONT-FAMILY: Arial, Helvetica, Sans-Serif; COLOR: #ffffff
+}
+A.subMenuItem:hover {
+	TEXT-DECORATION: underline; COLOR: #ffffff
+}
+.selected.subMenuItem {
+	TEXT-DECORATION: underline; FONT-WEIGHT: bold
+}

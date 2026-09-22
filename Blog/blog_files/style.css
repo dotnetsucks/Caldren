@@ -1,0 +1,138 @@
+body {
+	background: url("/web/20101110144519im_/http://blog.roblox.com/wp-content/themes/earth-10/images/body-bg.gif") repeat-y top rgb(223, 219, 195); margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Verdana, Arial, "Times New Roman"; font-size: 1em;
+}
+#container {
+	margin: auto; width: 792px; font-size: 0.8em;
+}
+* html #container {
+	padding-left: 1px;
+}
+h2 {
+	margin: 0px;
+}
+a {
+	color: rgb(57, 23, 11);
+}
+a:hover {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+#header {
+	background: url("/web/20101110144519im_/http://blog.roblox.com/wp-content/themes/earth-10/images/NewBlogBanner.png") no-repeat top rgb(129, 104, 82); height: 124px; text-align: center;
+}
+#header h1 {
+	margin: 0px; padding: 0px; color: rgb(57, 23, 11); font-size: 1em;
+}
+#header h2 {
+	margin: 0px; padding: 0px; color: rgb(57, 23, 11); font-size: 1em;
+}
+#header h1 a {
+	padding: 3px 0px 0px 5px; color: rgb(57, 23, 11); font-size: 2em; text-decoration: none; display: block;
+}
+#header h1 a:hover {
+	padding: 3px 0px 0px 5px; color: rgb(255, 255, 255); font-size: 2em; text-decoration: none; display: block;
+}
+#header h2 {
+	padding: 5px 0px 0px 5px;
+}
+#headerlogo {
+	margin: 0px; padding: 5px; border: currentColor; border-image: none; width: 293px;
+}
+#content {
+	padding: 30px; width: 502px; float: left;
+}
+#content h2 {
+	background: url("/web/20101110144519im_/http://blog.roblox.com/wp-content/themes/earth-10/images/icon.gif") no-repeat 2px 14px; margin: 0px; padding: 10px 0px 0px 20px; color: rgb(57, 23, 11); font-size: 1.3em;
+}
+#content h2 a {
+	text-decoration: none;
+}
+#content h2 a:hover {
+	color: rgb(143, 135, 89); text-decoration: none;
+}
+#content h3 {
+	font-size: 1em;
+}
+#content .posted-by {
+	padding: 15px 0px 0px 25px; width: 150px; font-size: 0.7em; font-weight: normal; float: right; display: block;
+}
+#content .post-footer {
+	background: rgb(212, 206, 174); padding: 3px 10px; color: rgb(119, 119, 119); font-size: 8pt; border-top-color: rgb(57, 23, 11); border-bottom-color: rgb(57, 23, 11); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#content .post-footer a {
+	color: rgb(119, 119, 119); font-size: 8pt; font-weight: normal;
+}
+#content .post-footer a:hover {
+	color: rgb(119, 119, 119); font-size: 8pt; font-style: normal; font-weight: normal; text-decoration: underline;
+}
+#content .post-footer .meta {
+	width: 370px; float: left; display: block;
+}
+#content .post-footer .feedback {
+	float: right;
+}
+#content blockquote {
+	background: rgb(212, 206, 174); border-width: 1px 1px 1px 5px; border-style: solid; border-color: rgb(57, 23, 11); padding: 1px 15px; border-image: none;
+}
+#content a img {
+	background: rgb(255, 255, 255); margin: 8px 12px 8px 0px; padding: 1px; border: 2px solid rgb(187, 209, 126); border-image: none; float: left;
+}
+#content a:hover img {
+	border-color: rgb(74, 95, 18);
+}
+#content a {
+	color: rgb(57, 23, 11); font-weight: bold; text-decoration: none;
+}
+#content a:hover {
+	text-decoration: underline;
+}
+#content a:visited {
+	color: rgb(57, 23, 11);
+}
+#sidebar {
+	width: 230px; margin-bottom: 85px; float: left;
+}
+#sidebar h2 {
+	background: url("/web/20101110144519im_/http://blog.roblox.com/wp-content/themes/earth-10/images/sidebar-h2.gif") no-repeat bottom rgb(129, 104, 82); margin: 10px 0px; padding: 4px 25px 5px 0px; text-align: right; color: rgb(57, 23, 11); font-size: 1.2em;
+}
+#sidebar ul {
+	list-style: none; margin: 0px; padding: 0px; color: rgb(16, 37, 54);
+}
+#sidebar li {
+	list-style: none;
+}
+#sidebar ul li {
+	list-style: none;
+}
+#sidebar ul ul li {
+	background: url("/web/20101110144519im_/http://blog.roblox.com/wp-content/themes/earth-10/images/star.gif") no-repeat 5px 5px; padding-left: 16px;
+}
+#sidebar ul li ul {
+	padding: 0px 0px 0px 20px;
+}
+#sidebar ul li ul li a {
+	color: rgb(16, 37, 54); text-decoration: none;
+}
+#sidebar ul li ul li a:hover {
+	color: rgb(16, 37, 54); text-decoration: underline;
+}
+#sidebar ul li ul li ul {
+	padding: 2px 0px 2px 20px;
+}
+#searchform {
+	padding: 0px 20px;
+}
+#footer {
+	background: url("/web/20101110144519im_/http://blog.roblox.com/wp-content/themes/earth-10/images/footer.gif") repeat-x rgb(129, 104, 82); height: 27px; clear: both; font-size: 0.9em;
+}
+#footer * {
+	color: rgb(255, 255, 255);
+}
+#footer p {
+	margin: 0px; padding: 6px 5px 0px; float: left;
+}
+#footer p.rights-reserved {
+	width: 215px; text-align: center; float: right;
+}

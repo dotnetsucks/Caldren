@@ -1,0 +1,3018 @@
+body {
+	background: url("../../Sky/Sky.png") fixed no-repeat top / cover rgb(248, 252, 255); font: 8pt/normal "Comic Sans MS", Verdana, sans-serif; margin: 0px; text-transform: none; text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: blue;
+}
+a:visited {
+	color: blue;
+}
+a:active {
+	color: blue;
+}
+a:hover {
+	text-decoration: underline;
+}
+abbr {
+	border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+acronym {
+	border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+h2 {
+	letter-spacing: 1px;
+}
+h3 {
+	margin: 10px 0px; letter-spacing: 2px; font-size: 12pt; font-weight: bold;
+}
+h5 {
+	font: 11px/normal Verdana, sans-serif; padding: 5px; letter-spacing: 1px; font-size-adjust: none; font-stretch: normal;
+}
+input.Text {
+	border-style: dashed; border-color: rgb(119, 119, 119);
+}
+.AdminPanel {
+	border-style: dotted; border-color: orange; padding: 10px;
+}
+.ImageButton {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; text-decoration: none; cursor: pointer;
+}
+.Button {
+	padding: 3px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; color: rgb(51, 51, 51); font-family: Verdana,Sans-Serif; font-size: 0.9em; text-decoration: none; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+.Button:link {
+	border: 1px solid rgb(119, 119, 119); border-image: none; color: rgb(119, 119, 119);
+}
+.Button:visited {
+	border: 1px solid rgb(119, 119, 119); border-image: none; color: rgb(119, 119, 119);
+}
+.Button:hover {
+	border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+.Button:active {
+	border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+.Bullet {
+	margin-right: 10px; margin-bottom: 4px; float: left;
+}
+.Ads_RightSidebar {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 160px; text-align: right; float: right;
+}
+.Legalese {
+	font-size: 7pt;
+}
+#Container {
+	margin: 0px auto; width: 900px;
+}
+#Header {
+	font: bold 12px/normal Verdana, sans-serif; margin: 0px auto; width: 900px; text-align: center; color: white; border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid; font-size-adjust: none; font-stretch: normal;
+}
+#Header a {
+	color: white; text-decoration: none;
+}
+#Header a:visited {
+	color: white; text-decoration: none;
+}
+#Header a:active {
+	color: white; text-decoration: none;
+}
+#Header a:hover {
+	color: white; text-decoration: underline;
+}
+#Banner {
+	height: 72px; text-align: center; border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; background-image: url("https://gr2008.xyz/images/graphitebanner.png"); background-repeat: no-repeat;
+}
+#Banner #Options {
+	width: 287px; height: 72px; float: left; position: relative;
+}
+#Banner #Authentication {
+	padding: 4px; left: 0px; top: 0px; position: absolute;
+}
+#Banner #Options #Settings {
+	padding: 4px; left: 0px; bottom: 0px; position: absolute;
+}
+#Banner #Logo {
+	margin: 7px 0px; width: 293px; text-align: center; float: left;
+}
+#Banner #Alerts {
+	width: 210px; height: 72px; float: right;
+}
+#Banner #Alerts #AlertSpace {
+	margin: 0px auto; padding: 5px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 200px; text-align: center; color: rgb(110, 153, 201); background-color: rgb(255, 255, 255);
+}
+#Banner #Alerts #MessageAlert a {
+	color: rgb(110, 153, 201);
+}
+#Banner #Alerts #MessageAlert a:hover {
+	color: rgb(24, 116, 205);
+}
+#Banner #Alerts #RobuxAlert a {
+	color: green;
+}
+#Banner #Alerts #RobuxAlert a:hover {
+	color: rgb(73, 183, 69);
+}
+#Banner #Alerts #TicketsAlert a {
+	color: rgb(251, 177, 23);
+}
+#Banner #Alerts #TicketsAlert a:hover {
+	color: rgb(253, 208, 23);
+}
+.MessageAlertIcon {
+	vertical-align: middle;
+}
+.MessageAlertCaption {
+	vertical-align: middle;
+}
+.RobuxAlertIcon {
+	vertical-align: middle;
+}
+.RobuxAlertCaption {
+	vertical-align: middle;
+}
+#Header .Navigation {
+	color: rgb(255, 255, 255); line-height: 2em; clear: both; font-family: "Comic Sans MS",Verdana,sans-serif; font-size: 12pt; font-weight: normal; text-decoration: none; border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; background-color: rgb(110, 153, 201);
+}
+#AdvertisingLeaderboard {
+	margin: 0px auto 5px; width: 898px; text-align: center;
+}
+#AdvertisingSkyscraper {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 120px; text-align: right; float: right;
+}
+#RobloxLargeRectangleAd {
+	padding: 10px 0px;
+}
+#MasterContainer {
+	background: url("/web/20090604133500im_/http://www.roblox.com/images/bg_clouds.jpg") no-repeat top; width: 100%;
+}
+#Body {
+	margin: 10px 0px; width: 900px;
+}
+#Footer {
+	font: 8px/normal Verdana, sans-serif; width: 900px; text-align: center; margin-top: 10px; font-size-adjust: none; font-stretch: normal;
+}
+#Footer .FooterNav {
+	font-size: 10px;
+}
+#Footer .Legalese {
+	margin: 0px;
+}
+.Panel {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+.Panel h4 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+.MultilineTextBox {
+	padding: 5px; border: 2px dashed gray; border-image: none; line-height: 1.5em; font-family: Verdana,Sans-Serif; font-size: 1.2em;
+}
+.TextBox {
+	padding: 5px; border: 2px dashed gray; border-image: none; font-family: Verdana,Sans-Serif; font-size: 1.2em;
+}
+.Label {
+	font-weight: bold;
+}
+.BigButton {
+	height: 2.5em; color: rgb(0, 0, 0); font-family: Comic Sans MS; font-size: 20px; font-weight: bold; background-color: rgb(245, 205, 47);
+}
+.MediumButton {
+	height: 2.5em; color: rgb(0, 0, 0); font-family: Comic Sans MS; font-size: 15px; font-weight: bold; background-color: rgb(245, 205, 47);
+}
+.ErrorReporting {
+	margin: 16px auto; padding: 10px; width: 500px;
+}
+.ErrorReportingThanks {
+	margin: 16px auto; padding: 10px; width: 500px;
+}
+.YesNoButtons {
+	text-align: right;
+}
+.YesButton {
+	color: rgb(0, 0, 0); margin-left: 10px; background-color: rgb(245, 205, 47);
+}
+.NoButton {
+	color: rgb(0, 0, 0); margin-left: 10px; background-color: rgb(245, 205, 47);
+}
+.popupControl {
+	border: 1px outset rgb(255, 255, 255); border-image: none; visibility: hidden; position: absolute; background-color: rgb(255, 255, 255);
+}
+.ColorPickerItem {
+	border: 2px solid rgb(255, 255, 255);
+}
+.ColorPickerItem:hover {
+	border: 2px solid blue;
+}
+.modalBackground {
+	opacity: 0.3; background-color: gray;
+}
+.modalPopup {
+	padding: 3px; border: 3px solid gray; background-color: rgb(255, 255, 221);
+}
+.PopupMenu {
+	padding: 10px; border: 1px solid rgb(102, 102, 102); border-image: none; z-index: 1; background-color: rgb(255, 255, 255);
+}
+.PopupMenu .Button {
+	line-height: 2.5em;
+}
+.PopupMenu .Button:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+.Attention {
+	color: red;
+}
+.OKCancelButton {
+	width: 80px;
+}
+.MenuItem {
+	color: white; line-height: 2em; font-size: 18px;
+}
+a.MenuItem:link {
+	color: white; text-decoration: none;
+}
+a.MenuItem:visited {
+	color: white; text-decoration: none;
+}
+a.MenuItem:active {
+	color: white; text-decoration: none;
+}
+a.MenuItem:hover {
+	text-decoration: underline;
+}
+.Toolbox {
+	padding: 2px; background-color: buttonface;
+}
+.ToolboxItem {
+	border: 2px solid window; width: 52px; height: 52px;
+}
+.Grid {
+	border: 1px solid rgb(204, 204, 204); width: 800px; background-color: white;
+}
+.GridHeader {
+	color: white; background-color: rgb(176, 196, 222);
+}
+.GridItem {
+	color: rgb(0, 0, 102);
+}
+.GridItem:hover {
+	background-color: rgb(221, 221, 221);
+}
+.GridFooter {
+	color: white; background-color: rgb(176, 196, 222);
+}
+.GridPager {
+	text-align: center; color: white; font-weight: bold; background-color: rgb(176, 196, 222);
+}
+.Title {
+	font-size: 18px;
+}
+a.Title:link {
+	text-decoration: none;
+}
+a.Title:visited {
+	text-decoration: none;
+}
+a.Title:active {
+	text-decoration: none;
+}
+a.Title:hover {
+	text-decoration: underline;
+}
+.Header {
+	font-size: 14px;
+}
+.Banner {
+	padding: 8px;
+}
+.BannerText {
+	color: white; font-weight: bold;
+}
+a.BannerText:link {
+	color: white; text-decoration: none;
+}
+a.BannerText:visited {
+	color: white; text-decoration: none;
+}
+a.BannerText:active {
+	color: white; text-decoration: none;
+}
+a.BannerText:hover {
+	color: white; text-decoration: underline;
+}
+.PageSelector {
+	margin: 0px 0px 0px 10px; font-family: Verdana,Sans-Serif;
+}
+.PageSelector label {
+	font-weight: bold;
+}
+.DisplayFilters {
+	margin-right: 3px; float: left; position: relative; min-width: 0px;
+}
+.SearchBar {
+	margin: -5px 0px 5px; padding: 0px; border: 1px solid rgb(187, 187, 187); border-image: none; height: 30px; text-align: center; background-color: rgb(238, 238, 238);
+}
+.SearchBar .SearchBox {
+	margin: 0px; padding: 0px; height: 30px;
+}
+.SearchBar .SearchButton {
+	margin: 0px; padding: 0px; height: 30px;
+}
+.SearchBar .TextBox {
+	margin: 2px 0px 0px; padding: 2px 3px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 250px; height: 19px;
+}
+.SearchLinks {
+	font-family: Verdana,Sans-Serif; display: inline; z-index: 9;
+}
+.SearchLinks a span {
+	display: none;
+}
+.SearchLinks a:hover {
+	border: currentColor; border-image: none; text-decoration: none;
+}
+.SearchLinks a:hover span {
+	font: 11px/1.4em Verdana, sans-serif; margin: 5px; padding: 5px; border: 1px ridge gray; left: 15%; top: 20px; width: 60%; text-align: center; color: white; text-decoration: none; display: block; position: absolute; z-index: 10; font-size-adjust: none; font-stretch: normal; background-color: rgb(110, 153, 201);
+}
+.SearchError {
+	margin: 2px; padding: 2px; text-align: center; color: red; clear: both; float: none;
+}
+#MyAccountBalanceContainer {
+	font-family: Verdana,Sans-Serif;
+}
+#MyAccountBalanceContainer h2 {
+	margin: 10px 0px 0px -2px; padding: 0px; line-height: 1em; letter-spacing: 0.4em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#MyAccountBalanceContainer h3 {
+	margin: 0px; padding: 5px; text-align: center; line-height: 1em; letter-spacing: 0.1em; font-family: Comic Sans MS,Arial,Sans-Serif; font-size: 1.7em; font-weight: normal; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#MyAccountBalanceContainer h4 {
+	margin: 5px 0px; padding: 5px 5px 5px 15px; line-height: 1em; letter-spacing: 0.1em; font-family: Verdana,Sans-Serif; font-size: 1.2em; font-weight: normal;
+}
+#MyAccountBalanceContainer #AboutRobux {
+	width: 275px; margin-top: 20px; border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; float: right;
+}
+#MyAccountBalanceContainer #AboutRobux h3 {
+	border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid;
+}
+#MyAccountBalanceContainer #AboutRobux p {
+	margin: 0px; padding: 10px 15px;
+}
+#MyAccountBalanceContainer #Earnings {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 600px; padding-bottom: 10px; margin-top: 20px;
+}
+#MyAccountBalanceContainer .Earnings_Period {
+	margin-bottom: 20px;
+}
+#MyAccountBalanceContainer .Earnings_LoginAward {
+	padding: 0px 0px 0px 80px;
+}
+#MyAccountBalanceContainer .Earnings_PlaceTrafficAward {
+	padding: 0px 0px 0px 80px;
+}
+#MyAccountBalanceContainer .Earnings_SaleOfGoods {
+	padding: 0px 0px 0px 80px;
+}
+#MyAccountBalanceContainer .Earnings_Ambassador {
+	padding: 0px 0px 0px 80px;
+}
+#MyAccountBalanceContainer .Earnings_PeriodTotal {
+	padding: 0px 0px 0px 80px;
+}
+#MyAccountBalanceContainer .Earnings_LoginAward .Label {
+	width: 400px; float: left;
+}
+#MyAccountBalanceContainer .Earnings_PlaceTrafficAward .Label {
+	width: 400px; float: left;
+}
+#MyAccountBalanceContainer .Earnings_SaleOfGoods .Label {
+	width: 400px; float: left;
+}
+#MyAccountBalanceContainer .Earnings_PeriodTotal .Label {
+	width: 390px; text-align: right; padding-right: 10px; float: left;
+}
+#MyAccountBalanceContainer .Field {
+	width: 55px; float: right;
+}
+table.stats {
+	border: 0px currentColor; border-image: none; width: 280px; text-align: center; color: rgb(255, 255, 255); font-family: Verdana,Geneva,Arial,Helvetica,sans-serif; font-size: 11px; font-weight: normal; border-collapse: collapse; border-spacing: 0; background-color: rgb(102, 102, 102);
+}
+table.stats td {
+	padding: 4px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: left; color: rgb(0, 0, 0); background-color: rgb(204, 204, 204);
+}
+table.stats td.hed {
+	padding: 4px; text-align: left; color: rgb(255, 255, 255); font-size: 12px; font-weight: bold; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 2px; border-bottom-style: solid; background-color: rgb(102, 102, 102);
+}
+#AssetContainer {
+	margin: 0px auto; width: 620px;
+}
+#AssetContainer h2 {
+	color: rgb(51, 51, 51); font-size: x-large; margin-bottom: 5px;
+}
+#AssetContainer #Asset {
+	border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(85, 85, 85); background-color: rgb(238, 238, 238);
+}
+#BadgesContainer {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+#BadgesContainer .Legend .BadgesList {
+	list-style: none; margin: 0px; padding: 0px; color: rgb(102, 102, 102); float: left;
+}
+#BadgesContainer .Legend .BadgesList li {
+	background-position: 0px 5px; margin: 10px 0px 20px; padding: 0px 0px 7px 80px; background-repeat: no-repeat; background-color: rgb(255, 255, 255);
+}
+#CommunityBadges .Legend {
+	padding: 5px 15px 5px 5px; width: 500px; float: left;
+}
+#FriendshipBadges .Legend {
+	padding: 5px 15px 5px 5px; width: 500px; float: left;
+}
+#CombatBadges .Legend {
+	padding: 5px 15px 5px 5px; width: 500px; float: left;
+}
+#VisitsBadges .Legend {
+	padding: 5px 15px 5px 5px; width: 500px; float: left;
+}
+#StatisticsRankingsPane_Friendship {
+	margin: 15px; width: 300px; float: right;
+}
+#StatisticsRankingsPane_Combat {
+	margin: 15px; width: 300px; float: right;
+}
+#StatisticsRankingsPane_Visits {
+	margin: 15px; width: 300px; float: right;
+}
+#FeaturedBadge_Community {
+	margin: 15px; width: 300px; float: right;
+}
+#FeaturedBadge_Community {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 325px; margin-top: 20px;
+}
+#FeaturedBadge_Community h4 {
+	margin: 0px; padding: 3px; text-align: center; color: rgb(255, 255, 255); letter-spacing: 0.2em; font-size: 1.4em; font-weight: bold; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(110, 153, 201);
+}
+#FeaturedBadge_Community .FeaturedBadgeContent {
+	margin: 0px; padding: 0px 15px 10px;
+}
+#FeaturedBadge_Community .FeaturedBadgeContent p {
+	color: rgb(34, 34, 34); line-height: 1.6em; font-family: Verdana,Sans-Serif; font-size: 1.1em; margin-top: 10px;
+}
+#FeaturedBadge_Community .FeaturedBadgeIcon {
+	margin: 15px 20px 0px 0px; width: 125px; vertical-align: text-top; float: left;
+}
+#StatisticsRankingsPane_Community {
+	border: currentColor; border-image: none;
+}
+#BadgesContainer .Legend h4 {
+	margin: 5px 0px; font-size: 1.4em; font-weight: bold; background-color: rgb(255, 255, 255);
+}
+#BadgesContainer #CommunityBadges .Legend #Administrator {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Badges/Administrator-75x75.png");
+}
+#BadgesContainer #CommunityBadges .Legend #ForumModerator {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Badges/ForumModerator-75x75.png");
+}
+#BadgesContainer #CommunityBadges .Legend #ImageModerator {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Badges/ImageModerator-75x75.png");
+}
+#BadgesContainer #FriendshipBadges .Legend #Friendship {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Badges/Friendship-75x75.jpg");
+}
+#BadgesContainer #FriendshipBadges .Legend #Inviter {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Badges/Inviter-75x75.png");
+}
+#BadgesContainer #CombatBadges .Legend #CombatInitiation {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Badges/CombatInitiation-75x75.jpg");
+}
+#BadgesContainer #CombatBadges .Legend #Warrior {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Badges/Warrior-75x75.jpg");
+}
+#BadgesContainer #CombatBadges .Legend #Bloxxer {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Badges/Bloxxer-75x75.jpg");
+}
+#BadgesContainer #VisitsBadges .Legend #Homestead {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Badges/Homestead-70x75.jpg");
+}
+#BadgesContainer #VisitsBadges .Legend #Bricksmith {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Badges/Bricksmith-54x75.jpg");
+}
+#BadgesContainer .AccordionHeader {
+	margin: 0px 0px 1px; padding: 5px; text-align: center; font-size: 1.4em; cursor: pointer; background-color: rgb(204, 204, 204);
+}
+#BadgesContainer .TopAccordionHeader {
+	margin: 0px 0px 1px; padding: 5px; text-align: center; font-size: 1.4em; cursor: pointer; background-color: rgb(204, 204, 204);
+}
+#BadgesContainer .BottomAccordionHeader {
+	margin: 0px 0px 1px; padding: 5px; text-align: center; font-size: 1.4em; cursor: pointer; background-color: rgb(204, 204, 204);
+}
+#BadgesContainer .AccordionHeader {
+	border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#BadgesContainer .BottomAccordionHeader {
+	border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#BadgesContainer .TopAccordionHeader {
+	border-top-color: currentColor; border-bottom-color: rgb(0, 0, 0); border-top-width: medium; border-bottom-width: 1px; border-top-style: none; border-bottom-style: solid;
+}
+#BadgesContainer .AccordionHeader:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+#BadgesContainer .TopAccordionHeader:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+#BadgesContainer .BottomAccordionHeader:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+.StatisticsRankings {
+	background-color: rgb(238, 238, 238);
+}
+.StatisticsRankings h4 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-size: 1.2em; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+.StatisticsRankingsHeader_Rank {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; font-weight: bold; float: left;
+}
+.StatisticsRankingsHeader_Item {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; font-weight: bold; float: left;
+}
+.StatisticsRankingsHeader_Score {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; font-weight: bold; float: left;
+}
+.StatisticsRankingsHeader_Rank {
+	width: 45px; margin-right: 1px;
+}
+.StatisticsRankingsHeader_Item {
+	width: 150px; margin-right: 1px;
+}
+.StatisticsRankingsHeader_Score {
+	width: 95px;
+}
+.StatisticsRanking {
+	font: 0.9em/normal Verdana, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.StatisticsRanking_AlternatingRow {
+	font: 0.9em/normal Verdana, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.StatisticsRanking_UserCentric {
+	font: 0.9em/normal Verdana, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.StatisticsRanking_UserCentric_AlternatingRow {
+	font: 0.9em/normal Verdana, sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.StatisticsRanking_UserCentric a {
+	color: rgb(255, 255, 255);
+}
+.StatisticsRanking_UserCentric a:link {
+	color: rgb(255, 255, 255);
+}
+.StatisticsRanking_UserCentric a:visited {
+	color: rgb(255, 255, 255);
+}
+.StatisticsRanking_UserCentric a:active {
+	color: rgb(255, 255, 255);
+}
+.StatisticsRanking_UserCentric_AlternatingRow a {
+	color: rgb(255, 255, 255);
+}
+.StatisticsRanking_UserCentric_AlternatingRow a:link {
+	color: rgb(255, 255, 255);
+}
+.StatisticsRanking_UserCentric_AlternatingRow a:visited {
+	color: rgb(255, 255, 255);
+}
+.StatisticsRanking_UserCentric_AlternatingRow a:active {
+	color: rgb(255, 255, 255);
+}
+.StatisticsRanking .StatisticsRanking_Rank {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; float: left;
+}
+.StatisticsRanking .StatisticsRanking_Item {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; float: left;
+}
+.StatisticsRanking .StatisticsRanking_Score {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; float: left;
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Rank {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; float: left;
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Item {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; float: left;
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Score {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; float: left;
+}
+.StatisticsRanking .StatisticsRanking_Rank {
+	width: 45px; margin-right: 1px;
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Rank {
+	width: 45px; margin-right: 1px;
+}
+.StatisticsRanking .StatisticsRanking_Item {
+	width: 150px; margin-right: 1px;
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Item {
+	width: 150px; margin-right: 1px;
+}
+.StatisticsRanking .StatisticsRanking_Score {
+	width: 95px;
+}
+.StatisticsRanking_AlternatingRow .StatisticsRanking_Score {
+	width: 95px;
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Rank {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; color: rgb(255, 255, 255); font-weight: bold; float: left; background-color: rgb(110, 153, 201);
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Item {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; color: rgb(255, 255, 255); font-weight: bold; float: left; background-color: rgb(110, 153, 201);
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Score {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; color: rgb(255, 255, 255); font-weight: bold; float: left; background-color: rgb(110, 153, 201);
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Rank {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; color: rgb(255, 255, 255); font-weight: bold; float: left; background-color: rgb(110, 153, 201);
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Item {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; color: rgb(255, 255, 255); font-weight: bold; float: left; background-color: rgb(110, 153, 201);
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Score {
+	padding: 2px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: center; color: rgb(255, 255, 255); font-weight: bold; float: left; background-color: rgb(110, 153, 201);
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Rank {
+	width: 45px; margin-right: 1px;
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Rank {
+	width: 45px; margin-right: 1px;
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Item {
+	width: 150px; margin-right: 1px;
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Item {
+	width: 150px; margin-right: 1px;
+}
+.StatisticsRanking_UserCentric .StatisticsRanking_Score {
+	width: 95px;
+}
+.StatisticsRanking_UserCentric_AlternatingRow .StatisticsRanking_Score {
+	width: 95px;
+}
+.StatisticsRankingsFooter {
+	padding: 2px 1px; border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid;
+}
+.RankingsPeriodSelector {
+	width: 100%; font-family: Verdana,Sans-Serif; font-size: xx-small;
+}
+#CatalogContainer {
+	font-family: Verdana,Sans-Serif; position: relative; min-width: 0px;
+}
+#CatalogContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#CatalogContainer h4 {
+	margin: 15px 0px; padding: 0px; line-height: 1em; letter-spacing: 0.1em; font-family: Verdana,Sans-Serif; font-size: 1.3em; font-weight: normal;
+}
+#CatalogContainer ul {
+	list-style: none; margin: 10px 0px 30px; padding-left: 0px; font-family: Verdana,Sans-Serif;
+}
+#CatalogContainer ul li {
+	margin-bottom: 0.5em;
+}
+#CatalogContainer ul a {
+	font-size: 1.1em;
+}
+#CatalogContainer .DisplayFilters {
+	width: 185px;
+}
+#CatalogContainer .Assets {
+	width: 590px; overflow: hidden; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; float: left; position: relative; min-width: 0px;
+}
+#CatalogContainer .SearchBar {
+	margin: -5px 0px 5px; padding: 0px; border: 1px solid rgb(187, 187, 187); border-image: none; height: 30px; text-align: center; background-color: rgb(238, 238, 238);
+}
+#CatalogContainer .SearchBar .SearchBox {
+	margin: 0px; padding: 0px; height: 30px;
+}
+#CatalogContainer .SearchBar .SearchButton {
+	margin: 0px; padding: 0px; height: 30px;
+}
+#CatalogContainer .SearchBar .TextBox {
+	margin: 2px 0px 0px; padding: 2px 3px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 250px; height: 19px;
+}
+#CatalogContainer .SearchLinks {
+	display: inline; z-index: 9;
+}
+#CatalogContainer .SearchLinks a span {
+	display: none;
+}
+#CatalogContainer .SearchLinks a:hover {
+	border: currentColor; border-image: none; text-decoration: none;
+}
+#CatalogContainer .SearchLinks a:hover span {
+	font: 11px/normal Verdana, sans-serif; margin: 5px; padding: 5px; border: 1px ridge gray; left: 15%; top: 20px; width: 60%; text-align: center; color: white; text-decoration: none; display: block; position: absolute; z-index: 10; font-size-adjust: none; font-stretch: normal; background-color: rgb(110, 153, 201);
+}
+#CatalogContainer .SearchError {
+	margin: 2px; padding: 2px; text-align: center; color: red; clear: both; float: none;
+}
+#CatalogContainer .Assets .HeaderPager {
+	padding: 2px 0px; text-align: right;
+}
+#CatalogContainer .Assets .FooterPager {
+	padding: 2px 0px; text-align: right;
+}
+#CatalogContainer .Assets .HeaderPager {
+	margin-bottom: 10px;
+}
+#CatalogContainer .Assets .HeaderPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+#CatalogContainer .Assets .FooterPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+#CatalogContainer .Asset {
+	margin: -1px 0px 15px -1px; width: 122px; vertical-align: top;
+}
+#CatalogContainer .Asset .AssetThumbnail {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 110px; height: 110px; text-align: center; background-color: white;
+}
+#CatalogContainer .Asset .AssetDetails {
+	padding: 2px 0px 6px; width: 110px; overflow: hidden; font-family: Verdana,Sans-Serif;
+}
+#CatalogContainer .AssetName a {
+	line-height: 1.5em; font-size: 0.9em; font-weight: bold; vertical-align: top;
+}
+.AssetsBullet {
+	padding-right: 3px;
+}
+#CatalogContainer .Label {
+	font-size: 0.8em;
+}
+#CatalogContainer .Detail {
+	font-size: 0.8em;
+}
+#CatalogContainer .DetailHighlighted {
+	font-size: 0.8em;
+}
+#CatalogContainer .PriceInRobux {
+	font-size: 0.8em;
+}
+#CatalogContainer .PriceInTickets {
+	font-size: 0.8em;
+}
+#CatalogContainer .PriceInRobux {
+	color: green; font-weight: bold;
+}
+#CatalogContainer .PriceInTickets {
+	color: rgb(251, 177, 23); font-weight: bold;
+}
+#CatalogContainer .AssetsDisplaySet {
+	font-family: Comic Sans MS,Arial,Sans-Serif; font-size: 1.5em; float: left;
+}
+#CustomizeCharacterContainer {
+	margin: 0px; font-family: Verdana,Sans-Serif;
+}
+#CustomizeCharacterContainer h4 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-family: Comic Sans MS,Verdana,Sans-Serif; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#CustomizeCharacterContainer .NoResults {
+	padding: 15px; text-align: center;
+}
+#CustomizeCharacterContainer .TileGroup {
+	text-align: center; clear: left;
+}
+#CustomizeCharacterContainer .Asset {
+	margin: 5px 8px; width: 112px; text-align: left; vertical-align: top; float: left;
+}
+#CustomizeCharacterContainer .Asset .AssetThumbnail {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 110px; height: 110px; text-align: center; position: relative;
+}
+#CustomizeCharacterContainer .Asset .AssetDetails {
+	padding: 2px 0px 6px; width: 110px; text-align: left; overflow: hidden;
+}
+#CustomizeCharacterContainer .AssetName a {
+	line-height: 1.5em; font-size: 0.9em; font-weight: bold; vertical-align: top;
+}
+#CustomizeCharacterContainer .Label {
+	font-size: 0.8em;
+}
+#CustomizeCharacterContainer .Detail {
+	font-size: 0.8em;
+}
+#CustomizeCharacterContainer .DetailHighlighted {
+	font-size: 0.8em;
+}
+#CustomizeCharacterContainer .FooterPager {
+	margin: 10px 0px 0px; padding: 3px 0px; text-align: center; clear: left; border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid;
+}
+.AttireChooser {
+	margin: 0px; padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 530px; text-align: left; float: left; position: relative; min-width: 0px;
+}
+.Accoutrements {
+	padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 530px; text-align: left; clear: left; margin-top: 10px; position: relative; min-width: 0px;
+}
+.AttireChooser .AttireCategory {
+	margin: 0px 0px 10px; padding: 3px 0px; text-align: center; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.AttireChooser .AttireOptions {
+	margin: 5px;
+}
+.AttireCategory .AttireCategorySelector_Selected {
+	font-weight: bold;
+}
+.AttireChooser .HeaderPager {
+	margin-bottom: 10px;
+}
+.AttireChooser .HeaderPager {
+	margin-bottom: 10px;
+}
+.AttireChooser .HeaderPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+.AttireChooser .FooterPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+.CharacterViewer {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 354px; float: right;
+}
+.CharacterViewer .ReDrawAvatar {
+	text-align: center; font-size: 1em; vertical-align: bottom;
+}
+.Mannequin {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 354px; text-align: center; clear: right; margin-top: 10px; float: right;
+}
+.Mannequin .ColorChooserFrame {
+	margin: 0px auto;
+}
+.TeeShirtBuilder {
+	border: 1px solid rgb(0, 0, 0); border-image: none; clear: both; margin-top: 10px;
+}
+div.AspNet-DetailsView-Data ul {
+	margin: 0px; padding: 0px;
+}
+div.AspNet-DetailsView-Data li {
+	margin: 0px; padding: 0px; list-style-type: none; position: relative;
+}
+ul.AspNet-Menu {
+	position: relative;
+}
+ul.AspNet-Menu {
+	margin: 0px; padding: 0px; display: block;
+}
+ul.AspNet-Menu ul {
+	margin: 0px; padding: 0px; display: block;
+}
+ul.AspNet-Menu li {
+	list-style: none; position: relative;
+}
+ul.AspNet-Menu li a {
+	text-decoration: none; display: block;
+}
+ul.AspNet-Menu li span {
+	text-decoration: none; display: block;
+}
+ul.AspNet-Menu ul {
+	display: none; position: absolute;
+}
+ul.AspNet-Menu li:hover ul ul {
+	display: none;
+}
+ul.AspNet-Menu li:hover ul ul ul {
+	display: none;
+}
+ul.AspNet-Menu li.AspNet-Menu-Hover ul ul {
+	display: none;
+}
+ul.AspNet-Menu li.AspNet-Menu-Hover ul ul ul {
+	display: none;
+}
+ul.AspNet-Menu li:hover ul {
+	display: block;
+}
+ul.AspNet-Menu li li:hover ul {
+	display: block;
+}
+ul.AspNet-Menu li li li:hover ul {
+	display: block;
+}
+ul.AspNet-Menu li.AspNet-Menu-Hover ul {
+	display: block;
+}
+ul.AspNet-Menu li li.AspNet-Menu-Hover ul {
+	display: block;
+}
+ul.AspNet-Menu li li li.AspNet-Menu-Hover ul {
+	display: block;
+}
+.AspNet-Menu-Horizontal ul.AspNet-Menu li {
+	float: left;
+}
+.AspNet-Menu-Horizontal ul.AspNet-Menu li li {
+	float: none;
+}
+div.AspNet-TreeView {
+	margin: 0px; padding: 0px;
+}
+div.AspNet-TreeView ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.AspNet-TreeView-Hide {
+	display: none;
+}
+#ContentBuilderContainer {
+	margin: 0px auto; width: 725px; color: rgb(51, 51, 51); font-family: Verdana,Sans-Serif;
+}
+#ContentBuilderContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#ContentBuilderContainer h3 {
+	margin: 0px -10px; padding: 0px; text-align: center; line-height: 1em; letter-spacing: 0.15em; font-size: 1.5em; font-weight: normal; border-bottom-color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#ContentBuilderContainer blockquote {
+	margin: 0px auto;
+}
+#ContentBuilderContainer .InstructionsPanel {
+	padding: 0px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; margin-top: 10px;
+}
+#ContentBuilderContainer .UploaderPanel {
+	padding: 0px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; margin-top: 10px;
+}
+#ContentBuilderContainer .UpsellPanel {
+	padding: 0px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; margin-top: 10px;
+}
+#ContentBuilderContainer .UploaderPanel {
+	text-align: center;
+}
+#ContentBuilderContainer .UpsellPanel {
+	text-align: center;
+}
+#ContentBuilderContainer .SelectorArea {
+	margin: 20px auto; text-align: center;
+}
+#ContentBuilderContainer .DisclaimerLink {
+	font-size: 1.2em; display: inline; z-index: 9;
+}
+#ContentBuilderContainer .DisclaimerLink a span {
+	display: none;
+}
+#ContentBuilderContainer .DisclaimerLink a:hover {
+	border: currentColor; border-image: none; text-decoration: none;
+}
+#ContentBuilderContainer .DisclaimerLink a:hover span {
+	font: 12px/normal Verdana, sans-serif; margin: 5px; padding: 5px; border: 1px ridge gray; left: 12%; top: 50%; width: 75%; text-align: left; color: white; text-decoration: none; display: block; position: absolute; z-index: 10; font-size-adjust: none; font-stretch: normal; background-color: rgb(110, 153, 201);
+}
+#TradeCurrencyContainer {
+	padding-bottom: 10px; font-family: Verdana,Sans-Serif;
+}
+#TradeCurrencyContainer .TradeBox {
+	width: 100px;
+}
+#TradeCurrencyContainer h2 {
+	margin: 0px 0px 15px; padding: 0px; text-align: center; line-height: 1em; font-size: 2.5em; font-weight: normal;
+}
+#TradeCurrencyContainer .LeftColumn {
+	width: 245px; float: left;
+}
+#TradeCurrencyContainer .CenterColumn {
+	width: 410px; float: left;
+}
+#TradeCurrencyContainer .RightColumn {
+	width: 245px; float: left;
+}
+#TradeCurrencyContainer h4 {
+	margin: 0px; padding: 5px; text-align: center; font-size: 1em; font-weight: bold; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#TradeCurrencyContainer .AccordionHeader {
+	margin: 1px 0px; padding: 1px 1em; text-align: center; letter-spacing: 0.1em; font-size: 1em; font-weight: bold; border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; cursor: pointer; background-color: rgb(204, 204, 204);
+}
+#TradeCurrencyContainer .AccordionHeader:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+#CurrencyOffersPane {
+	float: right;
+}
+.TradingDashboard {
+	margin-bottom: 10px;
+}
+.CurrencyQuote {
+	width: 350px;
+}
+.CurrencyTrade {
+	width: 350px;
+}
+.CurrencyOffers {
+	width: 350px;
+}
+.CurrencyBids {
+	width: 350px;
+}
+.TradingDashboard {
+	width: 350px;
+}
+.CurrencyQuote {
+	padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; background-color: rgb(255, 255, 255);
+}
+.CurrencyTrade {
+	padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; background-color: rgb(255, 255, 255);
+}
+.CurrencyOffers {
+	padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; background-color: rgb(255, 255, 255);
+}
+.CurrencyBids {
+	padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; background-color: rgb(255, 255, 255);
+}
+.OpenBids {
+	padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; background-color: rgb(255, 255, 255);
+}
+.OpenOffers {
+	padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; background-color: rgb(255, 255, 255);
+}
+.TradeHistory {
+	padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; background-color: rgb(255, 255, 255);
+}
+.CurrencyQuote {
+	margin: 0px auto;
+}
+.CurrencyTrade {
+	margin: 0px auto;
+}
+.TradingDashboard {
+	margin: 0px auto;
+}
+.OpenBids {
+	margin: 0px auto;
+}
+.OpenOffers {
+	margin: 0px auto;
+}
+.TradeHistory {
+	margin: 0px auto;
+}
+.TradingDashboard .FooterPager {
+	margin: 0px auto;
+}
+.CurrencyTrade {
+	margin-top: 20px;
+}
+.TradingDashboard {
+	margin-top: 20px;
+}
+.CurrencyTradeDetails {
+	padding: 5px;
+}
+.CurrencyTradeDetail {
+	text-align: center; padding-top: 5px;
+}
+.TradingDashboard .FooterPager {
+	text-align: center; padding-top: 5px;
+}
+.CurrencyOffers {
+	width: 200px;
+}
+.CurrencyBids {
+	width: 200px;
+}
+.CurrencyOffer {
+	padding: 5px; text-align: center;
+}
+.AlternatingCurrencyOffer {
+	padding: 5px; text-align: center;
+}
+.CurrencyBid {
+	padding: 5px; text-align: center;
+}
+.AlternatingCurrencyBid {
+	padding: 5px; text-align: center;
+}
+.CurrencyQuote .TableHeader {
+	font-weight: bold;
+}
+.CurrencyOffers .TableHeader {
+	font-weight: bold;
+}
+.CurrencyBids .TableHeader {
+	font-weight: bold;
+}
+.CurrencyQuote .TableRow {
+	border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid;
+}
+.CurrencyOffers .TableRow {
+	border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid;
+}
+.CurrencyBids .TableRow {
+	border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid;
+}
+.CurrencyQuote .Pair {
+	padding: 5px; width: 77px; text-align: center; float: left;
+}
+.CurrencyQuote .Rate {
+	padding: 5px; width: 77px; text-align: center; float: left;
+}
+.CurrencyQuote .Spread {
+	padding: 5px; width: 77px; text-align: center; float: left;
+}
+.CurrencyQuote .HighLow {
+	padding: 5px; width: 77px; text-align: center; float: left;
+}
+#FriendliestFolkPane {
+	border: 1px solid rgb(0, 0, 0); width: 770px; height: 184px; overflow: auto; margin-top: 10px;
+}
+#FriendliestFolk h4 {
+	line-height: 1em; font-size: 10pt; font-weight: bold; margin-top: 5px; margin-bottom: 5px;
+}
+#GamesContainer {
+	font-family: Verdana,Sans-Serif;
+}
+#GamesContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#GamesContainer h4 {
+	margin: 15px 0px; padding: 0px; line-height: 1em; letter-spacing: 0.1em; font-family: Verdana,Sans-Serif; font-size: 1.3em; font-weight: normal;
+}
+#GamesContainer ul {
+	list-style: none; margin: 10px 0px 30px; padding-left: 0px; font-family: Verdana,Sans-Serif;
+}
+#GamesContainer ul li {
+	font-family: Verdana,Sans-Serif; margin-bottom: 0.5em;
+}
+#GamesContainer ul a {
+	font-size: 1.1em;
+}
+#GamesContainer .DisplayFilters {
+	width: 170px;
+}
+#GamesContainer #Games {
+	width: 720px; overflow: visible; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; float: left;
+}
+.GameList {
+	overflow: visible;
+}
+#GamesContainer .Ads_WideSkyscraper {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 160px; text-align: right; float: right;
+}
+#GamesContainer #Games .HeaderPager {
+	margin: 0px 24px 0px 0px; padding: 2px 0px; text-align: right;
+}
+#GamesContainer #Games .FooterPager {
+	margin: 0px 24px 0px 0px; padding: 2px 0px; text-align: right;
+}
+#GamesContainer #Games .HeaderPager {
+	margin-bottom: 10px;
+}
+#GamesContainer #Games .HeaderPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+#GamesContainer #Games .FooterPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+#GamesContainer .Game {
+	margin: 0px 10px 15px; width: 162px; vertical-align: top;
+}
+#GamesContainer .Game .GameThumbnail {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 160px; height: 100px; text-align: center;
+}
+#GamesContainer .Game .GameDetails {
+	padding: 2px 0px 6px; width: 152px; overflow: hidden; font-family: Verdana,Sans-Serif;
+}
+#GamesContainer .GameName a {
+	line-height: 1.5em; font-size: 0.9em; font-weight: bold; vertical-align: top;
+}
+.GamesBullet {
+	padding-right: 3px;
+}
+#GamesContainer .Label {
+	font-size: 0.8em;
+}
+#GamesContainer .Detail {
+	font-size: 0.8em;
+}
+#GamesContainer .DetailHighlighted {
+	font-size: 0.8em;
+}
+#GamesContainer .DetailHighlighted {
+	color: red; font-weight: bold;
+}
+#GamesContainer .GamesDisplaySet {
+	font-family: Comic Sans MS,Arial,Sans-Serif; font-size: 1.5em; float: left;
+}
+#Help {
+	padding: 1px; border: 5px ridge rgb(221, 221, 221); height: 600px; background-color: rgb(238, 238, 238);
+}
+#Help h1 {
+	text-indent: 10px;
+}
+#Help .salesForce {
+	width: 625px; height: 500px; margin-bottom: 10px; margin-left: 5px; float: left;
+}
+#Help .salesForce iframe {
+	width: 625px; height: 500px; margin-bottom: 10px; margin-left: 5px; float: left;
+}
+#Help .avatar {
+	text-align: center; padding-right: 0px; padding-left: 0px; clear: right; margin-right: auto; margin-left: auto; float: right; display: block;
+}
+#Help .descriptionPanels {
+	width: 225px; height: 235px; margin-top: 40px; background-image: url("/web/20090604133500im_/http://www.roblox.com/images/Speech Bubble 225.gif"); background-repeat: no-repeat; background-color: transparent;
+}
+#Help .descriptionPanels p {
+	text-align: left; color: navy; padding-top: 20px; padding-right: 40px; padding-left: 25px; font-family: Comic Sans MS; font-size: 9pt;
+}
+#Help .navigation {
+	border: currentColor; border-image: none; text-align: center; color: rgb(110, 153, 201); clear: left; font-family: "Comic Sans MS",Verdana,sans-serif; font-size: 10pt; font-weight: normal; text-decoration: none; background-color: transparent;
+}
+#Help .navigation .MenuItem {
+	color: rgb(110, 153, 201); line-height: 2em; font-size: 16px;
+}
+#Help .navigation a.MenuItem:link {
+	color: rgb(110, 153, 201); text-decoration: none;
+}
+#Help .navigation a.MenuItem:visited {
+	color: rgb(110, 153, 201); text-decoration: none;
+}
+#Help .navigation a.MenuItem:active {
+	color: rgb(110, 153, 201); text-decoration: none;
+}
+#Help .navigation a.MenuItem:hover {
+	text-decoration: underline;
+}
+#Help .forumLinks {
+	background-position: left top; padding: 5px; border: 3px groove rgb(221, 221, 221); width: 150px; text-align: center; line-height: 2em; font-family: Sans-Serif; font-size: 10pt; display: none; visibility: hidden; opacity: 0.93; background-image: url("/web/20090604133500im_/http://www.roblox.com/images/help_gradient.png"); background-repeat: repeat-y; background-color: rgb(238, 238, 238);
+}
+#InboxContainer #InboxPane {
+	width: 726px; float: left;
+}
+#InboxContainer h2 {
+	margin: 0px 0px 10px; padding: 0px; line-height: 1em; letter-spacing: 0.5em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#InboxContainer .Ads_WideSkyscraper {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 160px; text-align: right; float: right;
+}
+#InboxContainer #Inbox {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+#InboxContainer .Buttons {
+	margin: 10px 0px; text-align: center;
+}
+#InboxContainer .InboxHeader {
+	font: bold 1.2em/normal Verdana, sans-serif; letter-spacing: 0.15em; font-size-adjust: none; font-stretch: normal; background-color: rgb(153, 153, 153);
+}
+#InboxContainer .InboxRow {
+	font: 1em/normal Verdana, sans-serif; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#InboxContainer .InboxRow_Unread {
+	font: bold 1em/normal Verdana, sans-serif; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#InboxContainer .InboxRow:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+#InboxContainer .InboxRow_Unread:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+#InboxContainer .InboxHeader a {
+	color: rgb(255, 255, 255);
+}
+#InboxContainer .InboxPager a {
+	color: rgb(255, 255, 255);
+}
+#InboxContainer .InboxRow:hover a {
+	color: rgb(255, 255, 255);
+}
+#InboxContainer .InboxRow_Unread:hover a {
+	color: rgb(255, 255, 255);
+}
+#InboxContainer .InboxPager {
+	font: bold 1.2em/normal Verdana, sans-serif; text-align: center; letter-spacing: 0.15em; font-size-adjust: none; font-stretch: normal; background-color: rgb(153, 153, 153);
+}
+#InfoContainer {
+	margin: 0px auto; border: 1px solid rgb(0, 0, 0); border-image: none; width: 620px; color: rgb(85, 85, 85); background-color: rgb(238, 238, 238);
+}
+#InfoContainer h2 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-size: x-large; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#InfoContainer #Content {
+	font: 1em/1.5em Verdana, sans-serif; padding: 10px 20px; font-size-adjust: none; font-stretch: normal;
+}
+#AlreadyInstalled {
+	margin: 44px; font-size: large;
+}
+#AlreadyInstalled a {
+	text-decoration: underline;
+}
+#ItemContainer h2 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-family: Comic Sans MS,Sans-Serif; font-size: x-large; border-bottom-color: rgb(85, 85, 85); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#ItemContainer h3 {
+	margin: 0px 0px 0.5em; padding: 0px; line-height: 1em; letter-spacing: 0.15em; font-size: 1.5em; font-weight: normal;
+}
+#ItemContainer #Item {
+	border: 1px solid rgb(85, 85, 85); border-image: none; width: 725px; color: rgb(85, 85, 85); font-family: Verdana,Sans-Serif; float: left; background-color: rgb(238, 238, 238);
+}
+#ItemContainer #Details {
+	margin: 10px;
+}
+#ItemContainer #Thumbnail {
+	padding: 0px; border: 1px solid rgb(85, 85, 85); border-image: none; text-align: left; float: left; position: relative; min-width: 0px;
+}
+#ItemContainer #Thumbnail_Place {
+	padding: 0px; border: 1px solid rgb(85, 85, 85); border-image: none; text-align: left; float: left; position: relative; min-width: 0px;
+}
+#ItemContainer #Thumbnail {
+	width: 250px; height: 250px;
+}
+#ItemContainer #Thumbnail_Place {
+	width: 420px; height: 230px;
+}
+#ItemContainer #Actions {
+	width: 240px;
+}
+#ItemContainer #Actions_Place {
+	width: 410px;
+}
+#ItemContainer #Actions {
+	padding: 5px; text-align: center; clear: left; border-right-color: rgb(85, 85, 85); border-bottom-color: rgb(85, 85, 85); border-left-color: rgb(85, 85, 85); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: dashed; border-bottom-style: dashed; border-left-style: dashed; float: left; position: relative; min-width: 0px; background-color: rgb(255, 255, 255);
+}
+#ItemContainer #Actions_Place {
+	padding: 5px; text-align: center; clear: left; border-right-color: rgb(85, 85, 85); border-bottom-color: rgb(85, 85, 85); border-left-color: rgb(85, 85, 85); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: dashed; border-bottom-style: dashed; border-left-style: dashed; float: left; position: relative; min-width: 0px; background-color: rgb(255, 255, 255);
+}
+#ItemContainer #Summary {
+	padding: 7px; border: 1px dashed rgb(85, 85, 85); border-image: none; width: 255px; float: right; display: inline; background-color: rgb(255, 255, 255);
+}
+#ItemContainer #Summary #Creator {
+	clear: left;
+}
+#ItemContainer #Summary #DescriptionLabel {
+	margin-top: 0.7em; margin-bottom: 0.4em;
+}
+#ItemContainer #Summary #Description {
+	font: 1em/1.7em Verdana, sans-serif; padding: 4px; border: 1px solid rgb(85, 85, 85); border-image: none; width: 249px; text-align: left; overflow: auto; max-height: 136px; font-size-adjust: none; font-stretch: normal;
+}
+#ItemContainer #Summary #ReportAbuse {
+	margin: 0px auto; padding: 4px; text-align: center;
+}
+#ItemContainer #Summary #PublicDomainPurchase #PricePublicDomain {
+	width: 100px; color: blue; line-height: 2em; font-weight: bold; float: left;
+}
+#ItemContainer #Summary #PublicDomainPurchase #BuyForFree {
+	width: 100px; line-height: 2em; float: left;
+}
+#ItemContainer #Summary #PublicDomainPurchase #BuyForFree .Button:hover {
+	border: 1px solid rgb(0, 0, 0); border-image: none; background-color: rgb(110, 153, 201);
+}
+#ItemContainer #Summary #PublicDomainPurchase #BuyForFree a:hover {
+	color: rgb(255, 255, 255);
+}
+#ItemContainer #Summary #RobuxPurchase #PriceInRobux {
+	width: 100px; color: green; line-height: 2em; font-weight: bold; float: left;
+}
+#ItemContainer #Summary #RobuxPurchase #BuyWithRobux {
+	width: 100px; line-height: 2em; float: left;
+}
+#ItemContainer #Summary #RobuxPurchase #BuyWithRobux .Button:hover {
+	border: 1px solid rgb(0, 0, 0); border-image: none; background-color: rgb(73, 183, 69);
+}
+#ItemContainer #Summary #RobuxPurchase #BuyWithRobux a:hover {
+	color: rgb(255, 255, 255);
+}
+#ItemContainer #Summary #TicketsPurchase {
+	clear: left;
+}
+#ItemContainer #Summary #TicketsPurchase #PriceInTickets {
+	width: 100px; color: rgb(251, 177, 23); line-height: 2em; font-weight: bold; float: left;
+}
+#ItemContainer #Summary #TicketsPurchase #BuyWithTickets {
+	width: 100px; line-height: 2em; float: left;
+}
+#ItemContainer #Summary #TicketsPurchase #BuyWithTickets .Button:hover {
+	border: 1px solid rgb(0, 0, 0); border-image: none; background-color: rgb(253, 208, 23);
+}
+#ItemContainer #Summary #TicketsPurchase #BuyWithTickets a:hover {
+	color: rgb(255, 255, 255);
+}
+#ItemContainer #Configuration {
+	padding: 5px 10px; width: 249px; text-align: center; clear: right; margin-top: -10px; margin-left: 10px; border-right-color: rgb(85, 85, 85); border-bottom-color: rgb(85, 85, 85); border-left-color: rgb(85, 85, 85); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: dashed; border-bottom-style: dashed; border-left-style: dashed; float: right; background-color: rgb(255, 255, 255);
+}
+#ItemContainer #Advertise {
+	padding: 5px 10px; width: 249px; text-align: center; clear: right; margin-top: 0px; margin-left: 10px; border-right-color: rgb(85, 85, 85); border-bottom-color: rgb(85, 85, 85); border-left-color: rgb(85, 85, 85); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: dashed; border-bottom-style: dashed; border-left-style: dashed; float: right; background-color: rgb(255, 255, 255);
+}
+#ItemContainer #Ownership {
+	padding: 10px; border: 1px dashed rgb(255, 0, 0); border-image: none; width: 249px; text-align: center; color: rgb(255, 0, 0); clear: right; margin-top: 0px; margin-left: 10px; float: right; background-color: rgb(204, 204, 204);
+}
+#ItemContainer .PlayGames {
+	padding: 10px 5px; border: 1px dashed green; border-image: none; width: 410px; text-align: center; color: green; clear: left; margin-top: 10px; float: left; background-color: rgb(204, 204, 204);
+}
+#ItemContainer .RunningGames {
+	padding: 10px 5px; border: 1px dashed rgb(85, 85, 85); border-image: none; width: 410px; text-align: center; color: rgb(85, 85, 85); clear: left; margin-top: 10px; float: left; background-color: rgb(204, 204, 204);
+}
+#ItemContainer .GameInstances {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 408px; color: rgb(85, 85, 85); background-color: rgb(255, 255, 255);
+}
+#ItemContainer .RefreshRunningGames {
+	margin: 10px 0px; text-align: center;
+}
+#ItemContainer #Ownership .Button {
+	background-color: rgb(255, 255, 255);
+}
+#ItemContainer .PlayGames .Button {
+	background-color: rgb(255, 255, 255);
+}
+#ItemContainer #Ownership .Button:hover {
+	border: 1px solid rgb(255, 0, 0); border-image: none; color: rgb(255, 0, 0); background-color: rgb(255, 255, 255);
+}
+#ItemContainer .PlayGames .Button:hover {
+	border: 1px solid green; border-image: none; color: green; background-color: rgb(255, 255, 255);
+}
+#ItemContainer .CommentsContainer {
+	margin: 0px 10px 10px; width: 665px;
+}
+#ItemContainer .TabbedInfoContainer {
+	margin: 0px 10px 10px; width: 665px;
+}
+#ItemContainer .TabbedInfoContainer h3 {
+	padding: 5px;
+}
+#ItemContainer .CommentsContainer .HeaderPager {
+	padding: 5px 0px; text-align: right;
+}
+#ItemContainer .CommentsContainer .FooterPager {
+	padding: 5px 0px; text-align: right;
+}
+#ItemContainer .CommentsContainer .Comments {
+	border: 1px dashed rgb(85, 85, 85); border-image: none; width: 663px; overflow: hidden;
+}
+#ItemContainer .CommentsContainer .Comment {
+	padding: 7px 10px;
+}
+#ItemContainer .CommentsContainer .AlternateComment {
+	padding: 7px 10px;
+}
+#ItemContainer .CommentsContainer .Comment {
+	background-color: rgb(255, 255, 255);
+}
+#ItemContainer .CommentsContainer .AlternateComment {
+	background-color: rgb(238, 238, 238);
+}
+#ItemContainer .CommentsContainer .Commenter {
+	width: 110px; float: left;
+}
+#ItemContainer .CommentsContainer .Avatar {
+	border: 1px solid rgb(85, 85, 85); border-image: none; width: 100px; height: 100px;
+}
+#ItemContainer .CommentsContainer .Post {
+	float: left;
+}
+#ItemContainer .CommentsContainer .Content {
+	margin: 10px 0px; overflow: hidden;
+}
+#ItemContainer .CommentsContainer .PostAComment {
+	margin: 10px 0px 0px;
+}
+#ItemContainer .CommentsContainer .PostAComment .Buttons {
+	margin: 10px 0px 0px;
+}
+#ItemContainer .CommentsContainer .MultilineTextBox {
+	width: 400px; min-height: 0px;
+}
+#ItemContainer .CommentsContainer textarea {
+	width: 400px; min-height: 0px;
+}
+#EditItem {
+	margin: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 725px; color: rgb(85, 85, 85); font-family: Verdana,Sans-Serif; float: left; background-color: rgb(238, 238, 238);
+}
+#EditItemContainer h2 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-family: Comic Sans MS,Sans-Serif; font-size: x-large; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#EditItemContainer fieldset {
+	margin: 0px; font-size: 1.2em;
+}
+#EditItemContainer #Confirmation {
+	margin: 10px auto 0px; padding: 10px 5px; border: 1px dashed rgb(255, 0, 0); border-image: none; width: 410px; color: rgb(255, 0, 0); background-color: rgb(204, 204, 204);
+}
+#EditItemContainer #ItemName {
+	margin: 10px auto 0px; padding: 0px; width: 420px; text-align: left;
+}
+#EditItemContainer #ItemThumbnail {
+	margin: 10px auto 0px; padding: 0px; border: 1px solid rgb(85, 85, 85); border-image: none; width: 420px; height: 230px; text-align: left;
+}
+#EditItemContainer #ItemDescription {
+	margin: 10px auto 0px; padding: 0px; width: 420px; text-align: left;
+}
+#EditItemContainer #Comments {
+	margin: 10px auto 0px; width: 420px;
+}
+#EditItemContainer #PlaceAccess {
+	margin: 10px auto 0px; width: 420px;
+}
+#EditItemContainer #PlaceCopyProtection {
+	margin: 10px auto 0px; width: 420px;
+}
+#EditItemContainer #AllowGear {
+	margin: 10px auto 0px; width: 420px;
+}
+#EditItemContainer #VersionHistory {
+	margin: 10px auto 0px; width: 420px;
+}
+#EditItemContainer #PublicDomain {
+	margin: 10px auto 0px; width: 420px;
+}
+#EditItemContainer #SellThisItem {
+	margin: 10px auto 0px; width: 420px;
+}
+#EditItemContainer #PlaceReset {
+	margin: 10px auto 0px; width: 420px;
+}
+.MyItemOptions {
+	margin: 10px auto 0px; width: 420px;
+}
+#EditItemContainer #SellThisItem #Pricing {
+	margin: 15px 5px 5px; padding: 5px; border: 1px dashed rgb(0, 0, 0); border-image: none; background-color: rgb(255, 255, 255);
+}
+#EditItemContainer #SellThisItem #Price {
+	margin-top: 10px;
+}
+#EditItemContainer #SellThisItem #Price .TextBox {
+	padding: 2px 4px; width: 75px;
+}
+#EditItemContainer .CopyProtectionRow {
+	margin: 10px 0px; text-align: center; font-size: 0.9em;
+}
+#EditItemContainer .EnableCommentsRow {
+	margin: 10px 0px; text-align: center; font-size: 0.9em;
+}
+#EditItemContainer .PlaceAccessRow {
+	margin: 10px 0px; text-align: center; font-size: 0.9em;
+}
+#EditItemContainer .PublicDomainRow {
+	margin: 10px 0px; text-align: center; font-size: 0.9em;
+}
+#EditItemContainer .SellThisItemRow {
+	margin: 10px 0px; text-align: center; font-size: 0.9em;
+}
+#EditItemContainer .ResetPlaceRow {
+	margin: 10px 0px; text-align: center; font-size: 0.9em;
+}
+#EditItemContainer .PlaceAccessRow {
+	margin: 10px 0px 10px 100px; text-align: left;
+}
+#ConfigurePlaceContainer .ResetPlaceRow .Button {
+	margin: 0px auto;
+}
+#EditItemContainer .PricingLabel {
+	width: 155px; text-align: right; font-weight: bold; margin-right: 5px; float: left;
+}
+#EditItemContainer .PricingField_Robux {
+	width: 110px; text-align: left; margin-left: 5px; float: left;
+}
+#EditItemContainer .PricingField_Tickets {
+	width: 110px; text-align: left; margin-left: 5px; float: left;
+}
+#EditItemContainer .Buttons {
+	margin: 10px auto; text-align: center;
+}
+#EditItemContainer .Button {
+	border-color: rgb(85, 85, 85); color: rgb(85, 85, 85); cursor: pointer;
+}
+#EditItemContainer .Button:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+#EditItemContainer .Label {
+	margin: 0px; padding: 0px; font-size: 1.2em;
+}
+#EditItemContainer .TextBox {
+	margin: 0px; padding: 5px 10px; border: 1px dashed rgb(85, 85, 85); border-image: none; width: 400px;
+}
+#EditItemContainer .MultilineTextBox {
+	margin: 0px; padding: 5px 10px; border: 1px dashed rgb(85, 85, 85); border-image: none; width: 400px;
+}
+#EditItemContainer .Suggestion {
+	font: 0.8em/normal Verdana, sans-serif; padding-left: 9px; font-size-adjust: none; font-stretch: normal;
+}
+#ItemContainer .Ads_WideSkyscraper {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 160px; text-align: right; float: right;
+}
+#EditItemContainer .Ads_WideSkyscraper {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 160px; text-align: right; float: right;
+}
+.LinkCountContainer {
+	margin: 0px; padding: 5px; width: 200px;
+}
+.LinkStatusImage {
+	float: left;
+}
+.AspNet-Login input {
+	font-size: 1em;
+}
+.AspNet-Login label em {
+	font-style: normal; text-decoration: underline;
+}
+.AspNet-Login .AspNet-Login-FailurePanel {
+	height: 4em;
+}
+.AspNet-Login .AspNet-Login-UserPanel {
+	padding: 0.25em 0.1em 0px 0px;
+}
+.AspNet-Login .AspNet-Login-PasswordPanel {
+	padding: 0.25em 0.1em 0px 0px;
+}
+.AspNet-Login .AspNet-Login-RememberMePanel {
+	padding: 0.25em 0.1em 0px 0px;
+}
+.AspNet-Login .AspNet-Login-SubmitPanel {
+	padding: 0.25em 0.1em 0px 0px;
+}
+.AspNet-Login .AspNet-Login-UserPanel {
+	text-align: right;
+}
+.AspNet-Login .AspNet-Login-PasswordPanel {
+	text-align: right;
+}
+.AspNet-Login .AspNet-Login-SubmitPanel {
+	text-align: right;
+}
+.AspNet-Login .AspNet-Login-UserPanel label {
+	white-space: nowrap;
+}
+.AspNet-Login .AspNet-Login-PasswordPanel label {
+	white-space: nowrap;
+}
+#PaneLogin .TextboxLabel {
+	white-space: nowrap;
+}
+.AspNet-Login .AspNet-Login-UserPanel input {
+	width: 9em;
+}
+.AspNet-Login .AspNet-Login-PasswordPanel input {
+	width: 9em;
+}
+.AspNet-Login .AspNet-Login-SubmitPanel input {
+	height: 1.7em;
+}
+#PaneNewUser {
+	padding: 0px 22px 22px; width: 170px; float: right; background-color: rgb(220, 220, 220);
+}
+#PaneLogin {
+	padding: 0px; width: 18em;
+}
+#PaneLogin .AspNet-Login div {
+	margin: 10px;
+}
+#LoginView {
+	border: 1px solid black; border-image: none; width: 150px; height: 250px;
+}
+#LoginView h5 {
+	margin: 0px; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#LoginView #AlreadySignedIn {
+	background-color: rgb(238, 238, 238);
+}
+#LoginView .Label {
+	font-weight: bold;
+}
+#LoginView .Text {
+	width: 133px;
+}
+#LoginView .AspNet-Login {
+	height: 225px; background-color: rgb(238, 238, 238);
+}
+#LoginView .AspNet-Login .AspNet-Login-InstructionPanel {
+	padding: 3px 5px; text-align: left;
+}
+#LoginView .AspNet-Login .AspNet-Login-HelpPanel {
+	padding: 3px 5px; text-align: left;
+}
+#LoginView .AspNet-Login .AspNet-Login-UserPanel {
+	padding: 3px 5px; text-align: left;
+}
+#LoginView .AspNet-Login .AspNet-Login-PasswordPanel {
+	padding: 3px 5px; text-align: left;
+}
+#LoginView .AspNet-Login .AspNet-Login-RememberMePanel {
+	padding: 3px 5px; text-align: left;
+}
+#LoginView .AspNet-Login .AspNet-Login-SubmitPanel {
+	padding: 10px 5px 5px 10px; text-align: center;
+}
+#LoginView .AspNet-Login .AspNet-Create-Account {
+	padding: 10px 5px 5px 10px; text-align: center;
+}
+#LoginView .AspNet-Login .AspNet-Login-PasswordRecoveryPanel {
+	padding: 5px; text-align: center;
+}
+#LoginView .AspNet-Login .AspNet-Login-PasswordRecoveryPanel a {
+	font: 9px/normal Verdana, sans-serif; padding: 5px; text-align: center; color: rgb(153, 153, 153); font-size-adjust: none; font-stretch: normal;
+}
+#LoginView .AspNet-Login .AspNet-Login-PasswordRecoveryPanel a:hover {
+	color: blue;
+}
+#Sidebars {
+	width: 250px; float: right;
+}
+#AlreadyRegistered {
+	font: 12px/normal Verdana, sans-serif; padding: 0px 20px 10px; border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(85, 85, 85); margin-top: 10px; font-size-adjust: none; font-stretch: normal; background-color: rgb(238, 238, 238);
+}
+#TermsAndConditions {
+	font: 12px/normal Verdana, sans-serif; padding: 0px 20px 10px; border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(85, 85, 85); margin-top: 10px; font-size-adjust: none; font-stretch: normal; background-color: rgb(238, 238, 238);
+}
+#AlreadyRegistered h3 {
+	font: bold 12pt/normal "Comic Sans MS", Verdana, sans-serif; margin: 0px -20px; padding: 4px; text-align: center; color: rgb(51, 51, 51); border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; font-size-adjust: none; font-stretch: normal; background-color: rgb(204, 204, 204);
+}
+#TermsAndConditions h3 {
+	font: bold 12pt/normal "Comic Sans MS", Verdana, sans-serif; margin: 0px -20px; padding: 4px; text-align: center; color: rgb(51, 51, 51); border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; font-size-adjust: none; font-stretch: normal; background-color: rgb(204, 204, 204);
+}
+#TermsAndConditions {
+	margin-top: 20px;
+}
+.Registration {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 620px; color: rgb(85, 85, 85); margin-top: 10px; float: left; background-color: rgb(238, 238, 238);
+}
+.Registration h2 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-size: x-large; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+.Registration h3 {
+	margin: 10px 0px 0px; text-align: center;
+}
+.Registration fieldset {
+	margin: 15px 0px 0px; font-size: 1.2em;
+}
+.Registration .TextBox {
+	width: 150px; vertical-align: middle;
+}
+.Registration .Label {
+	vertical-align: middle;
+}
+.Registration #EnterUsername {
+	margin: 0px auto; width: 60%;
+}
+.Registration #EnterPassword {
+	margin: 0px auto; width: 60%;
+}
+.Registration #EnterEmail {
+	margin: 0px auto; width: 60%;
+}
+.Registration #EnterAgeGroup {
+	margin: 0px auto; width: 60%;
+}
+.Registration #EnterChatMode {
+	margin: 0px auto; width: 60%;
+}
+.Registration .UsernameRow {
+	padding: 3px; height: 5em; text-align: right; line-height: 5em;
+}
+.Registration .PasswordRow {
+	padding: 3px; height: 5em; text-align: right; line-height: 5em;
+}
+.Registration .ConfirmPasswordRow {
+	padding: 3px; height: 5em; text-align: right; line-height: 5em;
+}
+.Registration .EmailRow {
+	padding: 3px; height: 5em; text-align: right; line-height: 5em;
+}
+.Registration .PasswordRow {
+	height: 3em; line-height: 3em;
+}
+.Registration .ConfirmPasswordRow {
+	height: 3em; line-height: 3em;
+}
+.Registration .AgeGroupRow {
+	margin: 10px 0px 10px 100px; font-size: 0.9em;
+}
+.Registration .ChatModeRow {
+	margin: 10px 0px 10px 100px; font-size: 0.9em;
+}
+.Registration .Confirm {
+	margin: 20px 0px; text-align: center;
+}
+.Registration .Validators {
+	margin-left: 9px;
+}
+.Registration .Legend {
+	color: blue; margin-left: 9px;
+}
+.Registration .Suggestion {
+	font: 0.8em/normal Verdana, sans-serif; padding-left: 9px; font-size-adjust: none; font-stretch: normal;
+}
+.Registration label {
+	margin-right: 5px;
+}
+.Registration input {
+	width: 9em;
+}
+.AgeOptions {
+	margin: 20px auto 0px; width: 490px;
+}
+.AgeOptions #Under13 {
+	margin: 0px; padding: 0px 20px; width: 200px; text-align: center; float: left;
+}
+.AgeOptions #Over12 {
+	margin: 0px; padding: 0px 20px; width: 200px; text-align: center; float: left;
+}
+.AgeOptions #ParentAccount {
+	margin: 0px; padding: 0px 0px 0px 40px; width: 400px; text-align: center; float: left;
+}
+#AgeOptions .Label {
+	text-align: center;
+}
+.MessageContainer .MultilineTextBox {
+	height: 250px; min-height: 250px;
+}
+.MessageContainer #AdsPane {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 160px; float: left;
+}
+.MessageContainer #MessagePane {
+	margin: 0px 0px 0px 60px; width: 650px; float: left;
+}
+.MessageContainer h3 {
+	width: 622px; text-align: left;
+}
+.MessageContainer #MessagePane .Buttons {
+	width: 622px;
+}
+.MessageContainer #MessagePane .Buttons .Button {
+	margin: 10px 0px 0px 10px; float: right;
+}
+.MessageContainer .Label {
+	padding: 6px 0px 3px; font-weight: bold;
+}
+.MessageContainer .MessageReaderContainer {
+	padding: 10px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 600px;
+}
+.MessageReaderContainer #Message {
+	text-align: left;
+}
+#Message #DateSent {
+	text-align: left;
+}
+#Message #Author {
+	margin: 5px 0px 0px; text-align: left;
+}
+#Message #Subject {
+	margin: 5px 0px 0px; text-align: left; font-weight: bold;
+}
+#Message .Body {
+	text-align: left; vertical-align: top;
+}
+#MessageEditorContainer {
+	padding: 10px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 600px;
+}
+.MessageEditor {
+	text-align: left;
+}
+.MessageEditor #From {
+	width: 39%; text-align: left;
+}
+.MessageEditor #To {
+	margin: 5px 0px 0px; width: 39%; text-align: left;
+}
+.MessageEditor .CannedResponsesPanel {
+	margin: 30px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 200px; background-color: rgb(238, 238, 238);
+}
+.MessageEditor .CannedResponsesPanel h4 {
+	margin: 0px; text-align: center; font-size: 1.3em; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+.MessageEditor #CannedResponses {
+	margin: 0px; padding: 5px 0px; width: 200px;
+}
+.MessageEditor .CannedResponse {
+	margin: 0px; padding: 7px 5px; width: 190px; text-align: center;
+}
+.MessageEditor #CannedResponses .Button {
+	padding: 3px 5px;
+}
+.MessageEditor .Body {
+	text-align: left; vertical-align: top;
+}
+.MessageContainer #Confirmation h3 {
+	width: 422px; text-align: left;
+}
+.MessageContainer #Confirmation .Buttons {
+	width: 422px;
+}
+.MessageContainer #Confirmation #Message {
+	padding: 10px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 400px;
+}
+#InvitationContainer #AdsPane {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 160px; float: left;
+}
+#InvitationContainer #InvitationPane {
+	margin: 0px 0px 0px 60px; width: 650px; float: left;
+}
+#InvitationContainer h3 {
+	width: 622px; text-align: left;
+}
+#InvitationContainer .Buttons {
+	width: 622px;
+}
+#InvitationContainer .Button {
+	margin: 10px 0px 0px 10px; padding: 3px 10px; font-family: Verdana,Sans-Serif; text-decoration: none; float: right;
+}
+#InvitationContainer .TextBox {
+	border-style: dashed; border-color: gray; padding: 5px; width: 98%;
+}
+#InvitationContainer .Label {
+	font-weight: bold;
+}
+#InvitationContainer .MessageReaderContainer {
+	padding: 10px; border: 1px solid rgb(0, 0, 0); width: 600px;
+}
+.MessageReaderContainer #Message {
+	text-align: left; float: left;
+}
+#InvitationContainer #MessageEditorContainer {
+	margin: 10px;
+}
+#InvitationContainer #MessageEditorContainer .MessageEditor .CannedResponsesPanel {
+	display: none;
+}
+#InvitationContainer #Confirmation h3 {
+	width: 422px; text-align: left;
+}
+#InvitationContainer #Confirmation .Buttons {
+	width: 422px;
+}
+#InvitationContainer #Confirmation #Message {
+	margin: 10px; padding: 10px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 400px;
+}
+.ParentsContainer {
+	padding: 20px 30px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; font-family: Verdana,Sans-Serif; font-size: 1.1em; background-color: rgb(238, 238, 238);
+}
+.ParentsContainer #BreadcrumbsContainer {
+	margin-bottom: 20px;
+}
+.ParentsContainer h2 {
+	margin: 0px 0px 20px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+.ParentsContainer #LeftColumn {
+	padding: 0px 15px 0px 0px; width: 400px; float: left;
+}
+.ParentsContainer #RightColumn {
+	padding: 0px 0px 0px 15px; width: 400px; float: right;
+}
+.ParentsContainer .ParentsSection {
+	padding: 15px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 370px; height: 120px; margin-bottom: 20px; background-color: rgb(255, 255, 255);
+}
+.ParentsContainer h3 {
+	color: blue; line-height: 1em; letter-spacing: 0.1em; font-family: Verdana,Sans-Serif; font-size: 1.3em; font-weight: normal;
+}
+dt {
+	color: blue; line-height: 1em; letter-spacing: 0.1em; font-family: Verdana,Sans-Serif; font-size: 1.3em; font-weight: normal;
+}
+.ParentsContainer .SectionIcon {
+	margin-right: 20px; float: left;
+}
+.ParentsContainer .PageImage {
+	float: right;
+}
+#ConfigurePlaceContainer {
+	margin: 0px auto; border: 1px solid rgb(0, 0, 0); border-image: none; width: 620px; color: rgb(85, 85, 85); background-color: rgb(238, 238, 238);
+}
+#ConfigurePlaceContainer h2 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-size: x-large; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#ConfigurePlaceContainer fieldset {
+	margin: 0px; font-size: 1.2em;
+}
+#ConfigurePlaceContainer #PlaceName {
+	margin: 10px auto 0px; padding: 0px; width: 420px; text-align: left;
+}
+#ConfigurePlaceContainer #PlaceThumbnail {
+	margin: 10px auto 0px; padding: 0px; border: 1px solid rgb(85, 85, 85); border-image: none; width: 420px; height: 230px; text-align: left;
+}
+#ConfigurePlaceContainer #PlaceDescription {
+	margin: 10px auto 0px; padding: 0px; width: 420px; text-align: left;
+}
+#ConfigurePlaceContainer #PlaceAccess {
+	margin: 10px auto 0px; width: 420px;
+}
+#ConfigurePlaceContainer #PlaceCopyProtection {
+	margin: 10px auto 0px; width: 420px;
+}
+#ConfigurePlaceContainer #Comments {
+	margin: 10px auto 0px; width: 420px;
+}
+#ConfigurePlaceContainer #PlaceIsDefault {
+	margin: 10px auto 0px; width: 420px;
+}
+#ConfigurePlaceContainer #PlaceReset {
+	margin: 10px auto 0px; width: 420px;
+}
+#ConfigurePlaceContainer #AllowGear {
+	margin: 10px auto 0px; width: 420px;
+}
+#ConfigurePlaceContainer .PlaceAccessRow {
+	margin: 10px 0px 10px 100px; font-size: 0.9em;
+}
+#ConfigurePlaceContainer .CopyProtectionRow {
+	margin: 10px 0px 10px 100px; font-size: 0.9em;
+}
+#ConfigurePlaceContainer .EnableCommentsRow {
+	margin: 10px 0px 10px 100px; font-size: 0.9em;
+}
+#ConfigurePlaceContainer .PlaceIsDefaultRow {
+	margin: 10px 0px 10px 100px; font-size: 0.9em;
+}
+.MyItemIndentedOption {
+	margin: 10px 0px 10px 100px; font-size: 0.9em;
+}
+#ConfigurePlaceContainer .ResetPlaceRow {
+	margin: 10px 0px; text-align: center; font-size: 0.9em;
+}
+#ConfigurePlaceContainer .ResetPlaceRow .Button {
+	margin: 0px auto;
+}
+#ConfigurePlaceContainer .Buttons {
+	margin: 10px auto; text-align: center;
+}
+#ConfigurePlaceContainer .Button {
+	border-color: rgb(85, 85, 85); color: rgb(85, 85, 85); cursor: pointer;
+}
+#ConfigurePlaceContainer .Button:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+#ConfigurePlaceContainer .Label {
+	margin: 0px; padding: 0px; font-size: 1.2em;
+}
+#ConfigurePlaceContainer .TextBox {
+	margin: 0px; padding: 5px 10px; border: 1px dashed rgb(85, 85, 85); border-image: none; width: 400px;
+}
+#ConfigurePlaceContainer .MultilineTextBox {
+	margin: 0px; padding: 5px 10px; border: 1px dashed rgb(85, 85, 85); border-image: none; width: 400px;
+}
+#ConfigurePlaceContainer .Suggestion {
+	font: 0.8em/normal Verdana, sans-serif; padding-left: 9px; font-size-adjust: none; font-stretch: normal;
+}
+#ConfigurePlaceContainer .popupControl {
+	border-color: rgb(0, 0, 0);
+}
+#ConfigurePlaceContainer .PopUpOption {
+	font: 0.8em/normal Verdana, sans-serif; padding: 4px; font-size-adjust: none; font-stretch: normal;
+}
+#ConfigurePlaceContainer .PopUpInstruction {
+	font: 1.1em/normal Verdana, sans-serif; padding: 4px; text-align: center; font-size-adjust: none; font-stretch: normal;
+}
+#Place_PlacePanel {
+	width: 490px; margin-right: 10px; float: left;
+}
+#Place_AuthorPanel {
+	width: 200px; float: left;
+}
+#Place_GamesPanel {
+	width: 700px; clear: left; margin-top: 10px;
+}
+#ConfigureShowcase {
+	font-family: Verdana,sans-serif;
+}
+#ConfigureShowcase h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-size: 2.5em; font-weight: normal;
+}
+#ConfigureShowcase .CallbackStyle {
+	border: thin inset blue; border-image: none;
+}
+#ConfigureShowcase .DragHandle {
+	border: 1px outset white; border-image: none; width: 161px; height: 101px; cursor: move;
+}
+#ConfigureShowcase .ItemArea {
+	padding: 10px; width: 500px; height: 82px; text-align: left; font-size: 1.2em; float: left;
+}
+#ConfigureShowcase .ActionsArea {
+	padding: 10px; width: 155px; height: 82px; text-align: right; font-weight: bold; float: left;
+}
+#ConfigureShowcase .ReorderCue {
+	border: thin dashed black; border-image: none; width: 100%; height: 101px;
+}
+#ConfigureShowcase ul {
+	margin: 0px;
+}
+#ConfigureShowcase ol {
+	margin: 0px;
+}
+#ConfigureShowcase li {
+	list-style: none; margin: 3px 0px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 100%; color: rgb(0, 0, 0);
+}
+#ConfigureShowcase blockquote li {
+	margin-left: 20px; list-style-type: circle;
+}
+#EditProfileContainer {
+	margin: 0px auto; border: 1px solid rgb(0, 0, 0); border-image: none; width: 620px; color: rgb(85, 85, 85); background-color: rgb(238, 238, 238);
+}
+#EditProfileContainer h2 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-size: x-large; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#EditProfileContainer h3 {
+	text-align: center;
+}
+#EditProfileContainer fieldset {
+	margin: 15px 0px 0px; font-size: 1.2em;
+}
+#EditProfileContainer .MultilineTextBox {
+	width: 250px;
+}
+#EditProfileContainer .TextBox {
+	width: 150px; vertical-align: middle;
+}
+#EditProfileContainer .Label {
+	vertical-align: middle;
+}
+#EditProfileContainer #Confirmation {
+	margin: 10px auto 0px; padding: 10px 5px; border: 1px dashed rgb(255, 0, 0); border-image: none; width: 410px; text-align: center; color: rgb(255, 0, 0); font-family: Verdana,Sans-Serif; background-color: rgb(204, 204, 204);
+}
+#EditProfileContainer #AgeGroup {
+	margin: 0px auto; width: 60%;
+}
+#EditProfileContainer #ChatMode {
+	margin: 0px auto; width: 60%;
+}
+#EditProfileContainer #PrivacyMode {
+	margin: 0px auto; width: 60%;
+}
+#EditProfileContainer #ResetPassword {
+	margin: 0px auto; width: 60%;
+}
+#EditProfileContainer #Blurb {
+	margin: 0px auto; width: 60%;
+}
+#EditProfileContainer #EnterEmail {
+	margin: 0px auto; width: 60%; text-align: left;
+}
+#EditProfileContainer .Buttons {
+	margin: 20px 0px; text-align: center;
+}
+#EditProfileContainer .AgeGroupRow {
+	margin: 10px 0px 10px 100px; font-size: 0.9em;
+}
+#EditProfileContainer .ChatModeRow {
+	margin: 10px 0px 10px 100px; font-size: 0.9em;
+}
+#EditProfileContainer .ResetPasswordRow {
+	margin: 10px 0px; text-align: center;
+}
+#EditProfileContainer .BlurbRow {
+	padding: 10px 4px; text-align: right;
+}
+#EditProfileContainer .Legend {
+	color: blue; margin-left: 9px;
+}
+#EditProfileContainer .Suggestion {
+	font: 0.8em/normal Verdana, sans-serif; padding-left: 9px; font-size-adjust: none; font-stretch: normal;
+}
+#EditProfileContainer .Validators {
+	margin-left: 9px;
+}
+.FrontPagePanel {
+	margin: 5px; border: 1px solid black; border-image: none; float: left; background-color: white;
+}
+#SignInPane {
+	border: currentColor; border-image: none; width: 152px; height: 250px; margin-left: 0px;
+}
+#Movie {
+	width: 424px; height: 250px;
+}
+#FrontPageRectangleAd {
+	margin: 5px 0px 5px 5px; width: 300px; height: 250px; background-color: transparent;
+}
+#SalesPitch {
+	width: 586px; height: 90px; margin-left: 0px;
+}
+#WhatsNew {
+	width: 586px; height: 280px; margin-left: 0px;
+}
+#RandomFacts {
+	width: 300px; height: 150px; margin-right: 0px; float: right;
+}
+.RandomFactoid {
+	padding: 2px; width: 290px; height: 32px; text-align: center; overflow: hidden;
+}
+#marqueecontainer {
+	width: 300px; height: 100px; overflow: hidden; position: relative; background-color: white;
+}
+.RandomFactoid img {
+	float: left;
+}
+#ParentsCorner {
+	width: 300px; height: 220px; margin-right: 0px; _height: 240px;
+}
+#ParentsCorner #Inside {
+	padding: 10px;
+}
+.ShieldImage {
+	padding: 5px; float: left;
+}
+.TrusteeSeal {
+	padding: 5px; width: 140px; float: left;
+}
+#NewsFeeder {
+	width: 158px; height: 90px; margin-right: 0px;
+}
+#FrontPageBannerAd {
+	width: 728px; height: 90px; margin-left: 0px; background-color: transparent;
+}
+.BadAdButton {
+	padding: 0px; border: 0px currentColor; border-image: none; top: -2px; height: 8px; text-align: center; right: 0px; font-family: Verdana; font-size: 0.8em; position: relative; background-color: transparent;
+}
+.BadAdButton:hover {
+	border: 1px solid rgb(0, 0, 0); border-image: none; text-decoration: none; background-color: rgb(255, 255, 255);
+}
+#InviteAFriendContainer {
+	padding: 10px;
+}
+#InviteAFriendContainer h3 {
+	margin: 0px auto; padding: 0px 0px 10px; width: 700px; text-align: left;
+}
+#InviteAFriendContainer #Exposition {
+	margin: 0px auto; padding: 0px 0px 10px; width: 700px;
+}
+#InviteAFriendContainer .Buttons {
+	margin: 0px auto; padding: 10px 0px 0px; width: 700px;
+}
+#InviteAFriendContainer .Button {
+	margin: 0px 0px 0px 10px; padding: 3px 10px; border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(0, 0, 0); font-family: Verdana,Sans-Serif; text-decoration: none; float: right;
+}
+#InviteAFriendContainer .MultilineTextBox {
+	border-style: dashed; border-color: gray; padding: 5px; width: 92%; line-height: 1.5em; font-family: Arial,Sans-Serif;
+}
+#InviteAFriendContainer .TextBox {
+	border-style: dashed; border-color: gray; padding: 5px; width: 92%; font-family: Arial,Sans-Serif;
+}
+#InviteAFriendContainer .Label {
+	font-weight: bold;
+}
+#InviteAFriendContainer #InvitationElements {
+	margin: 0px auto; padding: 5px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 688px;
+}
+#InviteAFriendContainer #Name {
+	margin: 15px 0px 0px;
+}
+#InviteAFriendContainer #Recipients {
+	margin: 15px 0px 0px;
+}
+#InviteAFriendContainer #Message {
+	margin: 15px 0px 0px;
+}
+#InviteAFriendContainer .FormLabel {
+	width: 94px; float: left;
+}
+#InviteAFriendContainer .FormField {
+	width: 317px; float: left;
+}
+#InviteAFriendContainer .FormNotes {
+	width: 277px; font-family: Verdana; font-size: xx-small; float: right;
+}
+#InviteAFriendContainer #Confirmation h3 {
+	margin: 0px auto; width: 400px; text-align: left;
+}
+#InviteAFriendContainer #Confirmation #Message {
+	margin: 0px auto; padding: 10px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 380px;
+}
+#InviteAFriendContainer #Confirmation .Buttons {
+	margin: 0px auto; width: 400px;
+}
+#SplashContainer h2 {
+	margin: 0px 0px 5px; color: rgb(51, 51, 51); font-size: x-large;
+}
+#SplashContainer h3 {
+	margin: 0px 0px 15px; color: rgb(51, 51, 51); letter-spacing: normal;
+}
+#SplashContainer #SignInPane {
+	width: 150px; float: left;
+}
+#RobloxNews {
+	width: 158px; height: 90px; overflow: hidden; float: left; background-color: rgb(238, 238, 238);
+}
+#SplashContainer #Figure {
+	margin-top: 60px;
+}
+#SplashContainer #RobloxAtAGlance {
+	margin: 0px 0px 10px; padding: 10px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 715px; text-align: left; float: right; position: relative; background-color: rgb(238, 238, 238);
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo {
+	list-style: none; margin: 0px; padding: 0px; width: 292px; color: rgb(102, 102, 102); float: left;
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo li {
+	background-position: 0px 0px; margin: 0px 0px 25px; padding: 0px 0px 0px 56px; background-repeat: no-repeat;
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo h3 {
+	margin: 0px 0px 5px; padding: 0px; line-height: 1em;
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo #Point1 {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/BuildIcon.png");
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo #Point2 {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/FriendsIcon.png");
+}
+#SplashContainer #RobloxAtAGlance #ThingsToDo #Point3 {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/BattleIcon.png");
+}
+#SplashContainer #RobloxAtAGlance #Showcase {
+	margin: 0px; width: 400px; float: right;
+}
+#SplashContainer #RobloxAtAGlance #Install {
+	margin: 5px 0px 0px; width: 715px; clear: both;
+}
+#SplashContainer #RobloxAtAGlance #ForParents {
+	border: 1px solid rgb(0, 0, 0); border-image: none; left: 10px; width: 125px; height: 125px; bottom: 10px; position: absolute;
+}
+#SplashContainer #RobloxAtAGlance #PrivPolicy {
+	left: 140px; width: 140px; height: 125px; bottom: 10px; position: absolute;
+}
+#SplashContainer #ForParents_SignedIn {
+	width: 125px; height: 125px; padding-top: 20px;
+}
+#SplashContainer #RobloxAtAGlance #Install #CompatibilityNote {
+	font: 9px/normal Verdana, Arial, Helvetica, sans-serif; width: 310px; text-align: right; color: rgb(102, 102, 102); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#SplashContainer #RobloxAtAGlance #Install #DownloadAndPlay {
+	width: 400px; float: right;
+}
+#SplashContainer #UserPlacesPane {
+	margin: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; clear: both;
+}
+#SplashContainer #UserPlacesPane #UserPlaces_Header {
+	padding: 10px; width: 142px; border-right-color: rgb(0, 0, 0); border-right-width: 1px; border-right-style: solid; background-color: rgb(187, 187, 187);
+}
+#SplashContainer #UserPlacesPane #UserPlaces_Header h3 {
+	padding: 0px; line-height: 1em;
+}
+#SplashContainer #UserPlacesPane #UserPlaces_Header p {
+	padding: 0px; line-height: 1em; letter-spacing: 1px;
+}
+#SplashContainer #UserPlaces_Content {
+	padding: 10px 5px 0px 0px; width: 715px; float: right;
+}
+#SplashContainer #UserPlaces_Content .UserPlace {
+	margin: 0px 10px; padding: 0px; width: 120px; height: 70px;
+}
+#StoreContainer {
+	font-family: Verdana,Sans-Serif;
+}
+#StoreContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; letter-spacing: 0.5em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#StoreContainer h3 {
+	margin: 5px 0px; padding: 0px; line-height: 1em; letter-spacing: 0.1em; font-family: Verdana,Sans-Serif; font-size: 1.5em; font-weight: normal;
+}
+#StoreContainer ul {
+	list-style: none; margin: 10px 0px 30px;
+}
+#StoreContainer ul li {
+	margin-bottom: 0.5em;
+}
+#StoreContainer ul a {
+	font-size: 1.1em;
+}
+#StoreContainer .DisplayFilters {
+	width: 150px;
+}
+#StoreContainer #Products {
+	width: 585px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; float: left;
+}
+#StoreContainer #Products #HeaderPager {
+	margin: 0px 24px 0px 10px; padding: 2px 0px; text-align: right;
+}
+#StoreContainer #Products #FooterPager {
+	margin: 0px 24px 0px 10px; padding: 2px 0px; text-align: right;
+}
+#StoreContainer #Products #HeaderPager {
+	margin-bottom: 10px;
+}
+#StoreContainer #Products #HeaderPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+#StoreContainer #Products #FooterPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+#StoreContainer #Products #AdditionalPlace {
+	margin: 0px auto; width: 420px;
+}
+#StoreContainer #AdsPane {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 160px; text-align: right; float: right;
+}
+#StoreContainer .Label {
+	font-size: 0.8em;
+}
+#StoreContainer .Detail {
+	font-size: 0.8em;
+}
+#StoreContainer .DetailHighlighted {
+	font-size: 0.8em;
+}
+#StoreContainer .DetailHighlighted {
+	color: red; font-weight: bold;
+}
+#StoreContainer .Thumbnail {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 420px; height: 230px;
+}
+#StoreContainer .Price {
+	margin: 5px 0px; font-weight: bold;
+}
+#StoreContainer .InsufficientFunds {
+	color: red;
+}
+#BuildersClubContainer {
+	margin: 0px auto; padding: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; font-family: Verdana,Sans-Serif; background-color: rgb(255, 255, 255);
+}
+#CancelBuildersClubContainer {
+	margin: 0px auto; padding: 20px 80px; border: 1px solid rgb(0, 0, 0); border-image: none; font-family: Verdana,Sans-Serif; background-color: rgb(255, 255, 255);
+}
+#PaymentMethodsContainer {
+	margin: 0px auto; padding: 20px 80px; border: 1px solid rgb(0, 0, 0); border-image: none; font-family: Verdana,Sans-Serif; background-color: rgb(255, 255, 255);
+}
+#PaymentContainer {
+	margin: 0px auto; padding: 20px 80px; border: 1px solid rgb(0, 0, 0); border-image: none; font-family: Verdana,Sans-Serif; background-color: rgb(255, 255, 255);
+}
+#PayPalContainer {
+	margin: 0px auto; padding: 20px 80px; border: 1px solid rgb(0, 0, 0); border-image: none; font-family: Verdana,Sans-Serif; background-color: rgb(255, 255, 255);
+}
+#CashContainer {
+	margin: 0px auto; padding: 20px 80px; border: 1px solid rgb(0, 0, 0); border-image: none; font-family: Verdana,Sans-Serif; background-color: rgb(255, 255, 255);
+}
+#UpgradeCompleteContainer {
+	margin: 0px auto; font-family: Verdana,Sans-Serif; background-color: rgb(255, 255, 255);
+}
+#CancelAccountUpgradeContainer {
+	margin: 0px auto; font-family: Verdana,Sans-Serif; background-color: rgb(255, 255, 255);
+}
+#ManageAccountUpgradesContainer {
+	margin: 0px auto; font-family: Verdana,Sans-Serif; background-color: rgb(255, 255, 255);
+}
+#AccountUpgradesConfirmationContainer {
+	margin: 0px auto; font-family: Verdana,Sans-Serif; background-color: rgb(255, 255, 255);
+}
+#CancelBuildersClubContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#PaymentMethodsContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#PaymentContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#PayPalContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#CashContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#UpgradeCompleteContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#ManageAccountUpgradesContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#CancelAccountUpgradeContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#AccountUpgradesConfirmationContainer h2 {
+	margin: 0px; padding: 0px; line-height: 1em; font-family: Verdana,Sans-Serif; font-size: 2.5em; font-weight: normal;
+}
+#UpgradeCompleteContainer h2 {
+	margin: 10px auto 0px; width: 600px; line-height: 1.5em; letter-spacing: 0.1em; font-size: 2em;
+}
+#CancelAccountUpgradeContainer h2 {
+	margin: 10px auto 0px; width: 600px; line-height: 1.5em; letter-spacing: 0.1em; font-size: 2em;
+}
+#ManageAccountUpgradesContainer h2 {
+	margin: 10px auto 0px; width: 600px; line-height: 1.5em; letter-spacing: 0.1em; font-size: 2em;
+}
+#AccountUpgradesConfirmationContainer h2 {
+	margin: 10px auto 0px; width: 600px; line-height: 1.5em; letter-spacing: 0.1em; font-size: 2em;
+}
+#UpgradeCompleteContainer p {
+	line-height: 1.6em;
+}
+#ManageAccountUpgradesContainer p {
+	line-height: 1.6em;
+}
+#AccountUpgradesConfirmationContainer p {
+	line-height: 1.6em;
+}
+#JoinBuildersClubNow {
+	border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#MembershipOptions {
+	margin: 20px auto 0px; width: 762px;
+}
+#MembershipOptions #OneMonth {
+	margin: 0px; padding: 0px 20px; width: 214px; float: left;
+}
+#MembershipOptions #SixMonths {
+	margin: 0px; padding: 0px 20px; width: 214px; float: left;
+}
+#MembershipOptions #TwelveMonths {
+	margin: 0px; padding: 0px 20px; width: 214px; float: left;
+}
+#SpecialMembershipOption #Lifetime {
+	margin: 0px; padding: 0px 20px; width: 214px; float: left;
+}
+#MembershipOptions .Label {
+	text-align: center;
+}
+#SpecialMembershipOption .Label {
+	text-align: center;
+}
+#WhyJoin {
+	margin: 30px 10px 20px 90px; padding: 0px; width: 375px; float: left; display: inline;
+}
+#WhyJoin h3 {
+	margin: 0px 0px 15px; padding: 0px; letter-spacing: 0.2em; font-size: 15pt; font-weight: normal;
+}
+#WhyJoin #MembershipBenefits {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#WhyJoin #MembershipBenefits li {
+	background-position: 0px 0px; margin: 0px 0px 10px 10px; padding: 0px 0px 0px 40px; font-family: Verdana,Sans-Serif; font-size: 11pt; min-height: 32px; background-repeat: no-repeat;
+}
+#WhyJoin .MembershipBenefits {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#WhyJoin .MembershipBenefits li {
+	background-position: 0px 0px; margin: 0px 0px 10px 10px; padding: 0px 0px 0px 40px; font-family: Verdana,Sans-Serif; font-size: 11pt; min-height: 32px; background-repeat: no-repeat;
+}
+#WhyJoin .MembershipBenefits .Benefit_MultiplePlaces {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/MultiplePlacesBullet.png");
+}
+#WhyJoin .MembershipBenefits .Benefit_RobuxAllowance {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/AllowanceBullet.png");
+}
+#WhyJoin .MembershipBenefits .Benefit_SellContent {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/SellBullet.png");
+}
+#WhyJoin .MembershipBenefits .Benefit_SuppressAds {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/AdSuppressionBullet.png");
+}
+#WhyJoin .MembershipBenefits .Benefit_ExclusiveHat {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/HardHatBullet.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_OwnPlace {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletHouse.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_GetTix {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletTreasure.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_BuyStuff {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletShoppingBag.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_CustomizeGuy {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletWizardHat.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Username {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletStar.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Forums {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletScript.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Stats {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletStats.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Comments {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletPencil.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Badges {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletBadges.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_Friends {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletFriends.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_WeRock {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletCreative.png");
+}
+#WhyJoin #MembershipBenefits #SignupBenefit_OhYeahItsFree {
+	background-image: url("/web/20090604133500im_/http://www.roblox.com/images/JoinBulletHappy.png");
+}
+#SpecialMembershipOption {
+	margin: 30px 69px 0px 10px; padding: 0px; width: 254px; float: right; display: inline;
+}
+#Cancellation {
+	margin: 30px 90px 30px 10px; padding: 0px 10px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 270px; float: right; display: inline; background-color: rgb(239, 239, 239);
+}
+#Cancellation h4 {
+	margin: 0px -10px; padding: 0px; text-align: center; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#Cancellation p {
+	margin: 0px auto; padding: 15px 0px 0px; width: 80%;
+}
+#Cancellation .CancelButton {
+	margin: 20px auto; text-align: center;
+}
+#PaymentMethodsContainer .PaymentMethods {
+	margin: 20px 0px; width: 738px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#PaymentMethodsContainer .PaymentMethod {
+	border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(238, 238, 238);
+}
+#PaymentMethodsContainer .PaymentMethodName {
+	font-size: medium;
+}
+#PaymentContainer #Account {
+	margin-bottom: 20px;
+}
+#PaymentContainer #BillingInfo {
+	margin-bottom: 20px;
+}
+#PaymentContainer #ProductAndPricing {
+	margin-bottom: 20px;
+}
+#PaymentContainer #CreditCard {
+	margin-bottom: 20px;
+}
+#PayPalContainer #ConfirmDetails {
+	margin-bottom: 20px;
+}
+#CashContainer #ConfirmDetails {
+	margin-bottom: 20px;
+}
+#PayPalContainer #Notes {
+	margin-bottom: 20px;
+}
+#CashContainer #Notes {
+	margin-bottom: 20px;
+}
+#PaymentContainer #Pay {
+	margin: 0px auto; text-align: center;
+}
+#PayPalContainer #Continue {
+	margin: 0px auto; text-align: center;
+}
+#PaymentContainer .TextBox {
+	margin: 5px 0px; padding: 4px 5px 2px; height: 20px; font-size: 16px;
+}
+#PaymentContainer .CreditCardNumberTextBox {
+	margin: 5px 0px; padding: 4px 5px 2px; height: 20px; font-size: 16px;
+}
+#PaymentContainer .TextBox {
+	width: 290px;
+}
+#PaymentContainer .CreditCardNumberTextBox {
+	border: 2px dashed gray; border-image: none; width: 160px; font-family: Verdana,Sans-Serif;
+}
+#PaymentContainer .DropDownList {
+	margin: 10px 0px; padding: 0px; font-size: 16px;
+}
+#PaymentContainer .ShortDropDownList {
+	margin: 10px 0px; padding: 0px; font-size: 16px;
+}
+#PaymentContainer .DropDownList {
+	width: 305px;
+}
+#PaymentContainer .Detail {
+	height: 40px; line-height: 40px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(238, 238, 238);
+}
+#PayPalContainer .Detail {
+	height: 40px; line-height: 40px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(238, 238, 238);
+}
+#CashContainer .Detail {
+	height: 40px; line-height: 40px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(238, 238, 238);
+}
+#PaymentContainer .Label {
+	padding: 0px 10px; width: 250px; height: 40px; line-height: 40px; font-size: 1.25em; vertical-align: middle; float: left;
+}
+#PayPalContainer .Label {
+	padding: 0px 10px; width: 250px; height: 40px; line-height: 40px; font-size: 1.25em; vertical-align: middle; float: left;
+}
+#CashContainer .Label {
+	padding: 0px 10px; width: 250px; height: 40px; line-height: 40px; font-size: 1.25em; vertical-align: middle; float: left;
+}
+#PaymentContainer .Field {
+	padding: 0px 10px; width: 350px; height: 40px; line-height: 40px; vertical-align: middle; float: left;
+}
+#PayPalContainer .Field {
+	padding: 0px 10px; width: 350px; height: 40px; line-height: 40px; vertical-align: middle; float: left;
+}
+#CashContainer .Field {
+	padding: 0px 10px; width: 350px; height: 40px; line-height: 40px; vertical-align: middle; float: left;
+}
+#PaymentContainer .Button {
+	margin: 0px 3px; font-size: 16px;
+}
+#PayPalContainer .Button {
+	margin: 0px 3px; font-size: 16px;
+}
+#PaymentMethodsContainer .ExistingSubscription {
+	width: 50%; text-align: center; color: blue; font-size: 16px;
+}
+#PayPalContainer .PayPalDisallowedMessage {
+	width: 90%; color: blue; padding-bottom: 12px; font-size: 16px;
+}
+#PaymentDetails #Account .Field {
+	font-size: 1.25em; font-weight: bold;
+}
+#PaymentDetails #ProductAndPricing .Field {
+	font-size: 1.25em; font-weight: bold;
+}
+#PayPalContainer #ConfirmDetails .Field {
+	font-size: 1.25em; font-weight: bold;
+}
+#CashContainer #ConfirmDetails .Field {
+	font-size: 1.25em; font-weight: bold;
+}
+#UpgradeCompleteContainer #Message {
+	margin: 15px auto 0px; padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 580px; background-color: rgb(238, 238, 238);
+}
+#CancelAccountUpgradeContainer #Message {
+	margin: 15px auto 0px; padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 580px; background-color: rgb(238, 238, 238);
+}
+#ManageAccountUpgradesContainer #CurrentAccountUpgrades {
+	margin: 15px auto 0px; padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 580px; background-color: rgb(238, 238, 238);
+}
+#AccountUpgradesConfirmationContainer #Message {
+	margin: 15px auto 0px; padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 580px; background-color: rgb(238, 238, 238);
+}
+#ManageAccountUpgradesContainer #CurrentAccountUpgrades {
+	margin-top: 25px;
+}
+.ExtensionNote {
+	margin: 10px 0px;
+}
+.UpgradeStatus {
+	margin: 20px; text-align: center; font-weight: bold;
+}
+#UserContainer {
+	font-family: Verdana,Sans-Serif;
+}
+#UserContainer #LeftBank {
+	width: 444px; text-align: center; float: left;
+}
+#UserContainer #RightBank {
+	width: 444px; text-align: center; float: right;
+}
+#UserContainer #LeftBank #UserPageLargeRectangleAd {
+	border: currentColor; border-image: none;
+}
+#ProfilePane {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+#UserPlacesPane {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+#UserBadgesPane {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+#UserStatisticsPane {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+#FriendsPane {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+#FavoritesPane {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+.FriendRequestsPane {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+#UserAssetsPane {
+	border: 1px solid rgb(0, 0, 0); border-image: none;
+}
+.FriendRequestsPane {
+	margin: 10px 0px 0px; text-align: center; clear: both;
+}
+#UserModelsContainer {
+	margin: 10px 0px 0px; text-align: center; clear: both;
+}
+#UserAssetsPane {
+	margin: 10px 0px 0px; text-align: center; clear: both;
+}
+#UserBadgesPane {
+	margin: 10px 0px 0px;
+}
+#UserStatisticsPane {
+	margin: 10px 0px 0px;
+}
+#UserStatisticsPane {
+	text-align: left;
+}
+#FriendsPane {
+	margin: 10px 0px 0px; clear: right;
+}
+#FavoritesPane {
+	margin: 10px 0px 0px; clear: right;
+}
+#UserAssetsPane {
+	margin-bottom: 10px;
+}
+#UserBadgesPane #UserBadges {
+	text-align: center; background-color: rgb(255, 255, 255);
+}
+#ProfilePane h4 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-family: Comic Sans MS,Verdana,Sans-Serif; font-size: 1.3em; border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid; background-color: rgb(204, 204, 204);
+}
+#ProfilePane p {
+	margin: 0.9em 0px; line-height: 1.6em;
+}
+#UserAssetsPane #UserAssets h4 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-family: Comic Sans MS,Verdana,Sans-Serif; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#UserBadgesPane #UserBadges h4 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-family: Comic Sans MS,Verdana,Sans-Serif; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#UserPlacesPane #UserPlaces h4 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-family: Comic Sans MS,Verdana,Sans-Serif; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#UserStatisticsPane #UserStatistics h4 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-family: Comic Sans MS,Verdana,Sans-Serif; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#FavoritesPane #Favorites h4 {
+	margin: 0px; text-align: center; color: rgb(51, 51, 51); font-family: Comic Sans MS,Verdana,Sans-Serif; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(204, 204, 204);
+}
+#UserPlacesPane #UserPlaces h4 {
+	color: rgb(255, 255, 255); line-height: 1.5em; letter-spacing: 0.1em; font-family: Verdana,Sans-Serif; font-size: 1.4em; font-weight: normal; background-color: rgb(110, 153, 201);
+}
+#UserStatisticsPane #UserStatistics {
+	padding-bottom: 10px; background-color: rgb(238, 238, 238);
+}
+#UserStatisticsPane #UserStatistics h4 {
+	margin-bottom: 5px;
+}
+#UserStatisticsPane #UserStatistics .Statistic {
+	margin: 0px auto; width: 385px; line-height: 1.8em;
+}
+#UserStatisticsPane #UserStatistics .Label {
+	width: 178px; text-align: right; float: left;
+}
+#UserStatisticsPane #UserStatistics .Value {
+	width: 177px; float: right;
+}
+#UserModelsContainer {
+	text-align: left;
+}
+#Friends h4 {
+	line-height: 1em; font-size: 10pt; font-weight: bold; margin-top: 5px; margin-bottom: 5px;
+}
+#FriendRequests h4 {
+	line-height: 1em; font-size: 10pt; font-weight: bold; margin-top: 5px; margin-bottom: 5px;
+}
+.NoResults {
+	padding: 10px; text-align: center; line-height: 1.3em;
+}
+.Badge {
+	margin: 10px; text-align: center;
+}
+.Friend {
+	margin: 10px;
+}
+.Friend .Avatar {
+	text-align: center;
+}
+.Friend .Summary {
+	text-align: center; margin-top: 5px;
+}
+.Friend .Options {
+	text-align: center; margin-top: 5px;
+}
+#UserContainer .CollapsiblePanelHint {
+	padding: 5px; text-align: center; color: rgb(153, 153, 153);
+}
+#UserContainer #AssetsMenu {
+	width: 178px; float: left;
+}
+#UserContainer #AssetSearchOption {
+	float: left;
+}
+#UserContainer #AssetUploadOption {
+	float: right;
+}
+#UserContainer #AssetsList {
+	clear: both;
+}
+#UserAssetsPane .AssetsMenuItem {
+	margin: 15px; padding: 3px 10px; border: 1px solid rgb(119, 119, 119); border-image: none; width: 100px;
+}
+#UserAssetsPane .AssetsMenuItem:hover {
+	margin: 15px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 100px; cursor: pointer;
+}
+#UserAssetsPane .AssetsMenuItem_Selected {
+	margin: 15px; padding: 3px 10px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 100px; background-color: rgb(110, 153, 201);
+}
+#UserAssetsPane .AssetsMenuButton {
+	font: 14px/normal Verdana, sans-serif; color: rgb(119, 119, 119); font-size-adjust: none; font-stretch: normal;
+}
+#UserAssetsPane .AssetsMenuButton:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#UserAssetsPane .AssetsMenuButton_Selected {
+	font: 14px/normal Verdana, sans-serif; color: rgb(255, 255, 255); text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+#UserPlaces .PanelFooter {
+	margin: 0px; padding: 3px; text-align: center; color: rgb(51, 51, 51); font-family: Verdana,Sans-Serif; border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid; background-color: rgb(255, 255, 255);
+}
+#Favorites .PanelFooter {
+	margin: 0px; padding: 3px; text-align: center; color: rgb(51, 51, 51); font-family: Verdana,Sans-Serif; border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid; background-color: rgb(255, 255, 255);
+}
+#UserPlaces .AccordionHeader {
+	font: bold 1em/normal Verdana, sans-serif; margin: 1px 0px; padding: 1px 1em; text-align: left; letter-spacing: 0.1em; border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; cursor: pointer; font-size-adjust: none; font-stretch: normal; background-color: rgb(204, 204, 204);
+}
+#UserPlaces .AccordionHeader:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+#UserPlaces .Place {
+	padding: 5px 10px;
+}
+#UserPlaces .Place .PlayStatus {
+	margin: 5px 0px 0px; display: inline;
+}
+#UserPlaces .Place .PlayOptions {
+	margin: 5px 0px 0px; display: inline;
+}
+#UserPlaces .Place .PlayOptions .Button {
+	border-color: rgb(51, 51, 51); margin: 0px 3px; color: rgb(51, 51, 51);
+}
+#UserPlaces .Place .PlayOptions .Button:hover {
+	color: rgb(255, 255, 255); background-color: rgb(110, 153, 201);
+}
+#UserPlaces .Place .Statistics {
+	font: 1em/1.7em Verdana, sans-serif; margin: 10px 0px 0px; color: rgb(85, 85, 85); letter-spacing: 0.1em; border-top-color: rgb(85, 85, 85); border-right-color: rgb(85, 85, 85); border-left-color: rgb(85, 85, 85); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: dashed; border-right-style: dashed; border-left-style: dashed; font-size-adjust: none; font-stretch: normal;
+}
+#UserPlaces .Place .Thumbnail {
+	margin: 0px; border: 1px solid rgb(85, 85, 85); border-image: none;
+}
+#UserPlaces .Place .Description {
+	font: 1em/1.7em Verdana, sans-serif; margin: 5px 0px 0px; padding: 5px 10px; border: 1px dashed rgb(85, 85, 85); border-image: none; text-align: left; color: rgb(85, 85, 85); overflow: auto; max-height: 75px; font-size-adjust: none; font-stretch: normal;
+}
+#UserPlaces .Place .Configuration {
+	font: 1em/1.7em Verdana, sans-serif; padding: 5px 10px; border-right-color: rgb(85, 85, 85); border-bottom-color: rgb(85, 85, 85); border-left-color: rgb(85, 85, 85); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: dashed; border-bottom-style: dashed; border-left-style: dashed; font-size-adjust: none; font-stretch: normal;
+}
+#UserContainer #AssetsContent {
+	margin: 0px 28px; width: 662px; text-align: left; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; font-family: Verdana,Sans-Serif; float: left; position: relative; min-width: 0px;
+}
+#UserContainer #AssetsContent .HeaderPager {
+	margin: 0px 12px 0px 10px; padding: 2px 0px; text-align: center;
+}
+#UserContainer #FavoritesContent .HeaderPager {
+	margin: 0px 12px 0px 10px; padding: 2px 0px; text-align: center;
+}
+#UserContainer #AssetsContent .FooterPager {
+	margin: 0px 12px 0px 10px; padding: 2px 0px; text-align: center;
+}
+#UserContainer #FavoritesContent .FooterPager {
+	margin: 0px 12px 0px 10px; padding: 2px 0px; text-align: center;
+}
+#UserContainer #AssetsContent .HeaderPager {
+	margin-bottom: 10px;
+}
+#UserContainer #FavoritesContent .HeaderPager {
+	margin-bottom: 10px;
+}
+#UserContainer #AssetsContent .HeaderPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+#UserContainer #FavoritesContent .HeaderPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+#UserContainer #AssetsContent .FooterPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+#UserContainer #FavoritesContent .FooterPager .Label {
+	font-size: 1em; vertical-align: middle;
+}
+#UserContainer .Asset {
+	margin: 0px 10px 15px; width: 112px; vertical-align: top;
+}
+#UserContainer .Asset .AssetThumbnail {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 110px; height: 110px; text-align: center; position: relative;
+}
+#UserContainer .Asset .AssetDetails {
+	padding: 2px 0px 6px; width: 110px; text-align: left; overflow: hidden;
+}
+#UserContainer .AssetName a {
+	line-height: 1.5em; font-size: 0.9em; font-weight: bold; vertical-align: top;
+}
+.AssetsBullet {
+	padding-right: 3px;
+}
+#UserContainer .Label {
+	font-size: 0.8em;
+}
+#UserContainer .Detail {
+	font-size: 0.8em;
+}
+#UserContainer .DetailHighlighted {
+	font-size: 0.8em;
+}
+#UserContainer .PriceInRobux {
+	font-size: 0.8em;
+}
+#UserContainer .PriceInTickets {
+	font-size: 0.8em;
+}
+#UserContainer .DetailHighlighted {
+	color: red; font-weight: bold;
+}
+#UserContainer .PriceInRobux {
+	color: green; font-weight: bold;
+}
+#UserContainer .PriceInTickets {
+	color: rgb(251, 177, 23); font-weight: bold;
+}
+.UserOnlineMessage {
+	color: red; font-family: Verdana; font-size: 8pt;
+}
+.UserOfflineMessage {
+	color: gray; font-family: Verdana; font-size: 8pt;
+}
+.AdPanel {
+	position: relative;
+}
+.BanishButtonOverlay {
+	padding: 1px 3px 2px; border: 1px solid rgb(68, 68, 68); border-image: none; top: 0px; text-align: center; right: 0px; font-size: 0.8em; position: absolute; background-color: rgb(238, 238, 238);
+}
+.BanishButtonOverlay:hover {
+	border: 1px solid rgb(0, 0, 0); border-image: none; text-decoration: none; background-color: rgb(255, 255, 255);
+}
+.DeleteButtonOverlay {
+	padding: 1px 3px 2px; border: 1px solid rgb(68, 68, 68); border-image: none; top: 2px; text-align: center; right: 2px; font-size: 0.8em; position: absolute; background-color: rgb(238, 238, 238);
+}
+.DeleteButtonOverlay:hover {
+	border: 1px solid rgb(0, 0, 0); border-image: none; text-decoration: none; background-color: rgb(255, 255, 255);
+}

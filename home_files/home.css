@@ -1,0 +1,129 @@
+.StandardBoxHeader {
+	FONT-SIZE: 16px; FONT-WEIGHT: bold; COLOR: white; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 10px; DISPLAY: block; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #6e99c9
+}
+.StandardBox {
+	MARGIN-BOTTOM: 10px; BORDER-TOP: #6e99c9 2px solid; BORDER-RIGHT: #6e99c9 2px solid; BORDER-BOTTOM: #6e99c9 2px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #6e99c9 2px solid; DISPLAY: block; PADDING-RIGHT: 10px; BACKGROUND-COLOR: white
+}
+.StandardBoxGrey {
+	MARGIN-BOTTOM: 10px; BORDER-TOP: #6e99c9 2px solid; BORDER-RIGHT: #6e99c9 2px solid; BORDER-BOTTOM: #6e99c9 2px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: #6e99c9 2px solid; DISPLAY: block; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #a6a6a6
+}
+.StandardBoxHeader {
+	FONT-SIZE: 16px; FONT-WEIGHT: bold; COLOR: white; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; PADDING-LEFT: 10px; DISPLAY: block; PADDING-RIGHT: 10px; BACKGROUND-COLOR: #6e99c9
+}
+.Column1a {
+	WIDTH: 290px; MARGIN-TOP: 10px; FLOAT: left
+}
+.Column2a {
+	WIDTH: 600px; MARGIN-TOP: 10px; FLOAT: right
+}
+.Column1a .StandardBox {
+	WIDTH: 266px
+}
+.Column1a .StandardBoxHeader {
+	WIDTH: 270px
+}
+.Column2a .StandardBox {
+	WIDTH: 576px
+}
+.Column2a .StandardBoxHeader {
+	WIDTH: 580px
+}
+.Column1b {
+	WIDTH: 190px; MARGIN-TOP: 10px; FLOAT: left; MARGIN-RIGHT: 15px
+}
+.Column2b {
+	WIDTH: 490px; MARGIN-TOP: 10px; FLOAT: left
+}
+.Column3b {
+	WIDTH: 190px; MARGIN-TOP: 10px; FLOAT: right
+}
+.Column1b .StandardBox {
+	WIDTH: 166px
+}
+.Column1b .StandardBoxHeader {
+	WIDTH: 170px
+}
+.Column2b .StandardBox {
+	WIDTH: 466px
+}
+.Column2b .StandardBoxHeader {
+	WIDTH: 470px
+}
+.Column3b .StandardBox {
+	WIDTH: 166px
+}
+.Column3b .StandardBoxHeader {
+	WIDTH: 170px
+}
+.Column1c {
+	WIDTH: 590px; MARGIN-TOP: 10px; FLOAT: left
+}
+.Column2c {
+	WIDTH: 290px; MARGIN-TOP: 10px; FLOAT: right
+}
+.Column1c .StandardBox {
+	WIDTH: 556px
+}
+.Column1c .StandardBoxHeader {
+	WIDTH: 560px
+}
+.Column2c .StandardBox {
+	WIDTH: 266px
+}
+.Column2c .StandardBoxHeader {
+	WIDTH: 270px
+}
+.Column1d {
+	WIDTH: 440px; MARGIN-TOP: 10px; FLOAT: left
+}
+.Column2d {
+	WIDTH: 440px; MARGIN-TOP: 10px; FLOAT: right
+}
+.Column1d .StandardBox {
+	WIDTH: 416px
+}
+.Column1d .StandardBoxHeader {
+	WIDTH: 420px
+}
+.Column2d .StandardBox {
+	WIDTH: 416px
+}
+.Column2d .StandardBoxHeader {
+	WIDTH: 420px
+}
+.Column1e {
+	WIDTH: 150px; MARGIN-TOP: 10px; FLOAT: left
+}
+.Column2e {
+	WIDTH: 740px; MARGIN-TOP: 10px; FLOAT: left; MARGIN-LEFT: 10px
+}
+.Column1e .StandardBox {
+	WIDTH: 126px
+}
+.Column1e .StandardBoxHeader {
+	WIDTH: 130px
+}
+.Column2e .StandardBox {
+	WIDTH: 716px
+}
+.Column2e .StandardBoxHeader {
+	WIDTH: 360px; MARGIN-TOP: -10px; MARGIN-LEFT: -10px
+}
+.Column1f {
+	WIDTH: 380px; MARGIN-TOP: 10px; FLOAT: left
+}
+.Column2f {
+	WIDTH: 500px; MARGIN-TOP: 10px; FLOAT: right
+}
+.Column1f .StandardBox {
+	WIDTH: 356px
+}
+.Column1f .StandardBoxHeader {
+	WIDTH: 360px
+}
+.Column2f .StandardBox {
+	WIDTH: 476px
+}
+.Column2f .StandardBoxHeader {
+	WIDTH: 480px
+}
